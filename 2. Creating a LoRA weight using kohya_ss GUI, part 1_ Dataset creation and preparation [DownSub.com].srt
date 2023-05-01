@@ -1,0 +1,4391 @@
+1
+00:00:02,280 --> 00:00:04,319
+所以欢迎，
+so welcome
+
+2
+00:00:04,319 --> 00:00:06,480
+嗯，今天我将完成
+um today I'm going to go through the
+
+3
+00:00:06,480 --> 00:00:09,720
+从互联网收集图像
+process of collecting image from the
+
+4
+00:00:09,720 --> 00:00:10,519
+internet
+
+5
+00:00:10,519 --> 00:00:14,820
+并将它们增强到可以使用
+and enhancing them to where you can use
+
+6
+00:00:14,820 --> 00:00:17,880
+这些图像创建较低模型的过程，嗯，
+those to create a lower model
+
+7
+00:00:17,880 --> 00:00:23,880
+使用 Koya SS GUI 解决方案，
+uh using the Koya SS GUI solution so
+
+8
+00:00:23,880 --> 00:00:25,880
+这样您就可以实际使用您的模型
+that you can actually use your models
+
+9
+00:00:25,880 --> 00:00:29,760
+自动一对一解决方案
+using the auto one one one solution
+
+10
+00:00:29,760 --> 00:00:32,579
+所以我想我们可能会
+so I guess we maybe it's I'm going to
+
+11
+00:00:32,579 --> 00:00:35,399
+为这个视频制作多个部分
+make multiple parts for this video the
+
+12
+00:00:35,399 --> 00:00:37,860
+第一个将是收集
+first one is going to be the collection
+
+13
+00:00:37,860 --> 00:00:40,559
+和准备所有这些
+and the preparation for all of those
+
+14
+00:00:40,559 --> 00:00:41,579
+图像
+image
+
+15
+00:00:41,579 --> 00:00:44,399
+所以让我们开始
+so let's start
+
+16
+00:00:44,399 --> 00:00:47,340
+所以有人建议也许它会
+so someone suggested that maybe it would
+
+17
+00:00:47,340 --> 00:00:49,219
+是 从 1990 年代开始创建 Jennifer Aniston 模型很有趣，
+be interesting to create a Jennifer
+
+18
+00:00:49,219 --> 00:00:51,379
+Aniston model
+
+19
+00:00:51,379 --> 00:00:54,960
+所以让我们开始
+from the 1990s so let's go and let's
+
+20
+00:00:54,960 --> 00:00:57,739
+收集这些图像，然后
+start to collect those image and then
+
+21
+00:00:57,739 --> 00:01:00,899
+我们将看看我们如何实际处理
+we'll see how we actually go and process
+
+22
+00:01:00,899 --> 00:01:03,300
+它们并将它们处理到可用于
+them to a point where they are usable to
+
+23
+00:01:03,300 --> 00:01:05,220
+创建 Laura 的程度
+create a Laura
+
+24
+00:01:05,220 --> 00:01:08,939
+所以让我们去搜索 Jennifer 安妮斯顿
+so let's go and search Jennifer Aniston
+
+25
+00:01:08,939 --> 00:01:10,320
+和
+and
+
+26
+00:01:10,320 --> 00:01:13,320
+这里有一大堆我们可以
+here's a whole bunch of image we can
+
+27
+00:01:13,320 --> 00:01:14,540
+select
+
+28
+00:01:14,540 --> 00:01:18,299
+从互联网上选择的图像，通常当我
+from the internet and typically when I
+
+29
+00:01:18,299 --> 00:01:21,900
+去的时候，我会尝试找到高分辨率或
+go I try to find high resolution or the
+
+30
+00:01:21,900 --> 00:01:24,780
+最高分辨率的图像，这些图像
+highest resolution image possible that
+
+31
+00:01:24,780 --> 00:01:32,159
+至少适合 512 x 5 12 像素
+will at least fit a 512 by 5 12 pixel
+
+32
+00:01:32,159 --> 00:01:36,119
+分辨率，这意味着 512 乘以 512 给出 X
+resolution meaning 512 times 512 gives X
+
+33
+00:01:36,119 --> 00:01:39,180
+数 的像素，所以我真的不关心
+number of pixels so I don't really care
+
+34
+00:01:39,180 --> 00:01:41,520
+图像的纵横比，
+about the aspect ratio of the image
+
+35
+00:01:41,520 --> 00:01:43,079
+因为我们将使用像桶一样处理
+because we're going to use like
+
+36
+00:01:43,079 --> 00:01:45,900
+bucketing which will take care of any
+
+37
+00:01:45,900 --> 00:01:48,479
+我们将要使用的任何纵横比，所以我们
+aspect ratios we're going to use so we
+
+38
+00:01:48,479 --> 00:01:50,100
+不必关心保留它们
+don't have to care about keeping them
+
+39
+00:01:50,100 --> 00:01:52,920
+正方形 它们可以是
+Square they can be landscape portrait
+
+40
+00:01:52,920 --> 00:01:56,820
+横向 纵向 正方形或者都很好 所以让我们从
+square or it's all fine so let's start
+
+41
+00:01:56,820 --> 00:02:00,299
+这个开始吧 我猜它的分辨率相当低
+with this one it's a fairly I guess low
+
+42
+00:02:00,299 --> 00:02:02,700
+我会以这种方式裁剪它
+resolution and I would crop it this way
+
+43
+00:02:02,700 --> 00:02:06,540
+所以这个可能会很小 它是一个
+so this one would probably be small it's
+
+44
+00:02:06,540 --> 00:02:09,419
+潜在可用的但它有点
+a potential usable one but it's kind of
+
+45
+00:02:09,419 --> 00:02:11,520
+柔软 有点像
+soft a little bit see it's kind of a
+
+46
+00:02:11,520 --> 00:02:13,379
+视频捕捉，有点软，所以
+video capture it's a little bit soft so
+
+47
+00:02:13,379 --> 00:02:14,940
+它不是最好的，嗯，
+it's not the best
+
+48
+00:02:14,940 --> 00:02:17,220
+uh one to use
+
+49
+00:02:17,220 --> 00:02:20,160
+这个看起来稍微好一点，但
+um this one appears slightly better but
+
+50
+00:02:20,160 --> 00:02:22,440
+它仍然充满了人工制品，所以
+it's still kind full of artifacts so
+
+51
+00:02:22,440 --> 00:02:26,340
+它不是最好的，嗯，
+it's not really the best uh one to use
+
+52
+00:02:26,340 --> 00:02:29,160
+这个绝对是 软这个
+um this one is definitely soft this one
+
+53
+00:02:29,160 --> 00:02:31,860
+不太好所以我们需要找到
+is not as good so we I need to find
+
+54
+00:02:31,860 --> 00:02:34,860
+大约 16 张好图像这个看起来
+about 16 good image this one looks
+
+55
+00:02:34,860 --> 00:02:37,260
+还不错所以我要把
+rather okay so I'm gonna go and drag
+
+56
+00:02:37,260 --> 00:02:39,959
+它拖到我要创建的文件夹中
+that into a folder that I'm going to
+
+57
+00:02:39,959 --> 00:02:42,480
+以收集所有这些东西
+create to collect all of those things
+
+58
+00:02:42,480 --> 00:02:45,480
+所以我们走吧 并创建一个新文件夹，
+so let's go and create a new folder that
+
+59
+00:02:45,480 --> 00:02:48,500
+我们将其命名为 Jennifer 我
+we're going to call Jennifer
+
+60
+00:02:49,160 --> 00:02:51,959
+知道，
+I understand
+
+61
+00:02:51,959 --> 00:02:54,000
+我将在其中创建一个名为
+and in there I'm going to create a
+
+62
+00:02:54,000 --> 00:02:56,640
+image well 的子文件
+subfolder called image well first of all
+
+63
+00:02:56,640 --> 00:02:58,140
+夹
+I'm going to create the subfolder called
+
+64
+00:02:58,140 --> 00:03:00,480
+Lore because I want to create a low run
+
+65
+00:03:00,480 --> 00:03:03,120
+在那里我要创建一个
+and within there I'm going to create a
+
+66
+00:03:03,120 --> 00:03:06,300
+名为 image 的新文件夹，
+new folder called image
+
+67
+00:03:06,300 --> 00:03:08,280
+在该文件夹中我将
+and within that folder I'm going to
+
+68
+00:03:08,280 --> 00:03:11,340
+创建另一个名为
+create yet another subfolder called
+
+69
+00:03:11,340 --> 00:03:14,159
+number of repeats 的子文件夹，我打算
+number of repeats that I intend to run
+
+70
+00:03:14,159 --> 00:03:17,519
+在 16 幅图像上运行，我通常会重复 100 次
+so on 16 image I usually do 100 repeats
+
+71
+00:03:17,519 --> 00:03:19,379
+图像作为一部分 较低的
+of the image as part of the lower
+
+72
+00:03:19,379 --> 00:03:22,140
+交易，在这里我要称呼它为
+trading and here I'm going to call that
+
+73
+00:03:22,140 --> 00:03:23,879
+詹妮弗，
+Jennifer
+
+74
+00:03:23,879 --> 00:03:26,280
+所以我首先知道这个文件夹中有哪些图片，所以
+so I know what pictures are in this
+
+75
+00:03:26,280 --> 00:03:27,300
+folder
+
+76
+00:03:27,300 --> 00:03:28,739
+the first
+
+77
+00:03:28,739 --> 00:03:30,840
+现在我终于可以打开那个文件夹了，
+so now finally I can open up that folder
+
+78
+00:03:30,840 --> 00:03:33,000
+现在我们可以开始了，所以我要
+and now we're good to start so I'm going
+
+79
+00:03:33,000 --> 00:03:34,860
+移动那个 稍微在这里所以我
+to move that slightly here so what I'm
+
+80
+00:03:34,860 --> 00:03:36,480
+要做的是我只是去点击
+going to do is I'm just going to go and
+
+81
+00:03:36,480 --> 00:03:39,360
+并将这张图片拖到我的文件夹中
+click and drag this image into my folder
+
+82
+00:03:39,360 --> 00:03:41,819
+所以现在我们有了第一张图片
+so now we have the first image there
+
+83
+00:03:41,819 --> 00:03:44,640
+现在让我们继续四处寻找好的
+now let's keep fishing around for good
+
+84
+00:03:44,640 --> 00:03:48,060
+图片我正在使用谷歌 现在
+image to use I'm using Google right now
+
+85
+00:03:48,060 --> 00:03:50,400
+在某个时候，如果我找不到质量好的图像，我可能会切换到 Bing
+at some point I may switch to Bing if I
+
+86
+00:03:50,400 --> 00:03:54,000
+这个
+don't find a good quality image this one
+
+87
+00:03:54,000 --> 00:03:55,019
+看起来
+looks
+
+88
+00:03:55,019 --> 00:03:58,080
+不错所以这是一个很好的分辨率图像
+good so that's a good resolution image
+
+89
+00:03:58,080 --> 00:04:02,159
+2000 像素 x 3000 像素所以这很好
+2000 pixel by 3000 pixel so that's good
+
+90
+00:04:02,159 --> 00:04:04,920
+所以让我们将它拖到
+so let's drag that into
+
+91
+00:04:04,920 --> 00:04:06,920
+目的地
+the destination
+
+92
+00:04:06,920 --> 00:04:10,319
+并让我们找到更多图像
+and let's find more image
+
+93
+00:04:10,319 --> 00:04:12,720
+1990 年代还有什么好东西
+what else could be good from the 1990s
+
+94
+00:04:12,720 --> 00:04:15,299
+这个看起来不错它是公认的
+this one looks good it's well recognized
+
+95
+00:04:15,299 --> 00:04:18,418
+图像分辨率相当低但我们会在
+image rather low in resolution but we'll
+
+96
+00:04:18,418 --> 00:04:21,899
+我们在那里处理它
+deal with it once we are there
+
+97
+00:04:21,899 --> 00:04:23,100
+嗯
+um
+
+98
+00:04:23,100 --> 00:04:25,199
+还有什么可能我不会捕捉
+what else maybe I'm not going to capture
+
+99
+00:04:25,199 --> 00:04:27,540
+选择图像和增强的整个过程
+the whole process of selecting image and
+
+100
+00:04:27,540 --> 00:04:29,639
+他们但是
+enhancing them but
+
+101
+00:04:29,639 --> 00:04:30,600
+um
+
+102
+00:04:30,600 --> 00:04:34,680
+这个图像看起来不错所以我们也要
+this image looks okay so we're gonna
+
+103
+00:04:34,680 --> 00:04:37,300
+坚持那个
+stick with that one too
+
+104
+00:04:37,300 --> 00:04:40,499
+[音乐]
+[Music]
+
+105
+00:04:42,240 --> 00:04:45,380
+那个看起来不错
+that one looks good
+
+106
+00:04:45,720 --> 00:04:47,699
+所以我有点试图改变姿势风格
+so I'm kind of trying to vary the pose
+
+107
+00:04:47,699 --> 00:04:50,699
+the style the
+
+108
+00:04:50,699 --> 00:04:53,520
+面部的嗯角度从
+um angles of the face to have like from
+
+109
+00:04:53,520 --> 00:04:55,740
+像这个一样 不错，因为我们有
+like this one is not bad because we have
+
+110
+00:04:55,740 --> 00:04:58,440
+类似的上半身镜头，这是一个
+like kind of upper body shot which is a
+
+111
+00:04:58,440 --> 00:04:59,759
+很好的方法，因为我们需要其中
+good way because we're going to need
+
+112
+00:04:59,759 --> 00:05:01,699
+一些让模型学习，
+some of those for the model to learn
+
+113
+00:05:01,699 --> 00:05:04,380
+比如除了脸部和
+like Beyond just the face and the
+
+114
+00:05:04,380 --> 00:05:06,060
+肩膀，我们还需要学习
+shoulders we need to kind of learn what
+
+115
+00:05:06,060 --> 00:05:08,100
+模型的外观 嗯，还有
+the model looks like
+
+116
+00:05:08,100 --> 00:05:09,960
+um
+
+117
+00:05:09,960 --> 00:05:13,620
+什么我们可以看看这个
+what else could we look at this one
+
+118
+00:05:13,620 --> 00:05:15,900
+分辨率相当低的它
+that's a fairly low resolution it's too
+
+119
+00:05:15,900 --> 00:05:19,560
+太低了，比如 2 273 x 364。它不会
+low like 2 273 by by 364. it wouldn't
+
+120
+00:05:19,560 --> 00:05:22,199
+与那个一起工作我想我们已经在相似的脸上看到了这个是的，
+work with that I think we have seen this
+
+121
+00:05:22,199 --> 00:05:25,979
+one above similar looking face
+
+122
+00:05:25,979 --> 00:05:28,560
+但我不认为 我们有它所以我
+yeah but I don't think we have it so I
+
+123
+00:05:28,560 --> 00:05:30,600
+认为这可能是一个很好的上半身
+think that could be a good upper body
+
+124
+00:05:30,600 --> 00:05:32,460
+拍摄类型的
+shot type
+
+125
+00:05:32,460 --> 00:05:33,780
+图像
+image
+
+126
+00:05:33,780 --> 00:05:36,979
+让我们将它拖到那里
+let's drag it there
+
+127
+00:05:37,500 --> 00:05:39,720
+其他一切都好所以这个是
+everything else okay so this one is
+
+128
+00:05:39,720 --> 00:05:42,660
+不同的空气风格
+different air Style
+
+129
+00:05:42,660 --> 00:05:45,740
+可以正常工作
+that will work
+
+130
+00:05:49,740 --> 00:05:53,220
+它有点暗
+okay that's a bit dark
+
+131
+00:05:53,220 --> 00:05:54,600
+嗯
+um that could
+
+132
+00:05:54,600 --> 00:05:56,400
+现在分辨率太低我们
+now the resolution is too low we
+
+133
+00:05:56,400 --> 00:05:58,380
+不会' 无法裁剪它并获得良好的
+wouldn't be able to crop it and get good
+
+134
+00:05:58,380 --> 00:06:00,419
+结果我不会坚持使用
+results I'm not going to stick with that
+
+135
+00:06:00,419 --> 00:06:01,440
+one
+
+136
+00:06:01,440 --> 00:06:04,680
+那个分辨率相当低的那个 2 并且
+this one fairly low resolution 2 and the
+
+137
+00:06:04,680 --> 00:06:07,680
+东西已经很好而且这很好
+thing already good and this well there
+
+138
+00:06:07,680 --> 00:06:10,560
+这里可能有一个很好的
+could be a good one here
+
+139
+00:06:10,560 --> 00:06:13,620
+所以让我们选择那个
+so let's pick that one
+
+140
+00:06:13,620 --> 00:06:16,380
+还有什么 这个表面是否有任何
+what else is there does that surface any
+
+141
+00:06:16,380 --> 00:06:19,280
+好的图像
+good image
+
+142
+00:06:19,919 --> 00:06:22,880
+让我们寻找更多
+let's look for more
+
+143
+00:06:29,060 --> 00:06:32,460
+寻找不同风格的
+looking at finding different style
+
+144
+00:06:32,460 --> 00:06:37,039
+不同爪子姿势我想
+different Paws poses I guess
+
+145
+00:06:39,120 --> 00:06:42,479
+它有点柔软但它是
+it's kind of soft soft-ish but it's kind
+
+146
+00:06:42,479 --> 00:06:45,419
+一种不同的姿势让我们尝试使用
+of a different pose let's try to work
+
+147
+00:06:45,419 --> 00:06:47,759
+它让我们把它带到这里我们会看到
+with it let's bring it here we'll see
+
+148
+00:06:47,759 --> 00:06:50,280
+多远 我们可以增强它，也许可以
+how far we can enhance it to maybe able
+
+149
+00:06:50,280 --> 00:06:52,220
+利用它
+to make use of it
+
+150
+00:06:52,220 --> 00:06:52,680
+[音乐]
+[Music]
+
+151
+00:06:52,680 --> 00:06:54,680
+嗯，
+um
+
+152
+00:06:59,220 --> 00:07:00,720
+这个
+this one
+
+153
+00:07:00,720 --> 00:07:02,520
+不错的
+not bad
+
+154
+00:07:02,520 --> 00:07:04,800
+分辨率有点低，但我们
+resolution is a little low but well we
+
+155
+00:07:04,800 --> 00:07:06,300
+可以通过 Uprising 来解决这个问题，
+can deal with that
+
+156
+00:07:06,300 --> 00:07:09,120
+with Uprising it
+
+157
+00:07:09,120 --> 00:07:11,240
+嗯，
+um
+
+158
+00:07:17,580 --> 00:07:20,099
+就像穿着泳衣一样，
+so there's that like in a bathing suit
+
+159
+00:07:20,099 --> 00:07:23,220
+詹妮弗安妮斯顿看起来真的很像
+is that really Jennifer Aniston looks
+
+160
+00:07:23,220 --> 00:07:24,960
+喜欢
+like er
+
+161
+00:07:24,960 --> 00:07:27,720
+那种不同的风格，我想
+kind of different style I guess it could
+
+162
+00:07:27,720 --> 00:07:30,900
+我们可以把它穿成
+we could bring it in
+
+163
+00:07:30,900 --> 00:07:33,780
+不同的衣服，不同的风格，这
+different clothing different style this
+
+164
+00:07:33,780 --> 00:07:35,819
+是两张照片，另一张不是
+one is two pictures and one that's not
+
+165
+00:07:35,819 --> 00:07:38,520
+我们想要的，
+what we want
+
+166
+00:07:38,520 --> 00:07:40,580
+um
+
+167
+00:07:43,199 --> 00:07:47,580
+嗯，在列表中，
+kind of going down the list here
+
+168
+00:07:47,580 --> 00:07:50,960
+这张照片不错，
+this one is not bad
+
+169
+00:07:51,240 --> 00:07:54,479
+所以我们有多少 现在我们最多
+so how many do we have now we are up to
+
+170
+00:07:54,479 --> 00:07:57,180
+13 岁。所以我们还需要三张三张更多的
+13. so we need three more three more
+
+171
+00:07:57,180 --> 00:07:59,160
+照片我倾向于坚持 16 张
+pictures I tend to stick with 16
+
+172
+00:07:59,160 --> 00:08:01,919
+照片所以这一张很好
+pictures so this one is good
+
+173
+00:08:01,919 --> 00:08:04,860
+现在我们是 14 岁。
+now we're 14.
+
+174
+00:08:04,860 --> 00:08:06,960
+有点像这张
+kind of this
+
+175
+00:08:06,960 --> 00:08:11,340
+14 15 的照片，
+snap 14 15 and what else she looks older
+
+176
+00:08:11,340 --> 00:08:13,740
+我猜她在这张照片上还有什么看起来更老
+on this one I guess
+
+177
+00:08:13,740 --> 00:08:16,500
+我不知道这是否是一个不错的选择，
+I don't know if it's a good choice or
+
+178
+00:08:16,500 --> 00:08:18,360
+但
+not but
+
+179
+00:08:18,360 --> 00:08:22,020
+我有点想建立一个 1990 年代
+I'm kind of trying to build a 1990s
+
+180
+00:08:22,020 --> 00:08:23,759
+风格的模型，
+style model
+
+181
+00:08:23,759 --> 00:08:25,740
+呃，不是
+uh not a
+
+182
+00:08:25,740 --> 00:08:29,699
+最近的两个版本，所以有点保持
+two recent version so kind of keeping
+
+183
+00:08:29,699 --> 00:08:31,039
+the same
+
+184
+00:08:31,039 --> 00:08:34,860
+相同的年龄或时代啊，
+the same age or era
+
+185
+00:08:34,860 --> 00:08:37,860
+ah
+
+186
+00:08:38,279 --> 00:08:42,059
+是的，它有点暗，而且
+yeah it's a little bit dark and
+
+187
+00:08:42,059 --> 00:08:45,540
+这个现在太软了，
+what about this one now too soft
+
+188
+00:08:45,540 --> 00:08:49,200
+我想不是真正的 1990，所以让我们
+and I guess not not really 1990 so let's
+
+189
+00:08:49,200 --> 00:08:52,640
+选择大的
+go with big
+
+190
+00:08:53,160 --> 00:08:55,140
+哦，让我们看看我们是否可以在
+oh let's see if we can find something
+
+191
+00:08:55,140 --> 00:08:57,660
+某个时候找到其他东西当我们选择一些
+else sometime when we select some of the
+
+192
+00:08:57,660 --> 00:08:59,100
+顶级图像时
+top image
+
+193
+00:08:59,100 --> 00:09:01,019
+我们可以
+we can get
+
+194
+00:09:01,019 --> 00:09:03,180
+other
+
+195
+00:09:03,180 --> 00:09:06,959
+在这里得到其他的这个看起来不错我
+ones here this one looks pretty good I
+
+196
+00:09:06,959 --> 00:09:09,660
+不 不认为我们已经有了那个，所以
+don't think we've got that one yet so
+
+197
+00:09:09,660 --> 00:09:11,640
+现在我们已经下降到 60。好吧，让我们
+now we're down to 60. okay so let's
+
+198
+00:09:11,640 --> 00:09:13,380
+继续吧，就像它不需要
+let's go with that like it doesn't need
+
+199
+00:09:13,380 --> 00:09:15,300
+完美一样，我们可以坚持下去，所以
+to be perfect we can stick with that so
+
+200
+00:09:15,300 --> 00:09:18,660
+现在我们有 16 个图像，我们 可以
+now we have our 16 image here and we can
+
+201
+00:09:18,660 --> 00:09:21,060
+在超大图标中查看它们，这样我们就可以
+view them in extra large icons so we can
+
+202
+00:09:21,060 --> 00:09:24,600
+啊，也许我已经得到了两次 不，
+ah maybe I've got this one twice no no
+
+203
+00:09:24,600 --> 00:09:27,300
+没关系，一切都很好，所以现在让我们开始
+okay it's all fine so now let's start
+
+204
+00:09:27,300 --> 00:09:30,360
+处理这些问题，所以我
+the processing aspect of those so what I
+
+205
+00:09:30,360 --> 00:09:34,380
+倾向于做的是，我通常会启动
+tend to do is I usually go in fire up
+
+206
+00:09:34,380 --> 00:09:37,140
+十亿像素以进行排序 帮助
+gigapixel to kind of help with the
+
+207
+00:09:37,140 --> 00:09:39,660
+提升所有这些图像所以让我们
+upresing of all of those image so let's
+
+208
+00:09:39,660 --> 00:09:42,740
+开始 gigapixel
+start gigapixel
+
+209
+00:09:44,399 --> 00:09:46,500
+我要做的是我将
+and what I'm going to do is I'm going to
+
+210
+00:09:46,500 --> 00:09:49,920
+去拖动每个图像所以让我们
+go and drag each of those image so let's
+
+211
+00:09:49,920 --> 00:09:52,440
+选择第一个我将把它拖到
+pick the first one I'm going to drag it
+
+212
+00:09:52,440 --> 00:09:55,500
+这里 现在你可以看到这是一个
+in here and now as you can see this is a
+
+213
+00:09:55,500 --> 00:09:57,779
+相当低的哇我没有意识到它是
+fairly low wow I didn't realize it was
+
+214
+00:09:57,779 --> 00:10:02,700
+这个 308 x 383 像素的小图像
+this little 308 by 383 pixel uh image
+
+215
+00:10:02,700 --> 00:10:05,580
+实际上非常小是
+that's actually shockingly small is it
+
+216
+00:10:05,580 --> 00:10:07,140
+因为我
+because I picked it up from the wrong
+
+217
+00:10:07,140 --> 00:10:09,300
+在选择图像时从错误的地方拾取它让我们
+place when I selected my image let's
+
+218
+00:10:09,300 --> 00:10:11,040
+仔细检查 这是因为它
+double check this because it's
+
+219
+00:10:11,040 --> 00:10:13,380
+太低了
+suspiciously low
+
+220
+00:10:13,380 --> 00:10:17,240
+我从哪里选的 是的
+where did I pick this one from
+
+221
+00:10:20,459 --> 00:10:22,500
+here
+
+222
+00:10:22,500 --> 00:10:24,839
+它不应该更大 让
+yeah it shouldn't have been larger
+
+223
+00:10:24,839 --> 00:10:28,320
+我们看看我是否再次将它拖到这里然后
+let's see if I drag it here again
+
+224
+00:10:28,320 --> 00:10:32,000
+我现在更换它
+and I replace it
+
+225
+00:10:33,360 --> 00:10:35,940
+也许它只是给我一个
+now maybe it's just giving me a
+
+226
+00:10:35,940 --> 00:10:37,440
+不是真正
+resolution that is not the true
+
+227
+00:10:37,440 --> 00:10:40,320
+分辨率的分辨率所以让我们放弃 这个
+resolution so let's ditch this one close
+
+228
+00:10:40,320 --> 00:10:42,000
+没有保存就关闭了，
+without saving
+
+229
+00:10:42,000 --> 00:10:44,040
+让我们把它放回这里，
+let's bring it back here
+
+230
+00:10:44,040 --> 00:10:47,100
+这次我们的分辨率更高，
+and we're at a better resolution this
+
+231
+00:10:47,100 --> 00:10:48,839
+所以稍微好一点，
+time so it's kind of a little bit better
+
+232
+00:10:48,839 --> 00:10:52,140
+但我喜欢使用千兆像素来
+but I like to kind of use gigapixel to
+
+233
+00:10:52,140 --> 00:10:55,339
+查看效果如何哦，
+see how kind of
+
+234
+00:10:56,040 --> 00:10:58,680
+因为我的默认设置是
+oh it's because my default is is down to
+
+235
+00:10:58,680 --> 00:11:00,899
+向下采样所以让我们实际把它带到
+down sample so let's actually bring it
+
+236
+00:11:00,899 --> 00:11:02,940
+这里所以现在我可以并排制作它
+here so now I can make it side by side
+
+237
+00:11:02,940 --> 00:11:05,579
+现在你可以查看它之前和之后现在让我们
+so now you can view it before and after
+
+238
+00:11:05,579 --> 00:11:09,720
+把它放在 100 分辨率
+now it let's put it at 100 resolution
+
+239
+00:11:09,720 --> 00:11:12,600
+所以现在你可以看到它如何澄清
+so now you can see how it clarifies the
+
+240
+00:11:12,600 --> 00:11:16,140
+实际的前后图像
+actual before and after image
+
+241
+00:11:16,140 --> 00:11:19,320
+所以我 我要去把它保存
+so I'm gonna go and save that
+
+242
+00:11:19,320 --> 00:11:22,320
+为第一张图片
+as the first image
+
+243
+00:11:22,320 --> 00:11:25,380
+好吧现在让我们带来第二张所以
+okay now let's bring the second so what
+
+244
+00:11:25,380 --> 00:11:27,839
+它在这里做了什么它有点去创建
+it does here it kind of goes and creates
+
+245
+00:11:27,839 --> 00:11:30,720
+一个新版本就像缩放 X2
+a new version of that like with scale X2
+
+246
+00:11:30,720 --> 00:11:32,279
+所以我通常去删除原始
+so I usually go and delete the original
+
+247
+00:11:32,279 --> 00:11:34,800
+图像并保持缩放 在这里，
+image and keep the scaled one here so
+
+248
+00:11:34,800 --> 00:11:36,839
+现在我要为每张图片继续这样做，
+now I'm gonna keep doing that for every
+
+249
+00:11:36,839 --> 00:11:38,640
+image
+
+250
+00:11:38,640 --> 00:11:40,620
+所以现在这一张，正如你所看到的，它
+so this one now as you can see it's
+
+251
+00:11:40,620 --> 00:11:43,200
+已经使图像更清晰了，所以
+already making the image much clearer so
+
+252
+00:11:43,200 --> 00:11:45,240
+我们要保存
+we're gonna save that
+
+253
+00:11:45,240 --> 00:11:48,540
+我们将使用呃在这种情况下
+we're going to use the uh in this case
+
+254
+00:11:48,540 --> 00:11:51,120
+我是 将指定 jpeg，因为它是
+I'm going to specify jpeg because it's a
+
+255
+00:11:51,120 --> 00:11:54,540
+一个 webp 图像，如果您
+it's a it's a webp image and if you
+
+256
+00:11:54,540 --> 00:11:56,760
+不选择 jpeg，它会将其保存
+don't select jpeg it's going to save it
+
+257
+00:11:56,760 --> 00:11:58,740
+为 tiff，并且
+as a tiff and that doesn't work too well
+
+258
+00:11:58,740 --> 00:12:00,959
+创建 Laura 效果不佳，所以现在完成了，让我们
+to create the Laura so now that's done
+
+259
+00:12:00,959 --> 00:12:03,600
+let's bring the
+
+260
+00:12:03,600 --> 00:12:05,339
+开始吧 并删除
+let's go and delete
+
+261
+00:12:05,339 --> 00:12:07,260
+好让我们把所有的想法都带来让我们
+well let's bring me with all the ideas
+
+262
+00:12:07,260 --> 00:12:10,200
+let's bring the other picture in
+
+263
+00:12:10,200 --> 00:12:13,140
+现在把另一张图片带进来，你可以看到之前和之后它
+now as you can see before and after it's
+
+264
+00:12:13,140 --> 00:12:16,940
+肯定更好所以让我们保存
+definitely better so let's save
+
+265
+00:12:17,640 --> 00:12:19,620
+继续前进
+move on
+
+266
+00:12:19,620 --> 00:12:22,380
+所以让我们把所有的东西都带进来所以
+so let's I'll bring all of them in so
+
+267
+00:12:22,380 --> 00:12:24,600
+我们有一个快速的交易所以 我将
+that we have one quick deal so I'm going
+
+268
+00:12:24,600 --> 00:12:26,640
+带来我们目前拥有的所有不同图像，
+to bring all of the different image
+
+269
+00:12:26,640 --> 00:12:28,680
+that we have so far
+
+270
+00:12:28,680 --> 00:12:30,600
+and
+
+271
+00:12:30,600 --> 00:12:33,060
+正如您所看到的，它在澄清方面做得相当不错，而
+as you can see it does a fairly decent
+
+272
+00:12:33,060 --> 00:12:35,160
+不是
+job at clarifying so instead of going
+
+273
+00:12:35,160 --> 00:12:38,040
+一张一张地尝试查看
+one by one and trying to kind of look at
+
+274
+00:12:38,040 --> 00:12:39,779
+所有图像，我是 只是去
+all of the image I'm just going to go
+
+275
+00:12:39,779 --> 00:12:42,600
+批量转换它们
+and batch convert them
+
+276
+00:12:42,600 --> 00:12:43,920
+嗯
+um
+
+277
+00:12:43,920 --> 00:12:45,899
+所以这里有几张图片，
+so there's a couple of image here that
+
+278
+00:12:45,899 --> 00:12:46,860
+uh
+
+279
+00:12:46,860 --> 00:12:49,200
+嗯是的我可能必须一张一张地看这个
+yeah I might have to go one by one this
+
+280
+00:12:49,200 --> 00:12:51,180
+我们已经完成了所以我想现在
+one we've already done so I think now
+
+281
+00:12:51,180 --> 00:12:53,880
+我们已经完成了第四张，也就是
+we're done down to the fourth which is
+
+282
+00:12:53,880 --> 00:12:55,560
+这张 所以我很好，我们将保存
+this one so I'm good we're gonna save
+
+283
+00:12:55,560 --> 00:12:56,899
+这张与
+this image
+
+284
+00:12:56,899 --> 00:13:00,720
+Source 相同的图像，从旁边转到这里，
+same as Source kind of going here on the
+
+285
+00:13:00,720 --> 00:13:03,060
+看看
+side and looking at
+
+286
+00:13:03,060 --> 00:13:06,600
+它是哪一张，所以它是 Web P 还是
+which one it is so is it a web P that's
+
+287
+00:13:06,600 --> 00:13:09,300
+JPEG，没问题我们可以保留让我们看看
+a JPEG that's fine we can Preserve
+
+288
+00:13:09,300 --> 00:13:12,740
+这个
+let's look at this one
+
+289
+00:13:15,600 --> 00:13:18,060
+哦 根本没有太大变化
+oh it doesn't change at all that much
+
+290
+00:13:18,060 --> 00:13:22,620
+它仍然相当模糊我想这是
+it's still fairly fuzzy I guess that's a
+
+291
+00:13:22,620 --> 00:13:24,779
+图像的局限性我们将
+limitation of the image well we're going
+
+292
+00:13:24,779 --> 00:13:26,459
+看看我们是否可以做一些事情
+to see if we can do something about that
+
+293
+00:13:26,459 --> 00:13:27,560
+after
+
+294
+00:13:27,560 --> 00:13:32,420
+无论如何让我们现在增强它
+anyway let's enhance it for now
+
+295
+00:13:34,139 --> 00:13:36,420
+这是一个相当高分辨率的图像
+this is a fairly high resolution image
+
+296
+00:13:36,420 --> 00:13:40,459
+我们应该 不需要用它做太多是的
+we shouldn't need to do too much with it
+
+297
+00:13:41,339 --> 00:13:43,800
+它实际上并没有做太多
+yeah it doesn't actually do much with
+
+298
+00:13:43,800 --> 00:13:47,660
+所以我们将跳过下
+that so we're gonna skip over
+
+299
+00:13:48,420 --> 00:13:50,880
+一个它是一个相当大的分辨率
+next one it's a fairly large resolution
+
+300
+00:13:50,880 --> 00:13:54,380
+所以我们甚至不要在这个上工作
+so let's not even work on this one
+
+301
+00:13:54,380 --> 00:13:58,040
+呃这个
+uh this one
+
+302
+00:14:02,339 --> 00:14:04,920
+我们要走了 裁剪它因为它有点太紧太
+we're gonna go and crop it because it's
+
+303
+00:14:04,920 --> 00:14:07,320
+宽所以对于
+a little bit too tight too wide so for
+
+304
+00:14:07,320 --> 00:14:10,139
+我想去的主题并裁剪
+the subject I want to go and crop all of
+
+305
+00:14:10,139 --> 00:14:12,959
+我的所有图像以将
+my image to kind of focus all of the
+
+306
+00:14:12,959 --> 00:14:15,779
+培训师的所有注意力集中在
+attention of the trainer on the subject
+
+307
+00:14:15,779 --> 00:14:17,399
+我正在尝试训练的主题上你不
+that I'm trying to train you don't
+
+308
+00:14:17,399 --> 00:14:19,740
+真的很关心
+really care about the rest of the stuff
+
+309
+00:14:19,740 --> 00:14:21,959
+她周围的其他东西，我最重要的
+around her and what I what what matters
+
+310
+00:14:21,959 --> 00:14:25,680
+是这个主题看起来不错所以现在我们
+is that the subject looks good so now we
+
+311
+00:14:25,680 --> 00:14:28,019
+要保存它所以我
+have we're going to save that so I
+
+312
+00:14:28,019 --> 00:14:30,060
+现在几乎不得不回去裁剪所有
+almost have now to go back and crop all
+
+313
+00:14:30,060 --> 00:14:32,399
+其他的因为我忘记了
+the other ones because I forgot to
+
+314
+00:14:32,399 --> 00:14:33,480
+实际上
+actually
+
+315
+00:14:33,480 --> 00:14:35,399
+对所有其他的都这样做所以让我们
+do that for all the other ones so let's
+
+316
+00:14:35,399 --> 00:14:38,100
+回到第一个这里让我们裁剪
+go back here on the first one let's crop
+
+317
+00:14:38,100 --> 00:14:40,320
+它因为周围有一些我不关心的东西
+it because there is stuff I don't care
+
+318
+00:14:40,320 --> 00:14:42,980
+about around
+
+319
+00:14:45,600 --> 00:14:50,839
+现在我实际上可以看到这个图像
+and now I can actually see this image
+
+320
+00:14:52,199 --> 00:14:54,180
+但它有点失败因为我想我
+and it kind of fails because I guess I
+
+321
+00:14:54,180 --> 00:14:57,240
+更换了 原来
+replaced the original
+
+322
+00:14:57,240 --> 00:14:59,820
+的 2x 所以我想我必须
+with the 2x so I guess I would have to
+
+323
+00:14:59,820 --> 00:15:01,620
+去删除那个并带回
+go and delete that one and bring back
+
+324
+00:15:01,620 --> 00:15:02,940
+the
+
+325
+00:15:02,940 --> 00:15:05,779
+我已经拥有的高档版本
+upscale version that I've already got
+
+326
+00:15:05,779 --> 00:15:08,040
+现在我将继续并
+and now I'm just going to go ahead and
+
+327
+00:15:08,040 --> 00:15:10,579
+裁剪它
+crop that
+
+328
+00:15:11,459 --> 00:15:13,199
+所以你可以看到它可以是
+so as you can see it can be a little bit
+
+329
+00:15:13,199 --> 00:15:16,740
+这样做有点乏味，但
+of a tedious work to do that but it's
+
+330
+00:15:16,740 --> 00:15:19,440
+值得删除和调整
+well worth dropping and adjusting
+
+331
+00:15:19,440 --> 00:15:23,839
+所有内容，这样可以保存图像，所以
+everything so saving the image
+
+332
+00:15:25,199 --> 00:15:28,380
+现在这个是什么，所以我们需要
+okay so now what is this one so we need
+
+333
+00:15:28,380 --> 00:15:30,180
+处理那个，所以让我们先裁剪它，
+to deal with that one so let's crop it
+
+334
+00:15:30,180 --> 00:15:31,680
+这样我们就可以继续了 并
+first so we're going to go ahead and
+
+335
+00:15:31,680 --> 00:15:33,839
+裁剪到这一点，所以我们尽可能多地保留
+crop to this point so we keep as much as
+
+336
+00:15:33,839 --> 00:15:37,320
+原始图像，
+the original image as possible
+
+337
+00:15:37,320 --> 00:15:39,420
+所以现在我们有更好的
+so now we have a better
+
+338
+00:15:39,420 --> 00:15:44,000
+裁剪效果，所以让我们保存图像，
+crop so let's save the image
+
+339
+00:15:45,300 --> 00:15:47,100
+嗯，好吧，
+um okay
+
+340
+00:15:47,100 --> 00:15:49,320
+那么这个呢，所以我们
+so what about this one so this one we
+
+341
+00:15:49,320 --> 00:15:51,720
+可以稍微裁剪一下
+can crop slightly
+
+342
+00:15:51,720 --> 00:15:54,959
+复制废话，我想我不 我真的不
+copy crap here I guess I don't really
+
+343
+00:15:54,959 --> 00:15:57,959
+关心部分裁剪，
+care about the part crop
+
+344
+00:15:57,959 --> 00:16:01,399
+现在
+and now save
+
+345
+00:16:03,959 --> 00:16:06,120
+在这里保存同样的东西肯定有
+same thing here there's definitely a lot
+
+346
+00:16:06,120 --> 00:16:07,800
+很多裁剪需要进行
+of cropping that needs to take place
+
+347
+00:16:07,800 --> 00:16:12,620
+我们将在这里裁剪在那里裁剪
+we're going to crop here crop there
+
+348
+00:16:14,339 --> 00:16:16,860
+然后我们将结果保存
+and then we're gonna save the resulting
+
+349
+00:16:16,860 --> 00:16:19,880
+到 X 版本
+to X version
+
+350
+00:16:20,279 --> 00:16:24,420
+这个呃我们 有点已经做了
+this one uh as we sort of already did it
+
+351
+00:16:24,420 --> 00:16:27,120
+它已经按照我们想要的方式裁剪了所以
+it's already cropped as we want so and
+
+352
+00:16:27,120 --> 00:16:31,100
+我们需要进入并使用这个
+we need to go in and work with this one
+
+353
+00:16:31,380 --> 00:16:34,560
+让我们看看那个裁剪明智它
+let's look at that one cropping wise it
+
+354
+00:16:34,560 --> 00:16:36,000
+看起来不错
+looks good
+
+355
+00:16:36,000 --> 00:16:38,639
+所以我认为分辨率明智我们已经
+so I think resolution wise we're already
+
+356
+00:16:38,639 --> 00:16:40,800
+非常好所以不需要真正抓住
+pretty good so no need to really grip
+
+357
+00:16:40,800 --> 00:16:42,839
+我会按下它，所以这是一个 webp
+I'll press that so this one is a webp
+
+358
+00:16:42,839 --> 00:16:44,220
+我们需要注意
+we're gonna need to watch out a little
+
+359
+00:16:44,220 --> 00:16:45,899
+一点，确保我们将它保存为裁剪后的
+bit for it make sure we save it as a
+
+360
+00:16:45,899 --> 00:16:47,160
+jpeg，
+jpeg
+
+361
+00:16:47,160 --> 00:16:50,399
+所以我总是留下
+cropped around so I always leave a
+
+362
+00:16:50,399 --> 00:16:52,500
+一点边框，因为分桶
+little bit of a border because bucketing
+
+363
+00:16:52,500 --> 00:16:54,720
+实际上是要 去
+is actually going to go and change
+
+364
+00:16:54,720 --> 00:16:57,180
+稍微改变或稍微损坏以适应
+slightly or corrupt slightly to fit
+
+365
+00:16:57,180 --> 00:17:01,620
+within a 64 pixel by 64 pixel limits
+
+366
+00:17:01,620 --> 00:17:05,280
+分辨率内的 64 像素 x 64 像素限制，这样可以给我
+within the resolution so that gives me
+
+367
+00:17:05,280 --> 00:17:08,400
+一些游乐场，而不会在它
+some playground without losing too much
+
+368
+00:17:08,400 --> 00:17:09,780
+of the subject when it's going to do
+
+369
+00:17:09,780 --> 00:17:12,299
+要这样做或是否必须这样做时丢失太多主题所以让我们
+that or if it has to do that
+
+370
+00:17:12,299 --> 00:17:14,579
+看看是否 这不是太大没关系好吧
+so let's see if this isn't too big it's
+
+371
+00:17:14,579 --> 00:17:17,480
+fine okay
+
+372
+00:17:18,119 --> 00:17:23,099
+下一个是这个我们已经完成
+next one is this one we've already done
+
+373
+00:17:23,099 --> 00:17:25,740
+了所以不需要重做
+it so no need to redo it
+
+374
+00:17:25,740 --> 00:17:28,260
+下一个是一个
+next one is
+
+375
+00:17:28,260 --> 00:17:30,840
+小的
+that one that's a small one
+
+376
+00:17:30,840 --> 00:17:33,000
+肯定需要
+definitely need to
+
+377
+00:17:33,000 --> 00:17:36,740
+升级所以
+upres that so
+
+378
+00:17:40,500 --> 00:17:43,679
+所以这个我们要走了
+so this one we're gonna go and
+
+379
+00:17:43,679 --> 00:17:46,340
+放下它
+drop it
+
+380
+00:17:55,320 --> 00:17:58,820
+好吧我们要保存它
+okay we're gonna save it
+
+381
+00:18:01,880 --> 00:18:04,980
+这个
+this one
+
+382
+00:18:04,980 --> 00:18:07,919
+我们可以裁剪顶部的尖刺所以我们真的不会
+we can crop the top spiky so we don't
+
+383
+00:18:07,919 --> 00:18:11,340
+让所有的东西都
+really keep all of that stuff cracked a
+
+384
+00:18:11,340 --> 00:18:14,280
+向右裂开一点
+little bit to the right
+
+385
+00:18:14,280 --> 00:18:17,960
+好吧保存图像
+okay save the image
+
+386
+00:18:19,320 --> 00:18:23,179
+这个很多裁剪
+this one lots of cropping to do
+
+387
+00:18:36,179 --> 00:18:39,600
+做好这个看起来 相当大，除非我
+okay this one looks fairly big unless I
+
+388
+00:18:39,600 --> 00:18:43,220
+需要购买 是的，我需要裁剪它 是的，其中
+need to buy yeah I need to crop it
+
+389
+00:18:54,480 --> 00:18:57,780
+一些非常大，我的意思是
+yeah some of those are very big I mean
+
+390
+00:18:57,780 --> 00:19:00,660
+我们不需要那么大的图像，呃，
+we don't need that big of an image uh
+
+391
+00:19:00,660 --> 00:19:02,400
+这个希望将从
+this one hopefully will benefit a lot
+
+392
+00:19:02,400 --> 00:19:06,240
+裁剪和起义中受益匪浅，但
+from cropping and from Uprising but
+
+393
+00:19:06,240 --> 00:19:09,299
+我不 知道我们会看看我是否裁剪它
+I don't know we'll see if I crop it what
+
+394
+00:19:09,299 --> 00:19:10,980
+之前和之后的样子
+does it look like before and after
+
+395
+00:19:10,980 --> 00:19:13,200
+没什么不同 几乎在它
+nothing much different
+
+396
+00:19:13,200 --> 00:19:16,260
+并排之后看起来更糟
+almost looks worse after it's been
+
+397
+00:19:16,260 --> 00:19:19,500
+嗯，也许是因为我 50 岁，
+abreast uh maybe it's because I'm at 50
+
+398
+00:19:19,500 --> 00:19:22,380
+如果我去 100 是的，
+if I go to 100
+
+399
+00:19:22,380 --> 00:19:24,000
+yeah
+
+400
+00:19:24,000 --> 00:19:25,919
+让事情更清楚一点
+kind of make things a little bit clearer
+
+401
+00:19:25,919 --> 00:19:27,960
+但它有点带出噪音
+but it kind of brings out the noise
+
+402
+00:19:27,960 --> 00:19:31,620
+也许我可以消除这里设置中的更多噪音
+maybe I can remove the bit more noise in
+
+403
+00:19:31,620 --> 00:19:34,740
+the the setting here
+
+404
+00:19:34,740 --> 00:19:37,679
+我不知道
+I don't know that it does much
+
+405
+00:19:37,679 --> 00:19:40,940
+如果我将它推到最大它会起到多大作用
+if I push it to the max
+
+406
+00:19:41,700 --> 00:19:44,280
+确实有点帮助我们会
+kind of does help a little bit we'll
+
+407
+00:19:44,280 --> 00:19:45,900
+我们会的 继续吧，我们将不得不
+we'll go with that we'll we'll have to
+
+408
+00:19:45,900 --> 00:19:47,820
+稍微修改一下它，它有点像
+rework that one a little bit it's kind
+
+409
+00:19:47,820 --> 00:19:49,440
+of
+
+410
+00:19:49,440 --> 00:19:53,460
+在丑陋的一面构建它，所以
+build it on the ugly side so this one
+
+411
+00:19:53,460 --> 00:19:55,620
+我认为它是腐败的，而
+I think it's corrupt right and the
+
+412
+00:19:55,620 --> 00:19:59,220
+这个的解决方案是什么，是
+resolution for this one was what for was
+
+413
+00:19:59,220 --> 00:20:03,980
+的，我想它不是 很好，
+yeah I guess it's well not good
+
+414
+00:20:05,179 --> 00:20:08,160
+这个非常好，
+this one very good
+
+415
+00:20:08,160 --> 00:20:09,840
+不需要裁剪
+no need to crop
+
+416
+00:20:09,840 --> 00:20:12,240
+保存它
+save it
+
+417
+00:20:12,240 --> 00:20:14,940
+和最后一个，
+and final one
+
+418
+00:20:14,940 --> 00:20:16,980
+因为我们已经这样做了，所以我们不需要
+as we already did so we don't need to
+
+419
+00:20:16,980 --> 00:20:20,220
+重做那个好吧，所以现在我们应该拥有我们
+redo that one okay so now we should have
+
+420
+00:20:20,220 --> 00:20:23,700
+在 Upper upres 版本中需要的几乎所有图像，
+pretty much all the image we need in
+
+421
+00:20:23,700 --> 00:20:26,640
+所以现在让我们把
+Upper upres versions so now let's bring
+
+422
+00:20:26,640 --> 00:20:29,220
+那个 让我们清理
+that up and let's clean up the content
+
+423
+00:20:29,220 --> 00:20:30,840
+文件夹的内容
+of the folder
+
+424
+00:20:30,840 --> 00:20:34,140
+所以我们不关心那个图像现在我们
+so we don't care about that image now we
+
+425
+00:20:34,140 --> 00:20:35,940
+只想要裁剪版本所以我们
+just wanted the crop version so we're
+
+426
+00:20:35,940 --> 00:20:39,000
+要删除这两个在这里我
+going to delete those two and here I
+
+427
+00:20:39,000 --> 00:20:40,980
+真的不关心这些我
+don't really care about these ones I
+
+428
+00:20:40,980 --> 00:20:42,840
+想要裁剪 这是最后
+want the crop version which is this last
+
+429
+00:20:42,840 --> 00:20:45,299
+一个版本所以让我们把
+one so let's take those
+
+430
+00:20:45,299 --> 00:20:49,919
+那个放大了两倍我猜它并
+uh this one scaled twice I guess it
+
+431
+00:20:49,919 --> 00:20:51,660
+没有真正使它成为一个巨大的
+didn't really make like that's a huge
+
+432
+00:20:51,660 --> 00:20:54,539
+图像它对外观和感觉没有太大帮助
+image it didn't help much with the look
+
+433
+00:20:54,539 --> 00:20:55,980
+所以我们将删除
+and feel so we're just going to delete
+
+434
+00:20:55,980 --> 00:20:58,260
+放大的那个 这个我们没有
+the upscaled one this one we didn't
+
+435
+00:20:58,260 --> 00:21:00,179
+升级它已经足够大了这个
+upscale it's already big enough this one
+
+436
+00:21:00,179 --> 00:21:03,240
+我们做了所以这个我们放弃了这个我们做了
+we did so this one we dropped
+
+437
+00:21:03,240 --> 00:21:07,440
+什么让我们看看
+this one we did what let's see double
+
+438
+00:21:07,440 --> 00:21:10,320
+双双交换比例版本这是
+double swap scale version this is the
+
+439
+00:21:10,320 --> 00:21:11,820
+旧的
+old one
+
+440
+00:21:11,820 --> 00:21:15,780
+webp 删除这个是招募
+webp delete this one was the recruit
+
+441
+00:21:15,780 --> 00:21:18,299
+版本这个被裁剪得很好 这个是
+version this one was pretty cropped this
+
+442
+00:21:18,299 --> 00:21:21,000
+歌剧，
+one was operas
+
+443
+00:21:21,000 --> 00:21:23,700
+这个是并排的，
+this one was abreast
+
+444
+00:21:23,700 --> 00:21:28,320
+这个是 web P 我们去掉了，
+and this one was web P we get rid of
+
+445
+00:21:28,320 --> 00:21:32,059
+所以这个可能被压了，
+so this one was maybe get a pressed
+
+446
+00:21:32,059 --> 00:21:34,860
+我想我们去掉了这个，
+and I guess we get rid of this one
+
+447
+00:21:34,860 --> 00:21:36,960
+因为它被裁剪了，所以现在我们有
+because it was cropped so now we have
+
+448
+00:21:36,960 --> 00:21:38,700
+16 张图像
+the 16 image
+
+449
+00:21:38,700 --> 00:21:41,940
+准备好了 去吧，但有一
+kind of ready to go but there's one
+
+450
+00:21:41,940 --> 00:21:44,520
+件事可以做，其中一些看起来
+thing that could be done some of them
+
+451
+00:21:44,520 --> 00:21:46,799
+很糟糕，如果我们
+may look fairly bad like if we look at
+
+452
+00:21:46,799 --> 00:21:50,700
+在这里看它们，这个看起来很锋利，所以
+them in here this one looks sharp so no
+
+453
+00:21:50,700 --> 00:21:53,640
+不需要做任何事情，这个看起来锋利
+need to do anything this one looks sharp
+
+454
+00:21:53,640 --> 00:21:56,520
+锋利，这个很软，所以这个可能
+sharp this one is soft so this one could
+
+455
+00:21:56,520 --> 00:22:00,240
+需要一些返工
+need some rework and what I tend to try
+
+456
+00:22:00,240 --> 00:22:03,179
+在这种情况下，我倾向于尝试做的是返回
+to do in this case is I go back
+
+457
+00:22:03,179 --> 00:22:09,240
+并启动 Koya SS GUI
+and I fire up the Koya SS GUI
+
+458
+00:22:11,039 --> 00:22:13,440
+我已经在访问方式中安装了它，因此
+I've installed it in way access so
+
+459
+00:22:13,440 --> 00:22:17,280
+启动了 gooey ear gui.ps1
+firing up the gooey ear gui.ps1
+
+460
+00:22:17,280 --> 00:22:19,460
+外部
+foreign
+
+461
+00:22:20,659 --> 00:22:24,299
+扩散实际上帮助我
+diffusion to actually help me
+
+462
+00:22:24,299 --> 00:22:27,179
+清理了一些 这些图像实际上
+clean up some of those image actually
+
+463
+00:22:27,179 --> 00:22:29,039
+不是钱不想要这个我
+not that money don't want this one I
+
+464
+00:22:29,039 --> 00:22:30,240
+想
+want to
+
+465
+00:22:30,240 --> 00:22:33,419
+用一个一个一个
+use out of one one one
+
+466
+00:22:33,419 --> 00:22:35,659
+所以
+so
+
+467
+00:22:38,280 --> 00:22:41,520
+也许让我们看看是否有任何新东西
+maybe let's see if there's anything new
+
+468
+00:22:41,520 --> 00:22:45,860
+哦是的有一些更新
+oh and yes there are some updates
+
+469
+00:22:46,140 --> 00:22:50,780
+让我们启动网络用户界面
+let's fire up the web UI
+
+470
+00:23:01,799 --> 00:23:04,580
+嗯
+hmm
+
+471
+00:23:10,980 --> 00:23:14,539
+需要一点时间来开始
+takes a little while to start
+
+472
+00:23:15,360 --> 00:23:17,100
+希望 对于我为
+hopefully with everything that I'm
+
+473
+00:23:17,100 --> 00:23:19,320
+音频和屏幕
+running for the audio and the screen
+
+474
+00:23:19,320 --> 00:23:20,820
+截图运行的所有内容，它不会使
+capture it's not going to make the
+
+475
+00:23:20,820 --> 00:23:21,679
+系统
+system
+
+476
+00:23:21,679 --> 00:23:25,039
+过载但
+overloaded but
+
+477
+00:23:25,200 --> 00:23:29,820
+应该没问题所以让我们放慢
+should okay so let's Slow it Up
+
+478
+00:23:29,820 --> 00:23:33,240
+速度自动一对一网络用户界面我
+the auto one one one web UI and what I'm
+
+479
+00:23:33,240 --> 00:23:35,640
+要做的是进入图像 图像
+going to do is go into image to image
+
+480
+00:23:35,640 --> 00:23:38,760
+，我将去删除
+and I'm going to go and drop a copy of
+
+481
+00:23:38,760 --> 00:23:41,760
+我想要更改的图像的副本，所以
+that image that I want to change so what
+
+482
+00:23:41,760 --> 00:23:44,640
+我倾向于坚持使用最大
+I tend to do is stick with a maximum
+
+483
+00:23:44,640 --> 00:23:46,679
+分辨率，在这种情况下它高于
+resolution in this case it's higher than
+
+484
+00:23:46,679 --> 00:23:49,559
+宽度，所以我将使用 1 10 24
+width so I'm going to go with 1 10 24
+
+485
+00:23:49,559 --> 00:23:51,900
+然后我将宽度调整到
+and then I adjust the width up to a
+
+486
+00:23:51,900 --> 00:23:54,000
+适合分辨率的点
+point where it kind of fits within the
+
+487
+00:23:54,000 --> 00:23:56,340
+所以现在我们有一个很好的适合我
+resolution so now we have a nice fit I'm
+
+488
+00:23:56,340 --> 00:23:58,440
+将运行剪辑询问以获得对
+going to run clip interrogate to get
+
+489
+00:23:58,440 --> 00:24:01,380
+kind of a nice
+
+490
+00:24:01,380 --> 00:24:05,720
+图像是什么的很好的描述
+description of what the image is
+
+491
+00:24:09,419 --> 00:24:10,919
+并且
+and
+
+492
+00:24:10,919 --> 00:24:13,860
+很可能 圣经
+it's quite likely that there's already a
+
+493
+00:24:13,860 --> 00:24:17,039
+中已经有一些关于詹妮弗安妮斯顿的知识，
+some knowledge of Jennifer Aniston in
+
+494
+00:24:17,039 --> 00:24:21,080
+所以我要
+the Bible so I'm going to invoke
+
+495
+00:24:21,780 --> 00:24:23,640
+for Aniston
+
+496
+00:24:23,640 --> 00:24:27,539
+在描述中引用安妮斯顿，我要做的
+in the description and what I'm gonna do
+
+497
+00:24:27,539 --> 00:24:31,080
+是将去噪强度保持在
+is kind of keep the denoising strength
+
+498
+00:24:31,080 --> 00:24:35,100
+相当低的水平，比如 30%，所以它是
+fairly low like at 30 percent so it's a
+
+499
+00:24:35,100 --> 00:24:39,720
+0.3 的值，我 我要请求
+0.3 value and I'm going to ask for a
+
+500
+00:24:39,720 --> 00:24:41,880
+picture to picture
+
+501
+00:24:41,880 --> 00:24:46,559
+该图像的图片到图片的再现所以它所做的
+rendition of that image so what that did
+
+502
+00:24:46,559 --> 00:24:48,679
+是
+is it kind of
+
+503
+00:24:48,679 --> 00:24:51,900
+重新构想它根据此处的描述重新构想该图像
+reimagined it reimagined this image
+
+504
+00:24:51,900 --> 00:24:54,299
+based on the description here
+
+505
+00:24:54,299 --> 00:24:58,260
+并且它将创建该图像的清晰版本，
+and it will create a crispr version of
+
+506
+00:24:58,260 --> 00:25:00,360
+它看起来仍然很像
+this image that still looks a lot like
+
+507
+00:25:00,360 --> 00:25:02,220
+原始图像 现在你必须
+the original now you have to kind of
+
+508
+00:25:02,220 --> 00:25:04,919
+比较一下，从外观的角度来看，这个版本是否可以接受，
+compare it is this version acceptable
+
+509
+00:25:04,919 --> 00:25:08,700
+所以如果我把
+from a look perspective so if I bring
+
+510
+00:25:08,700 --> 00:25:11,159
+原来的版本带到这里，我们把
+the original one here and we kind of
+
+511
+00:25:11,159 --> 00:25:13,799
+它们像那样带来，然后我把它缩小，
+bring them like that and I scale it down
+
+512
+00:25:13,799 --> 00:25:15,900
+这样我们就有了一种更接近
+so we have like a kind of closer
+
+513
+00:25:15,900 --> 00:25:18,960
+匹配的分辨率，
+matching resolution
+
+514
+00:25:18,960 --> 00:25:19,919
+嗯，
+um
+
+515
+00:25:19,919 --> 00:25:21,720
+怎么做 他们比较
+how do they compare
+
+516
+00:25:21,720 --> 00:25:24,419
+好我认为眼睛耳朵有点
+well I think the eye ear is a little bit
+
+517
+00:25:24,419 --> 00:25:27,480
+时髦我认为允许
+funky I think the strength of allowing
+
+518
+00:25:27,480 --> 00:25:30,179
+软件重新想象
+the software to kind of re-imagine that
+
+519
+00:25:30,179 --> 00:25:32,039
+图像的强度有点太强了所以让
+image is a little bit too strong so
+
+520
+00:25:32,039 --> 00:25:34,080
+我们回过头来将
+let's go back and let's change that
+
+521
+00:25:34,080 --> 00:25:37,500
+去噪罢工更改为大概 20 以便
+denoising strike to maybe 20 so to limit
+
+522
+00:25:37,500 --> 00:25:41,279
+真正限制软件可以做什么
+really what the software can do
+
+523
+00:25:41,279 --> 00:25:42,419
+um
+um
+
+524
+00:25:42,419 --> 00:25:44,460
+所以它会减少它的改变但它
+so it's going to change it less but it's
+
+525
+00:25:44,460 --> 00:25:45,960
+看起来更像原始
+going to look more like the original
+
+526
+00:25:45,960 --> 00:25:47,279
+模型
+model
+
+527
+00:25:47,279 --> 00:25:49,559
+我可以做的事情因为现在我有
+something I can do because now I've got
+
+528
+00:25:49,559 --> 00:25:52,740
+低去噪罢工是我要
+the low denoising strike is I'm going to
+
+529
+00:25:52,740 --> 00:25:53,940
+提高
+raise
+
+530
+00:25:53,940 --> 00:25:56,880
+实际的采样步骤 更高的
+the actual sampling steps to higher
+
+531
+00:25:56,880 --> 00:25:59,880
+采样步骤以获得更好的结果并将
+sampling steps to get better results and
+
+532
+00:25:59,880 --> 00:26:03,419
+采样方法更改为 DPM
+change also the sampling method to DPM
+
+533
+00:26:03,419 --> 00:26:06,299
+plus sde 相机，
+plus plus sde cameras
+
+534
+00:26:06,299 --> 00:26:09,720
+这往往会产生更好的输出所以
+which tend to produce better outputs so
+
+535
+00:26:09,720 --> 00:26:12,419
+希望
+hopefully with that
+
+536
+00:26:12,419 --> 00:26:17,520
+我们会得到一个更好的版本
+we're gonna get a much nicer version of
+
+537
+00:26:17,520 --> 00:26:21,240
+uh 改进的稳定扩散
+the uh of the improved stable diffusion
+
+538
+00:26:21,240 --> 00:26:23,220
+版本 原始图像
+version of the original image
+
+539
+00:26:23,220 --> 00:26:26,400
+所以现在眼睛看起来
+so now the eyes look a little bit better
+
+540
+00:26:26,400 --> 00:26:28,440
+比以前好一点
+than they used to
+
+541
+00:26:28,440 --> 00:26:34,620
+它不那么柔软它仍然不是很
+it's not as soft it's still not very
+
+542
+00:26:34,620 --> 00:26:37,500
+锐利但
+sharp but
+
+543
+00:26:37,500 --> 00:26:41,820
+嗯它确实略有改善我猜
+um it does improve slightly and I guess
+
+544
+00:26:41,820 --> 00:26:44,039
+分辨率错误是的所以
+the resolution the errors and yeah so
+
+545
+00:26:44,039 --> 00:26:45,480
+我们会坚持下去所以我 我
+we're gonna stick with that so what I'm
+
+546
+00:26:45,480 --> 00:26:47,640
+现在要做的是
+going to do now is I'm just going to go
+
+547
+00:26:47,640 --> 00:26:50,460
+回到我的 Jennifer Aniston
+back into my Jennifer Aniston
+
+548
+00:26:50,460 --> 00:26:51,900
+文件夹，
+folder
+
+549
+00:26:51,900 --> 00:26:54,059
+然后将
+here and I'm just going to go and drag
+
+550
+00:26:54,059 --> 00:26:56,340
+这张图片拖回那里，然后
+this image back in there and I'm going
+
+551
+00:26:56,340 --> 00:26:57,960
+删除
+to go and delete
+
+552
+00:26:57,960 --> 00:27:01,020
+副本，这样原来的就可以了 版本
+the duplicate so that original version
+
+553
+00:27:01,020 --> 00:27:02,760
+不见了，现在我要保留
+is gone and now I'm going to keep that
+
+554
+00:27:02,760 --> 00:27:04,799
+那个，所以让我们继续看另一张
+one so let's keep looking at the other
+
+555
+00:27:04,799 --> 00:27:06,200
+图片，
+image
+
+556
+00:27:06,200 --> 00:27:10,559
+这个看起来不错，但是
+this one is sort of looking good but
+
+557
+00:27:10,559 --> 00:27:12,419
+是的，我想我们会保留它，因为
+yeah I guess we're gonna keep it as is
+
+558
+00:27:12,419 --> 00:27:16,559
+这个很安全，这个很好
+this one is safety good this one is good
+
+559
+00:27:16,559 --> 00:27:18,539
+这个 一个很好，一个很好，一个
+this one is good that one's good that
+
+560
+00:27:18,539 --> 00:27:21,360
+很好，可以正常工作，一个
+one's fine that works okay that one is
+
+561
+00:27:21,360 --> 00:27:23,340
+绝对不好，
+definitely bad
+
+562
+00:27:23,340 --> 00:27:25,320
+嗯，让我们尝试改进这个，
+um let's try to improve this one
+
+563
+00:27:25,320 --> 00:27:29,580
+所以我将再次回到这里进入
+so I'm going to go back here again into
+
+564
+00:27:29,580 --> 00:27:33,059
+主要扩散或白色 UI 将
+staple diffusion or the white UI drag
+
+565
+00:27:33,059 --> 00:27:35,400
+图像拖动到这里然后我们是 将
+the image here and then we're going to
+
+566
+00:27:35,400 --> 00:27:38,640
+尺寸调整到最合适所以
+go in size it to be the best fit so
+
+567
+00:27:38,640 --> 00:27:41,400
+我们要去这里我们有点
+we're gonna go to here we're kind of
+
+568
+00:27:41,400 --> 00:27:42,659
+失去
+losing
+
+569
+00:27:42,659 --> 00:27:45,740
+part of
+
+570
+00:27:45,840 --> 00:27:48,299
+头部或者我宁愿
+the heads or I'm gonna I would rather
+
+571
+00:27:48,299 --> 00:27:50,400
+失去侧面的一些东西而不是
+lose some things on the side than
+
+572
+00:27:50,400 --> 00:27:52,320
+高度的东西
+something on the height of the of the
+
+573
+00:27:52,320 --> 00:27:55,980
+井的也许我会失去一些头
+well maybe I could lose some of the head
+
+574
+00:27:55,980 --> 00:27:58,559
+它不是那么糟糕我想我会
+it's not so bad I guess I'm going to
+
+575
+00:27:58,559 --> 00:28:00,840
+坚持那个现在我们要
+stick with that one and now we're going
+
+576
+00:28:00,840 --> 00:28:03,240
+重新运行审讯剪辑所以我
+to go and rerun interrogate clip so I'm
+
+577
+00:28:03,240 --> 00:28:04,919
+要继续复制 在这里命名
+just going to go ahead and copy the name
+
+578
+00:28:04,919 --> 00:28:05,820
+here
+
+579
+00:28:05,820 --> 00:28:07,980
+他们是 eclip 以获得更
+they're eclip to get a description
+
+580
+00:28:07,980 --> 00:28:12,080
+接近图像的描述
+closer to what the image is about
+
+581
+00:28:13,860 --> 00:28:18,860
+，现在我们将要求
+first and now we're going to ask for a
+
+582
+00:28:18,860 --> 00:28:23,900
+重新创建该图像
+re creation of that image
+
+583
+00:28:35,539 --> 00:28:38,360
+所以现在我们肯定有一个大大
+so now we have definitely a much
+
+584
+00:28:38,360 --> 00:28:42,000
+改进的版本，
+improved version of the noisy image that
+
+585
+00:28:42,000 --> 00:28:44,520
+我们从开始的嘈杂图像 所以绝对是一个
+we started from so definitely an
+
+586
+00:28:44,520 --> 00:28:46,620
+改进，所以我们要坚持并
+improvement so we're gonna stick and
+
+587
+00:28:46,620 --> 00:28:49,380
+保留那个图像，而不是
+keep that image instead of the noisy one
+
+588
+00:28:49,380 --> 00:28:52,919
+我们添加的嘈杂图像，我们甚至可以尝试
+that we add well we could even try to
+
+589
+00:28:52,919 --> 00:28:55,080
+使用更好的改进，
+play with even better Improvement right
+
+590
+00:28:55,080 --> 00:28:58,799
+这样我就可以尝试 25
+that was that so I could maybe try at 25
+
+591
+00:28:58,799 --> 00:29:00,720
+% 的
+percent
+
+592
+00:29:00,720 --> 00:29:04,020
+去噪强度
+denoising strength
+
+593
+00:29:04,020 --> 00:29:06,120
+，让我们看看 如果拍摄
+and let's see what it gives us if the
+
+594
+00:29:06,120 --> 00:29:08,480
+对象看起来仍然像原来的那样，这会给我们带来
+subject still looks like the original
+
+595
+00:29:08,480 --> 00:29:10,380
+什么，这才是最重要的，
+that's what that's what matters
+
+596
+00:29:10,380 --> 00:29:12,059
+尤其是面部，这是我们
+especially the face right that's what we
+
+597
+00:29:12,059 --> 00:29:14,940
+最关心的，面部看起来
+care the most about that the face looks
+
+598
+00:29:14,940 --> 00:29:17,279
+仍然像同一种微笑，
+still like the same kind of smile and
+
+599
+00:29:17,279 --> 00:29:20,039
+鼻子和眼睛，
+nose and eyes
+
+600
+00:29:20,039 --> 00:29:22,140
+如果它们变得太不同的话，它 有点
+if they get too different and it kind of
+
+601
+00:29:22,140 --> 00:29:24,419
+破坏了实际的模型，所以这个现在
+breaks the actual model so this one now
+
+602
+00:29:24,419 --> 00:29:26,460
+看起来不错，
+looks pretty good
+
+603
+00:29:26,460 --> 00:29:29,520
+所以我认为我们可以使用那个模型，
+so I think we are okay to use that one
+
+604
+00:29:29,520 --> 00:29:31,980
+所以现在您对
+so now you have a feel for what is the
+
+605
+00:29:31,980 --> 00:29:34,679
+从互联网引入图像的工作流程有什么感觉，
+workflow to bring in image from the
+
+606
+00:29:34,679 --> 00:29:38,520
+这可能不够好，也可能不够
+internet that may or may not be uh
+
+607
+00:29:38,520 --> 00:29:42,360
+好 使用然后
+good enough to use and then kind of uh
+
+608
+00:29:42,360 --> 00:29:45,299
+使用 gigafixel 提升这些图像以
+lean up those image using gigafixel to
+
+609
+00:29:45,299 --> 00:29:47,659
+提高分辨率然后查看
+improve the resolution and then look at
+
+610
+00:29:47,659 --> 00:29:49,860
+实际的
+the actual
+
+611
+00:29:49,860 --> 00:29:50,880
+um
+um
+
+612
+00:29:50,880 --> 00:29:53,100
+图像本身并在稳定扩散中改进它们
+image themselves and improve them in
+
+613
+00:29:53,100 --> 00:29:56,899
+如果它们不够
+stable diffusion if they are not
+
+614
+00:29:56,899 --> 00:29:58,620
+好
+good enough
+
+615
+00:29:58,620 --> 00:30:01,440
+所以我认为现在我们有一个很好的
+so I think right now we have a good
+
+616
+00:30:01,440 --> 00:30:04,919
+起点所有 实际图像看起来
+starting point all the actual image look
+
+617
+00:30:04,919 --> 00:30:08,880
+可用，它们有不同的风格，
+usable they are kind of different styles
+
+618
+00:30:08,880 --> 00:30:10,440
+不同的背景，不同的
+different background different
+
+619
+00:30:10,440 --> 00:30:12,360
+个性，其中
+personalities
+
+620
+00:30:12,360 --> 00:30:14,340
+and
+
+621
+00:30:14,340 --> 00:30:16,620
+一个仍然困扰着我，
+that one is still bugging me right that
+
+622
+00:30:16,620 --> 00:30:19,740
+一个软到某种程度，我不
+one is soft to a point where I don't
+
+623
+00:30:19,740 --> 00:30:21,419
+知道它会对我们将保留的模型产生什么影响
+know how it's going to have an impact on
+
+624
+00:30:21,419 --> 00:30:23,460
+the model we'll keep it
+
+625
+00:30:23,460 --> 00:30:26,399
+因为我又想，有时候
+because like again I guess sometimes it
+
+626
+00:30:26,399 --> 00:30:28,500
+如果其中一个
+doesn't really matter if one of them is
+
+627
+00:30:28,500 --> 00:30:31,200
+不好，你显然想要追求完美并不重要，
+bad you want to aim for Perfection
+
+628
+00:30:31,200 --> 00:30:33,240
+但有时你就是
+obviously but sometimes you just can't
+
+629
+00:30:33,240 --> 00:30:36,419
+做不到，这个有一些我
+get it this one has something I don't
+
+630
+00:30:36,419 --> 00:30:38,880
+不太喜欢的东西，让我们重新运行它 再次只是
+quite like about it let's rerun it again
+
+631
+00:30:38,880 --> 00:30:41,580
+为了
+just for the sake of
+
+632
+00:30:41,580 --> 00:30:44,279
+尝试改进，让我们在这里重新运行它
+trying to improve things let's rerun it
+
+633
+00:30:44,279 --> 00:30:47,240
+in here
+
+634
+00:30:48,899 --> 00:30:51,000
+是的，看起来很合适所以
+yeah that looks like in good fit so
+
+635
+00:30:51,000 --> 00:30:54,720
+让我们重新运行剪辑审讯是的，
+let's rerun the clip interrogate
+
+636
+00:30:54,720 --> 00:30:56,640
+那个图像有些东西
+yeah there's something about that image
+
+637
+00:30:56,640 --> 00:31:01,100
+不太适合我，
+that doesn't quite fit well with me
+
+638
+00:31:09,179 --> 00:31:11,399
+如果是空气，你就去吧 有点
+you go if it's the air that kind of are
+
+639
+00:31:11,399 --> 00:31:14,640
+吵，或者有些地方不对劲，
+sort of noisy or
+
+640
+00:31:14,640 --> 00:31:17,580
+there's something that just doesn't sit
+
+641
+00:31:17,580 --> 00:31:19,820
+right
+
+642
+00:31:24,840 --> 00:31:28,440
+所以这个看起来确实有所改进，
+so this one looks improved definitely
+
+643
+00:31:28,440 --> 00:31:31,399
+看起来像是
+looking like
+
+644
+00:31:31,980 --> 00:31:34,440
+稍微
+slightly
+
+645
+00:31:34,440 --> 00:31:37,860
+好一点的版本，也许我需要改变
+better version maybe I need to change
+
+646
+00:31:37,860 --> 00:31:39,960
+这个裁剪并调整大小，这样它就不会
+this crop and resize so it doesn't maybe
+
+647
+00:31:39,960 --> 00:31:42,899
+像它一样被压扁了
+squash squish it a little bit like it
+
+648
+00:31:42,899 --> 00:31:43,799
+做到
+did
+
+649
+00:31:43,799 --> 00:31:46,200
+了，也许我应该将强度降低
+and maybe I should reduce the strength
+
+650
+00:31:46,200 --> 00:31:51,440
+到 20。让我们再重新运行一次
+to 20. and let's rerun it one more time
+
+651
+00:32:04,380 --> 00:32:06,659
+好吧，
+okay
+
+652
+00:32:06,659 --> 00:32:09,419
+所以我认为这很好，让我们
+so I think that's pretty good let's keep
+
+653
+00:32:09,419 --> 00:32:10,260
+that
+
+654
+00:32:10,260 --> 00:32:13,260
+保留它，让我们把它分解
+let's break this here
+
+655
+00:32:13,260 --> 00:32:15,299
+成
+into the
+
+656
+00:32:15,299 --> 00:32:18,480
+图像，让我们删除重复项，
+image and let's delete the duplicate
+
+657
+00:32:18,480 --> 00:32:21,360
+所以现在我认为我们可以移动了 进入
+so now I think we're good to move on to
+
+658
+00:32:21,360 --> 00:32:23,700
+下一阶段，我们需要为
+the next stage which is we need to
+
+659
+00:32:23,700 --> 00:32:26,100
+这些图像添加说明，我们需要添加一些
+caption those image we need to add some
+
+660
+00:32:26,100 --> 00:32:28,760
+说明，这样我们就可以教
+captioning so that we can teach
+
+661
+00:32:28,760 --> 00:32:32,520
+或训练 Laura 呃关于这个
+uh or train the Laura uh about the
+
+662
+00:32:32,520 --> 00:32:34,620
+主题，而不是
+subject and not about things that are
+
+663
+00:32:34,620 --> 00:32:37,740
+图像中不重要的东西，所以
+not important within the image so what
+
+664
+00:32:37,740 --> 00:32:39,059
+我要做什么 要做的是我要去
+I'm going to do is I'm going to go and
+
+665
+00:32:39,059 --> 00:32:42,960
+复制这条路径，所以我要复制它，
+copy this path so I'm going to copy that
+
+666
+00:32:42,960 --> 00:32:47,360
+然后在这里我们将进入我们的
+and then here we're going to go into our
+
+667
+00:32:49,039 --> 00:32:52,260
+实用程序，在 blip 字幕下，
+utilities under blip captioning
+
+668
+00:32:52,260 --> 00:32:54,059
+我将去粘贴
+and I'm going to go and paste the
+
+669
+00:32:54,059 --> 00:32:56,940
+我们有的目录 我们
+directory where we have the image we
+
+670
+00:32:56,940 --> 00:32:59,340
+想要获得文字说明的图像 我
+will want to get text captioning I'm
+
+671
+00:32:59,340 --> 00:33:00,899
+很好 我正要将
+good I'm just going to go and add
+
+672
+00:33:00,899 --> 00:33:04,919
+Jennifer Aniston 作为前缀添加到每个说明中
+Jennifer Aniston to each of the captions
+
+673
+00:33:04,919 --> 00:33:08,000
+as a prefix
+
+674
+00:33:11,820 --> 00:33:14,279
+，让我们仔细检查我是否有
+and let's double check that I've got the
+
+675
+00:33:14,279 --> 00:33:17,039
+正确的 Jennifer Aniston 这是正确的
+right Jennifer Aniston that's the right
+
+676
+00:33:17,039 --> 00:33:20,100
+语法 一切都很好所以我们要
+syntax that's all good so we're gonna
+
+677
+00:33:20,100 --> 00:33:21,960
+坚持下去所以我要把它做成
+keep with that so I'm gonna make it a
+
+678
+00:33:21,960 --> 00:33:24,059
+一批 Tate 只是为了做一个漂亮的整数
+batch of Tate just to make a nice round
+
+679
+00:33:24,059 --> 00:33:25,980
+我要做一批八个
+number I'm going to do a batch of eight
+
+680
+00:33:25,980 --> 00:33:30,059
+我要用 10 个光束运行 uh top P90 I
+I'm gonna run with 10 beams uh top P90 I
+
+681
+00:33:30,059 --> 00:33:33,679
+想要为实际字幕获得至少 22 个标记的长度，
+want to get a minimum length of 22
+
+682
+00:33:33,679 --> 00:33:37,860
+tokens for the for the actual
+
+683
+00:33:37,860 --> 00:33:40,860
+我将点击字幕，所以
+captioning I'm going to hit caption so
+
+684
+00:33:40,860 --> 00:33:42,539
+现在它要做的是
+now what it's going to do it's going to
+
+685
+00:33:42,539 --> 00:33:44,700
+开始字幕，如果我回到
+go and start captioning if I go back
+
+686
+00:33:44,700 --> 00:33:48,179
+这里，它将在
+here it's loading the captioning within
+
+687
+00:33:48,179 --> 00:33:51,419
+Koya SS
+the Koya SS
+
+688
+00:33:51,419 --> 00:33:53,640
+I 中加载字幕 猜测终端
+I guess terminal
+
+689
+00:33:53,640 --> 00:33:55,980
+作为输出，当它开始为
+as the output and as it starts
+
+690
+00:33:55,980 --> 00:33:59,279
+事物添加字幕时，它会开始在
+captioning things it will start to show
+
+691
+00:33:59,279 --> 00:34:00,419
+up
+
+692
+00:34:00,419 --> 00:34:05,779
+每个图像旁边显示它的文本文件，
+it's text files beside each of the image
+
+693
+00:34:09,179 --> 00:34:11,460
+应该很快开始所以现在
+that should start pretty soon so now
+
+694
+00:34:11,460 --> 00:34:14,699
+它已经完成了 16 个中的 15 个所以现在你
+it's got 15 done out of 16 so now as you
+
+695
+00:34:14,699 --> 00:34:18,119
+可以看到我们开始有字幕
+can see we start to have captions
+
+696
+00:34:18,119 --> 00:34:21,418
+在每张图片旁边，
+beside every image
+
+697
+00:34:21,418 --> 00:34:24,678
+让我们等待它完成，
+let's wait for it to be done
+
+698
+00:34:24,960 --> 00:34:27,119
+现在我们完成了，所以我们
+and now we're done so we have captions
+
+699
+00:34:27,119 --> 00:34:30,060
+在每张图片旁边都有标题，所以您
+beside each of those image so what you
+
+700
+00:34:30,060 --> 00:34:33,418
+现在需要做的是打开每个
+need to do now is open up each of those
+
+701
+00:34:33,418 --> 00:34:35,520
+文本文件
+text files
+
+702
+00:34:35,520 --> 00:34:38,339
+，让我们说打开
+and you want to let's say open up the
+
+703
+00:34:38,339 --> 00:34:41,940
+图片 在更大的视图中，
+image in in a larger View
+
+704
+00:34:41,940 --> 00:34:46,379
+这样你就可以看到标题是什么
+so you can see what is being captioned
+
+705
+00:34:46,379 --> 00:34:50,219
+所以这里詹妮弗安妮斯顿是一个摆姿势拍照的女人，
+so here Jennifer Aniston a woman posing
+
+706
+00:34:50,219 --> 00:34:51,960
+我们真的不在乎
+for a picture we don't really care about
+
+707
+00:34:51,960 --> 00:34:55,020
+摆姿势拍照它穿着一件
+posing for a picture it's posing in a
+
+708
+00:34:55,020 --> 00:34:57,720
+很好的黑色连衣裙和一条紧身
+black dress that's fine and a tight
+
+709
+00:34:57,720 --> 00:34:59,400
+黑色
+black
+
+710
+00:34:59,400 --> 00:35:01,500
+紧身裤
+tights
+
+711
+00:35:01,500 --> 00:35:04,619
+不太确定 那是什么意思 我只是
+not too sure what that's about I'll just
+
+712
+00:35:04,619 --> 00:35:07,440
+去赢她的臀部，
+go to win with her ends on her hips
+
+713
+00:35:07,440 --> 00:35:10,440
+这很好，她还戴着
+that's fine and she she's also wearing
+
+714
+00:35:10,440 --> 00:35:13,020
+手镯 我想我们不会
+it bracelets I guess we're not gonna
+
+715
+00:35:13,020 --> 00:35:15,300
+关心这个，所以没关系，所以我
+care about that so that's fine so I
+
+716
+00:35:15,300 --> 00:35:17,579
+认为现在的描述非常
+think this description now is pretty
+
+717
+00:35:17,579 --> 00:35:20,420
+准确，所以让我们继续 转到下一个
+accurate so let's move on to the next
+
+718
+00:35:20,420 --> 00:35:23,280
+与此文件配套的文本文件
+text file that goes with this one
+
+719
+00:35:23,280 --> 00:35:26,820
+詹妮弗·安妮斯顿 一个穿着
+Jennifer Aniston a woman in a black and
+
+720
+00:35:26,820 --> 00:35:30,480
+黑白裙子的女人，很好 呃
+white dress that's fine uh posing
+
+721
+00:35:30,480 --> 00:35:34,640
+背景中有一个男人
+with a man in the background
+
+722
+00:35:35,099 --> 00:35:38,640
+with a blurry man
+
+723
+00:35:38,640 --> 00:35:40,980
+背景中有一个模糊的男人 这看起来
+in the background that kind of looks
+
+724
+00:35:40,980 --> 00:35:43,500
+像是准确的描述
+like accurate description
+
+725
+00:35:43,500 --> 00:35:45,359
+所以让我们保存
+so let's save this
+
+726
+00:35:45,359 --> 00:35:48,440
+下一个 图片
+next image
+
+727
+00:35:48,540 --> 00:35:51,420
+Jennifer Aniston 穿着无肩带 yeah
+Jennifer Aniston in the strapless yeah
+
+728
+00:35:51,420 --> 00:35:53,760
+posing
+
+729
+00:35:53,760 --> 00:35:57,060
+在背景中的一群人面前摆姿势 把
+in front of a group of people
+
+730
+00:35:57,060 --> 00:35:59,900
+in the background
+
+731
+00:36:01,619 --> 00:36:03,420
+okay
+
+732
+00:36:03,420 --> 00:36:06,420
+next
+
+733
+00:36:07,800 --> 00:36:11,220
+so Jennifer Aniston a Woman in a Black
+
+734
+00:36:11,220 --> 00:36:14,220
+Top like that's kind of a yeah it's kind
+
+735
+00:36:14,220 --> 00:36:16,680
+of Blackish let's not get too too picky
+
+736
+00:36:16,680 --> 00:36:18,420
+所有坐着的
+about the color and it blacked up any
+
+737
+00:36:18,420 --> 00:36:21,079
+粉红色
+pink
+
+738
+00:36:21,240 --> 00:36:22,980
+和
+and
+
+739
+00:36:22,980 --> 00:36:26,099
+白色裙子涂黑
+white skirt sitting
+
+740
+00:36:26,099 --> 00:36:27,780
+我不知道它是
+I don't know if it's a ledge on the
+
+741
+00:36:27,780 --> 00:36:29,940
+前面喷泉的壁架还是什么是的，这是一个非常好的
+front fountain or something yeah that's
+
+742
+00:36:29,940 --> 00:36:32,160
+喷泉，在喷泉的壁架上非常好
+a fountain that's pretty good on the
+
+743
+00:36:32,160 --> 00:36:33,720
+ledge of a fountain
+
+744
+00:36:33,720 --> 00:36:36,480
+呃在背景中是的，这
+uh within the background yeah that's
+
+745
+00:36:36,480 --> 00:36:40,400
+很好让我们把它留到
+good let's keep it to that
+
+746
+00:36:40,800 --> 00:36:43,820
+下一张图片
+next image
+
+747
+00:36:44,220 --> 00:36:47,880
+詹妮弗·安妮斯顿，一个站在
+Jennifer Aniston a woman standing in a
+
+748
+00:36:47,880 --> 00:36:50,220
+厨房里的女人，双手叉腰，是
+kitchen with her hands on their hips
+
+749
+00:36:50,220 --> 00:36:52,200
+的，
+yeah
+
+750
+00:36:52,200 --> 00:36:54,540
+这就是它发疯的地方 hipster
+and that's where it went nuts hipster
+
+751
+00:36:54,540 --> 00:36:57,420
+hipster 哦，是的，让我们摆脱
+hipster oh yeah let's get rid of that on
+
+752
+00:36:57,420 --> 00:36:58,500
+我们手上的那个，
+our hands
+
+753
+00:36:58,500 --> 00:37:00,599
+嗯，
+uh
+
+754
+00:37:00,599 --> 00:37:03,240
+with the
+
+755
+00:37:03,240 --> 00:37:06,260
+背景模糊，
+blurry background
+
+756
+00:37:06,780 --> 00:37:09,839
+好吧，但她穿着一件白色的
+okay but she's wearing kind of a white
+
+757
+00:37:09,839 --> 00:37:13,980
+T 恤 女人站着，
+T-shirt a woman standing it and wearing
+
+758
+00:37:13,980 --> 00:37:17,540
+身穿
+a woman wearing
+
+759
+00:37:17,940 --> 00:37:20,940
+白色
+White
+
+760
+00:37:21,420 --> 00:37:22,980
+衬衫的女人
+shirt
+
+761
+00:37:22,980 --> 00:37:26,579
+站在厨房里，这很酷好吧，这是
+standing in a kitchen that's cool okay
+
+762
+00:37:26,579 --> 00:37:29,520
+很好的描述是的，你
+that's good description yeah you always
+
+763
+00:37:29,520 --> 00:37:31,560
+总是想描述一下衣服，
+kind of want to describe the clothing as
+
+764
+00:37:31,560 --> 00:37:33,599
+这样你就喜欢你了
+well right so that you have like you
+
+765
+00:37:33,599 --> 00:37:35,700
+这是你可以分辨
+kind of this is the way you can tell
+
+766
+00:37:35,700 --> 00:37:39,480
+稳定扩散的方式 有点忽略那些
+stable diffusion to sort of ignore those
+
+767
+00:37:39,480 --> 00:37:41,460
+东西
+things
+
+768
+00:37:41,460 --> 00:37:44,400
+呃下一个所以现在我们有詹妮弗
+uh next one so now we have Jennifer a
+
+769
+00:37:44,400 --> 00:37:47,099
+一个女人的特写镜头不不不
+close-up of a woman holding no no no no
+
+770
+00:37:47,099 --> 00:37:49,380
+不不不是网球支架我不确定
+no not a tennis bracket I'm not sure
+
+771
+00:37:49,380 --> 00:37:51,780
+它不是网球场但有
+like it's not a tennis court yet there's
+
+772
+00:37:51,780 --> 00:37:55,920
+一个像链条一样的围栏 - 链接栅栏，但
+a fencing like a chain-link fence but
+
+773
+00:37:55,920 --> 00:37:58,920
+关闭了一个
+close up of a woman
+
+774
+00:37:58,920 --> 00:38:01,140
+穿着
+wearing
+
+775
+00:38:01,140 --> 00:38:04,140
+花裙子的女人
+a flowery dress
+
+776
+00:38:04,140 --> 00:38:07,400
+花裙子
+flower dress
+
+777
+00:38:08,339 --> 00:38:11,599
+白色
+the white
+
+778
+00:38:11,700 --> 00:38:14,480
+我认为
+I think
+
+779
+00:38:15,060 --> 00:38:16,920
+with
+
+780
+00:38:16,920 --> 00:38:19,200
+blurry
+
+781
+00:38:19,200 --> 00:38:21,859
+背景模糊
+background
+
+782
+00:38:21,900 --> 00:38:23,640
+哦让我们看看
+oh let's see
+
+783
+00:38:23,640 --> 00:38:26,760
+叮当声
+jingling sense
+
+784
+00:38:26,760 --> 00:38:29,119
+好吧 向下
+okay
+
+785
+00:38:34,200 --> 00:38:37,940
+移动到下一个
+moving down to the next one
+
+786
+00:38:40,500 --> 00:38:43,700
+哦，
+oh singing
+
+787
+00:38:44,160 --> 00:38:48,300
+她双臂交叉唱歌 穿着灰色上衣
+with her arms crossed wearing a gray top
+
+788
+00:38:48,300 --> 00:38:53,900
+和棕色裤子 是的，这很好
+heavy and brown pants yeah that's good
+
+789
+00:38:54,540 --> 00:38:57,140
+只有一件
+just one
+
+790
+00:39:01,380 --> 00:39:04,859
+红色的连体衣走在街上，
+red body suit walks down the street with
+
+791
+00:39:04,859 --> 00:39:05,940
+a
+
+792
+00:39:05,940 --> 00:39:08,940
+h
+
+793
+00:39:15,599 --> 00:39:19,560
+手里拿着一朵花，这很好，一件
+Flowers in her hand that's good
+
+794
+00:39:19,560 --> 00:39:24,920
+红色的兔子服，是的，已经
+a red bunny suit yeah that's
+
+795
+00:39:25,740 --> 00:39:28,280
+足够了，下
+good enough
+
+796
+00:39:28,320 --> 00:39:31,220
+一件
+next one
+
+797
+00:39:34,859 --> 00:39:38,339
+那个
+what's up with the woman
+
+798
+00:39:38,339 --> 00:39:41,520
+穿着黑白相间的裙子，
+wearing a black and white dress with a
+
+799
+00:39:41,520 --> 00:39:44,240
+脸上带着微笑的女人怎么了，我不在乎
+smile on her face I don't care for
+
+800
+00:39:44,240 --> 00:39:48,180
+面部表情 眼睛颜色 头发
+facial expressions eye colors hair
+
+801
+00:39:48,180 --> 00:39:53,400
+颜色 因为我们想保留
+colors because we want to retain the the
+
+802
+00:39:53,400 --> 00:39:55,619
+她拥有的那些所以我们不打算
+ones that she has so we are not going to
+
+803
+00:39:55,619 --> 00:39:58,079
+指定任何东西 因为如果我们这样做那么
+specify anything because if we did that
+
+804
+00:39:58,079 --> 00:39:59,520
+then
+
+805
+00:39:59,520 --> 00:40:02,040
+软件就会开始有点
+the software would start to kind of
+
+806
+00:40:02,040 --> 00:40:04,619
+忘记微笑并且它不会
+forget about the smile and it wouldn't
+
+807
+00:40:04,619 --> 00:40:06,780
+真正学习 太好了，所以我
+really learn that too well so I would
+
+808
+00:40:06,780 --> 00:40:08,640
+宁愿保留它，
+rather keep that
+
+809
+00:40:08,640 --> 00:40:10,640
+um
+
+810
+00:40:10,920 --> 00:40:13,079
+因为我不希望它专注于
+because I don't want it to focus on
+
+811
+00:40:13,079 --> 00:40:15,060
+那些衣服，所以通过提供
+those clothing so by giving information
+
+812
+00:40:15,060 --> 00:40:17,640
+有关衣服的信息，它将学习
+about clothing it's going to learn that
+
+813
+00:40:17,640 --> 00:40:20,520
+并将该衣服与令牌相关联，
+and Associated that clothing to the
+
+814
+00:40:20,520 --> 00:40:23,339
+所以除非我们在哪里指定
+Token so unless where we specify that
+
+815
+00:40:23,339 --> 00:40:26,339
+衣服的颜色和款式 它不会
+color and style of clothing it's not
+
+816
+00:40:26,339 --> 00:40:29,760
+强制执行它，呃，我
+going to kind of enforce it on uh I
+
+817
+00:40:29,760 --> 00:40:33,119
+猜是提示的输出，所以这就是
+guess outputs of prompts so that's how
+
+818
+00:40:33,119 --> 00:40:34,859
+你如何让它忘记
+you kind of make it forget about things
+
+819
+00:40:34,859 --> 00:40:37,380
+你不关心的关于
+that you don't care for about the
+
+820
+00:40:37,380 --> 00:40:39,740
+主题的事情
+subject
+
+821
+00:40:40,200 --> 00:40:42,240
+保存这个这个这个
+save this one
+
+822
+00:40:42,240 --> 00:40:44,720
+这个
+this one
+
+823
+00:40:45,079 --> 00:40:49,380
+可以与
+okay with the black dress that's okay
+
+824
+00:40:49,380 --> 00:40:51,900
+我们的黑色连衣裙一起使用 双臂交叉，看着
+with our arms crossed and looking at the
+
+825
+00:40:51,900 --> 00:40:54,720
+相机，
+camera that's all right
+
+826
+00:40:54,720 --> 00:40:57,240
+蓝色背景，很好，完美的
+with a blue background good perfect
+
+827
+00:40:57,240 --> 00:40:59,099
+描述，
+description
+
+828
+00:40:59,099 --> 00:41:01,579
+下一个
+next one
+
+829
+00:41:02,460 --> 00:41:05,940
+特写，一个女人
+close up of a woman
+
+830
+00:41:05,940 --> 00:41:09,480
+穿着裙子，所以
+wearing a dress so wearing a I guess
+
+831
+00:41:09,480 --> 00:41:14,060
+it's a white dress wearing a
+
+832
+00:41:14,099 --> 00:41:16,859
+sort of whitish dress and holding into
+
+833
+00:41:16,859 --> 00:41:19,619
+穿着 香烟 呃
+all she's not holding a cigarette
+
+834
+00:41:19,619 --> 00:41:22,200
+不 她不抽烟 一个
+uh no she's not smoking a cigarette
+
+835
+00:41:22,200 --> 00:41:24,900
+吃香烟的人 我们要打电话 我们要让
+eater and we're gonna call we're gonna
+
+836
+00:41:24,900 --> 00:41:26,880
+make this um
+
+837
+00:41:26,880 --> 00:41:31,020
+blurry of people
+
+838
+00:41:34,560 --> 00:41:38,339
+in the background in the
+
+839
+00:41:38,339 --> 00:41:40,140
+背景中的人变得模糊
+in the background
+
+840
+00:41:40,140 --> 00:41:43,400
+blurry background
+
+841
+00:41:52,380 --> 00:41:55,220
+next one
+
+842
+00:42:00,800 --> 00:42:06,140
+with her hands on her hips yeah
+
+843
+00:42:08,099 --> 00:42:11,700
+with a green
+
+844
+00:42:11,700 --> 00:42:14,339
+pertain
+
+845
+00:42:14,339 --> 00:42:17,119
+background
+
+846
+00:42:18,119 --> 00:42:20,660
+ready
+
+847
+00:42:21,119 --> 00:42:23,839
+是的，
+yeah okay
+
+848
+00:42:25,980 --> 00:42:28,760
+下一个
+next one
+
+849
+00:42:32,160 --> 00:42:35,339
+女人摆姿势拍照，手
+woman posing for a picture with her hand
+
+850
+00:42:35,339 --> 00:42:40,040
+放在头上 是的，没关系，
+on their head yeah that's all right
+
+851
+00:42:41,880 --> 00:42:44,400
+脖子上戴着项链 是的，没关系，
+and a necklace on her neck yeah that's
+
+852
+00:42:44,400 --> 00:42:47,520
+穿着
+all right wearing
+
+853
+00:42:47,520 --> 00:42:50,660
+坟墓 一件
+a grave
+
+854
+00:42:53,700 --> 00:42:56,960
+漂亮的裙子
+a great dress
+
+855
+00:43:03,660 --> 00:43:07,020
+詹妮弗欧内斯特和一个穿黑裙子的女人
+Jennifer Ernest and a Woman in a Black
+
+856
+00:43:07,020 --> 00:43:09,660
+Dress posing
+
+857
+00:43:09,660 --> 00:43:13,020
+在红地毯上摆姿势 我 猜猜所以
+on the red carpet I guess so
+
+858
+00:43:13,020 --> 00:43:15,300
+我在电影节上有一个红地毯活动
+I have a red carpet event
+
+859
+00:43:15,300 --> 00:43:18,359
+是的
+on the film festival yeah
+
+860
+00:43:18,359 --> 00:43:21,200
+听起来不错
+sounds good
+
+861
+00:43:25,260 --> 00:43:28,020
+喷射炉然后再次关闭一个
+jet furnace then close up a woman with
+
+862
+00:43:28,020 --> 00:43:30,180
+长头发的女人我不在乎
+long hair again I don't care about the
+
+863
+00:43:30,180 --> 00:43:31,760
+头发的长度
+length of the hair
+
+864
+00:43:31,760 --> 00:43:35,220
+穿着露肩裙
+wearing a strapless yeah dress and
+
+865
+00:43:35,220 --> 00:43:36,980
+看着相机
+looking at the camera
+
+866
+00:43:36,980 --> 00:43:39,660
+我猜她是 不是真的看着
+I guess she's not really looking at the
+
+867
+00:43:39,660 --> 00:43:42,900
+相机我们会看到一个模糊的
+camera we're gonna see a blurry
+
+868
+00:43:42,900 --> 00:43:44,160
+离题
+digress
+
+869
+00:43:44,160 --> 00:43:47,160
+好吧
+okay
+
+870
+00:43:54,000 --> 00:43:57,300
+在皮革的时候是的我猜这是在
+when in a leather yeah I guess that's
+
+871
+00:43:57,300 --> 00:44:00,140
+litter in a letter dress
+
+872
+00:44:00,140 --> 00:44:03,599
+posing for a picture on a red carpet of
+
+873
+00:44:03,599 --> 00:44:04,619
+电影院的红地毯上摆姿势拍照的字母连衣裙的垃圾是的
+a movie
+
+874
+00:44:04,619 --> 00:44:06,119
+theater
+
+875
+00:44:06,119 --> 00:44:07,380
+yeah
+
+876
+00:44:07,380 --> 00:44:10,980
+没关系听起来不错所以
+that's okay that sounds good so the uh
+
+877
+00:44:10,980 --> 00:44:13,880
+呃 黑色
+the black
+
+878
+00:44:14,339 --> 00:44:17,359
+字母地址
+letter address
+
+879
+00:44:20,579 --> 00:44:22,740
+很好我想就是这样
+good I think that's it
+
+880
+00:44:22,740 --> 00:44:26,520
+所以我们现在已经验证了每个图像的标题
+so we have now validated the caption of
+
+881
+00:44:26,520 --> 00:44:29,339
+each of those image
+
+882
+00:44:29,339 --> 00:44:31,740
+所以在这一点上我们几乎
+so at this point we're pretty much going
+
+883
+00:44:31,740 --> 00:44:35,280
+准备好进入培训的第二阶段
+to be ready to move on to phase two of
+
+884
+00:44:35,280 --> 00:44:37,560
+这将涉及
+the training which is going to involve
+
+885
+00:44:37,560 --> 00:44:42,359
+配置 kovia  SS Laura 选项卡
+configuring the kovia SS Laura tab
+
+886
+00:44:42,359 --> 00:44:46,020
+实际学习 Dreamboat 所以让我们
+to actually learn the Dreamboat so let's
+
+887
+00:44:46,020 --> 00:44:48,119
+uh
+
+888
+00:44:48,119 --> 00:44:50,819
+在一个单独的视频中做到这一点
+do that in a separate video
+
+889
+00:44:50,819 --> 00:44:53,339
+希望你喜欢如何实际
+hope you enjoyed how to actually
+
+890
+00:44:53,339 --> 00:44:56,099
+配置和收集图像并
+configure and collect the image and
+
+891
+00:44:56,099 --> 00:44:58,500
+提高质量以准备训练
+improve the quality to be ready to train
+
+892
+00:44:58,500 --> 00:45:01,319
+Elora 你甚至可以用它来训练
+Elora and you can even use that to train
+
+893
+00:45:01,319 --> 00:45:05,160
+常规的梦想靴 或文本
+a regular dream boot or a textual
+
+894
+00:45:05,160 --> 00:45:08,880
+反转梦境引导以及
+inversion dream boot as well
+
+895
+00:45:08,880 --> 00:45:11,480
+再见
+bye
+

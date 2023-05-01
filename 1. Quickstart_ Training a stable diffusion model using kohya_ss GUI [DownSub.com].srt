@@ -1,0 +1,2392 @@
+1
+00:00:04,920 --> 00:00:08,460
+早安梦想书用户
+good morning dream book users
+
+2
+00:00:08,460 --> 00:00:09,240
+嗯
+um
+
+3
+00:00:09,240 --> 00:00:13,440
+我想给你一个关于如何
+I want to give you a quick start on how
+
+4
+00:00:13,440 --> 00:00:15,680
+使用 Koya SS
+to use the Koya SS
+
+5
+00:00:15,680 --> 00:00:18,119
+Dreamboat 回购的快速入门这样你就可以快速
+Dreamboat repo so that you can quickly
+
+6
+00:00:18,119 --> 00:00:22,320
+开始训练你自己更多
+get going with training your own more
+
+7
+00:00:22,320 --> 00:00:24,240
+嗯这个快速入门不会是
+um this quick start is not going to be
+
+8
+00:00:24,240 --> 00:00:27,720
+关于如何实际安装 Korea
+about how to actually install the Korea
+
+9
+00:00:27,720 --> 00:00:30,599
+SS 你实际上可以从 GitHub 下载它，
+SS you can actually download it from
+
+10
+00:00:30,599 --> 00:00:33,320
+如果你搜索
+GitHub if you search for
+
+11
+00:00:33,320 --> 00:00:36,120
+bmltis slash Koya assessed 你将
+bmltis slash Koya assessed you'll be
+
+12
+00:00:36,120 --> 00:00:38,820
+能够找到
+able to find a copy
+
+13
+00:00:38,820 --> 00:00:41,940
+该软件的副本然后你可以克隆
+of the software and then you can clone
+
+14
+00:00:41,940 --> 00:00:43,800
+你可以按照说明
+and you can follow the instructions on
+
+15
+00:00:43,800 --> 00:00:45,780
+如何需要
+how like what are the required
+
+16
+00:00:45,780 --> 00:00:48,180
+依赖项和 安装步骤
+dependencies and the installation steps
+
+17
+00:00:48,180 --> 00:00:51,539
+到达你
+to get going up to the point where you
+
+18
+00:00:51,539 --> 00:00:55,980
+实际去的地方，你启动 GUI 来
+actually go and you start the GUI to
+
+19
+00:00:55,980 --> 00:00:58,140
+实际训练你的模型，所以你使用
+actually train your model so you use
+
+20
+00:00:58,140 --> 00:01:00,300
+这个命令 python dream boot
+this command python dream boot
+
+21
+00:01:00,300 --> 00:01:04,019
+underscore gui.pi 这将使
+underscore gui.pi and this will get the
+
+22
+00:01:04,019 --> 00:01:07,560
+训练器运行的 GUI 所以让我们从
+GUI for the trainer running so let's
+
+23
+00:01:07,560 --> 00:01:09,540
+那里开始 然后我将向您展示如何
+start there and then I'll show you how
+
+24
+00:01:09,540 --> 00:01:12,299
+使用 GUI 来训练您自己的
+you can use the GUI to train your own
+
+25
+00:01:12,299 --> 00:01:14,540
+模型，
+model
+
+26
+00:01:19,979 --> 00:01:23,520
+因此我们将进入 excess
+so we're going to go into the excess
+
+27
+00:01:23,520 --> 00:01:26,220
+文件夹，您可以看到 venp 已经
+folder you can see that the venp is
+
+28
+00:01:26,220 --> 00:01:27,840
+处于活动状态，因为
+already active because it's important
+
+29
+00:01:27,840 --> 00:01:29,460
+您需要激活虚拟
+you need to activate your virtual
+
+30
+00:01:29,460 --> 00:01:32,220
+环境以便它 如果
+environment so that it runs properly if
+
+31
+00:01:32,220 --> 00:01:33,659
+你只是安装它，它会正常运行然后它会
+you just install it then it's going to
+
+32
+00:01:33,659 --> 00:01:35,280
+默认激活但是如果你在
+be activated by default but if you go
+
+33
+00:01:35,280 --> 00:01:38,640
+呃你实际上关闭了
+back after uh you actually closed
+
+34
+00:01:38,640 --> 00:01:40,140
+所有它们已经准备好的
+everything they are ready with the
+
+35
+00:01:40,140 --> 00:01:41,340
+计算机之后返回然后如果你想再次使用它
+computer then if you want to use it
+
+36
+00:01:41,340 --> 00:01:42,900
+你将需要运行这个
+again you're gonna need to run this
+
+37
+00:01:42,900 --> 00:01:45,180
+命令就像 这是点反斜杠
+command like which is the dot backslash
+
+38
+00:01:45,180 --> 00:01:48,020
+是 EnV
+be EnV
+
+39
+00:01:48,860 --> 00:01:52,619
+反斜杠脚本，然后激活
+backslash scripts and then activate
+
+40
+00:01:52,619 --> 00:01:55,140
+，这就是你实际激活
+and that's how you actually activate the
+
+41
+00:01:55,140 --> 00:01:58,340
+版本的方式所以让我们开始
+version so let's start
+
+42
+00:01:58,340 --> 00:02:00,020
+python
+python
+
+43
+00:02:00,020 --> 00:02:02,640
+真正启动
+really boot
+
+44
+00:02:02,640 --> 00:02:05,399
+我不想通过馅饼得到它
+I don't want to get it through the pie
+
+45
+00:02:05,399 --> 00:02:08,098
+，这将提高程度
+and this is going to fire up the degree
+
+46
+00:02:08,098 --> 00:02:11,038
+，现在它是 准备好加载，所以我们
+and now it is ready to load so we're
+
+47
+00:02:11,038 --> 00:02:13,020
+要控制点击那个链接，
+gonna control click on that link and
+
+48
+00:02:13,020 --> 00:02:16,819
+这将为韩国党卫军教练员带来无线电用户界面，
+this is going to bring the radio UI for
+
+49
+00:02:16,819 --> 00:02:19,860
+Korea SS trainer
+
+50
+00:02:19,860 --> 00:02:22,560
+所以有几个
+so there's a couple of
+
+51
+00:02:22,560 --> 00:02:24,480
+选项卡，我们将通过
+tabs we're kind of going to go through
+
+52
+00:02:24,480 --> 00:02:26,459
+那些对你很重要的选项卡 将
+the ones that are important to you what
+
+53
+00:02:26,459 --> 00:02:28,500
+需要所以第一个是
+you're going to need so the first one is
+
+54
+00:02:28,500 --> 00:02:31,200
+你需要使用一个小的权利当
+you need to use a sore small right when
+
+55
+00:02:31,200 --> 00:02:32,879
+你想训练一些东西你需要
+you want to train something you need to
+
+56
+00:02:32,879 --> 00:02:34,980
+向模型添加一些东西所以
+add something to a model so there's a
+
+57
+00:02:34,980 --> 00:02:36,840
+这里有几个选项你可以使用可选的
+couple of options here you can use the
+
+58
+00:02:36,840 --> 00:02:40,440
+快速选择在这里你可以使用
+optional Quick Picks here you can use
+
+59
+00:02:40,440 --> 00:02:42,660
+就像将稳定扩散扩散
+like either diffuse the stable diffusion
+
+60
+00:02:42,660 --> 00:02:45,180
+到一个底座一样，您可以使用这些演示
+to one base you can use these demo
+
+61
+00:02:45,180 --> 00:02:48,840
+扩散 2.1，它是 768 x 768
+diffusion 2.1 which is the 768 by 768
+
+62
+00:02:48,840 --> 00:02:51,140
+模型，您可以使用稳定扩散
+model you could use stable diffusion
+
+63
+00:02:51,140 --> 00:02:54,480
+视图。15 或 v.14
+view.15 or v.14
+
+64
+00:02:54,480 --> 00:02:56,459
+如果您想使用快速选择，那么
+if you want to use the Quick Picks then
+
+65
+00:02:56,459 --> 00:02:58,440
+您只需点击让我们 看到我们
+you just literally click on let's see we
+
+66
+00:02:58,440 --> 00:03:01,019
+想在 2.1 基础上训练，它将在
+want to train on the 2.1 base it's going
+
+67
+00:03:01,019 --> 00:03:04,080
+to fill in the 2.1 base free train model
+
+68
+00:03:04,080 --> 00:03:06,599
+那里填写 2.1 基础免费训练模型名称，然后这就是它
+name there and then that's how it could
+
+69
+00:03:06,599 --> 00:03:09,599
+开始测试的方式你也可以选择使用
+start testing you could also opt to use
+
+70
+00:03:09,599 --> 00:03:14,340
+这个文件图标打开然后
+this file icon to open up and then
+
+71
+00:03:14,340 --> 00:03:15,480
+这就是你要做的事情 请注意，
+that's something you're going to notice
+
+72
+00:03:15,480 --> 00:03:17,940
+您已经看到实际的
+right you've seen the actual
+
+73
+00:03:17,940 --> 00:03:20,879
+弹出窗口在浏览器后面打开
+pop-up window open behind the browser
+
+74
+00:03:20,879 --> 00:03:22,920
+，这有点
+and that's kind of a little bit of a
+
+75
+00:03:22,920 --> 00:03:25,560
+消除了，现在 GUI 弹出
+eliminations right now the GUI pop-up
+
+76
+00:03:25,560 --> 00:03:27,840
+窗口不会在顶部打开，因此您
+windows will not open on top so that you
+
+77
+00:03:27,840 --> 00:03:29,760
+可能不得不去钓鱼 它在
+may have to go and fish for it behind
+
+78
+00:03:29,760 --> 00:03:31,620
+你的浏览器窗口后面，尤其是当它被
+your browser window especially if it was
+
+79
+00:03:31,620 --> 00:03:33,959
+最大化时，你不会看到它打开，所以如果
+maximized you wouldn't see it open so if
+
+80
+00:03:33,959 --> 00:03:35,459
+你点击按钮，它
+you click on the button and it does
+
+81
+00:03:35,459 --> 00:03:37,739
+似乎什么也没做，那么只需最小化
+appear to do nothing then just minimize
+
+82
+00:03:37,739 --> 00:03:39,900
+或移动你的浏览器窗口，
+or move your browser window around and
+
+83
+00:03:39,900 --> 00:03:41,640
+然后你就会发现它在后面
+then you are going to find it behind
+
+84
+00:03:41,640 --> 00:03:43,920
+所以 回到那里，你可以去
+so going back there you could go and
+
+85
+00:03:43,920 --> 00:03:47,099
+选择一个模型，呃让我
+pick for example a model uh let me go
+
+86
+00:03:47,099 --> 00:03:49,200
+去我妈妈的文件夹，你可以
+and get to my mom folder and you could
+
+87
+00:03:49,200 --> 00:03:50,819
+去选择一个你想要的模型，
+go and pick one of the models you want
+
+88
+00:03:50,819 --> 00:03:53,000
+例如我们要选择这个
+we're going to pick for example this one
+
+89
+00:03:53,000 --> 00:03:56,519
+uh 512 base EMA 这样 将是一个 V2
+uh 512 base EMA so that would be a V2
+
+90
+00:03:56,519 --> 00:03:59,940
+模型，我将打开它，它是一个 CK
+model that I would open up which is a CK
+
+91
+00:03:59,940 --> 00:04:02,819
+ckpt 形式，然后显然当你
+ckpt form and then obviously when you
+
+92
+00:04:02,819 --> 00:04:04,739
+加载你自己的自定义模型时，你
+load your own custom model you're gonna
+
+93
+00:04:04,739 --> 00:04:07,860
+需要指定它是什么，就像这个
+need to specify what it is like this one
+
+94
+00:04:07,860 --> 00:04:10,500
+是 V2 模型，所以我不必
+is a V2 model so I wouldn't have to make
+
+95
+00:04:10,500 --> 00:04:12,900
+确保我单击 V2 并且它不是 v
+sure that I click V2 and it's not a v
+
+96
+00:04:12,900 --> 00:04:14,879
+参数化 mod，因为它不是
+parameterization mod because it's not
+
+97
+00:04:14,879 --> 00:04:19,139
+768 x 768 版本，因此如果您使用其中一个快速选择，则
+this the 768 by 768 version so you have
+
+98
+00:04:19,139 --> 00:04:22,620
+必须指定实际建模是什么，
+to specify what is the actual modeling
+
+99
+00:04:22,620 --> 00:04:24,300
+if you use one of the Quick Picks for
+
+100
+00:04:24,300 --> 00:04:26,280
+例如如果我禁用它并且
+example if I just if I disable that and
+
+101
+00:04:26,280 --> 00:04:28,500
+我 再次单击其中一个“快速选择”
+I click on one of the Quick Picks again
+
+102
+00:04:28,500 --> 00:04:30,780
+以获得这个，嗯，我想是
+for this one uh well I guess a different
+
+103
+00:04:30,780 --> 00:04:32,639
+另一个，所以它不是这个，所以现在
+one so it's so it's not this one so now
+
+104
+00:04:32,639 --> 00:04:34,440
+你可以看到它实际上会指定
+you can see it will actually specify the
+
+105
+00:04:34,440 --> 00:04:38,160
+正确的选项，所以如果我进入 2-1 模型，
+right option so if I go into a 2-1 model
+
+106
+00:04:38,160 --> 00:04:39,479
+那么它就会 说它是一个
+then it's going to say it's a v
+
+107
+00:04:39,479 --> 00:04:41,580
+带有 V2 的 v 参数化模型，它
+parameterization model with V2 it's all
+
+108
+00:04:41,580 --> 00:04:44,580
+都包含在那些快速选择中，但是如果
+all bakes into those Quick Picks but if
+
+109
+00:04:44,580 --> 00:04:47,880
+您手动选择 CP ckpt 或
+you manually select the CP ckpt or a
+
+110
+00:04:47,880 --> 00:04:49,860
+保存的答案文件，那么您将必须
+saved answer file then you're gonna have
+
+111
+00:04:49,860 --> 00:04:53,100
+指定这个模型是关于什么的，所以
+to specify what this model is about so
+
+112
+00:04:53,100 --> 00:04:55,860
+为了快速入门，让我们选择一个
+for this quick start let's pick one of
+
+113
+00:04:55,860 --> 00:04:57,900
+这些默认的快速选择，所以我将
+these default Quick Picks so I'm going
+
+114
+00:04:57,900 --> 00:05:00,840
+使用呃稳定扩散 2.1
+to go with the uh stable diffusion 2.1
+
+115
+00:05:00,840 --> 00:05:04,320
+基础，这是一个 512 x 512
+base which is a 512 by 512
+
+116
+00:05:04,320 --> 00:05:06,060
+训练模型，
+trained model
+
+117
+00:05:06,060 --> 00:05:07,860
+接下来你
+and the next thing you're going to want
+
+118
+00:05:07,860 --> 00:05:09,600
+要做的是你会
+to do is you're gonna you're gonna want
+
+119
+00:05:09,600 --> 00:05:12,600
+想要 在实用程序下，这就是
+to go under utilities and this is where
+
+120
+00:05:12,600 --> 00:05:16,400
+我们要为
+we're going to structure the actual
+
+121
+00:05:16,400 --> 00:05:19,620
+cool yes 构建实际文件夹要求的地方，
+folder requirements for cool yes as
+
+122
+00:05:19,620 --> 00:05:22,259
+因为 Koya SS 有一些相当严格
+because Koya SS has some fairly strict
+
+123
+00:05:22,259 --> 00:05:25,979
+和晦涩的结构需要训练
+and obscure structure required to train
+
+124
+00:05:25,979 --> 00:05:29,100
+，今年它会吐它会为
+and this year it's gonna spit it's gonna
+
+125
+00:05:29,100 --> 00:05:31,740
+你准备一切所以你做你
+prepare everything for you so you do you
+
+126
+00:05:31,740 --> 00:05:33,539
+不必理解和担心如何
+don't have to understand and worry about
+
+127
+00:05:33,539 --> 00:05:35,539
+实际命名文件夹结构文件夹等等所以
+how to actually name the folders
+
+128
+00:05:35,539 --> 00:05:38,520
+structure the folders and whatnot so
+
+129
+00:05:38,520 --> 00:05:41,340
+第一个提示首先是
+first prompt first is for the instance
+
+130
+00:05:41,340 --> 00:05:44,039
+您要使用的实例名称呃通常
+name that you're gonna use uh usually
+
+131
+00:05:44,039 --> 00:05:46,440
+它是
+it's a keyword that does not exist
+
+132
+00:05:46,440 --> 00:05:51,419
+锦鲤 ISS 空间中不存在的关键字抱歉 在
+within the koi ISS space Sorry on in the
+
+133
+00:05:51,419 --> 00:05:53,820
+稳定的扩散空间中，所以你会选择
+stable diffusion space so you would pick
+
+134
+00:05:53,820 --> 00:05:56,100
+像 ASD 这样的东西，在这种情况下，这是
+something like ASD in this case which is
+
+135
+00:05:56,100 --> 00:05:59,160
+一个在模型和课堂上自然已知的标记，
+a token that is naturally known within
+
+136
+00:05:59,160 --> 00:06:01,020
+假设我们
+the model and in the class let's say we
+
+137
+00:06:01,020 --> 00:06:03,180
+想像一个人一样训练，我们将
+want to train like a person we're going
+
+138
+00:06:03,180 --> 00:06:05,220
+使用一个课堂人，
+to use a class person
+
+139
+00:06:05,220 --> 00:06:08,100
+因为 假设
+because let's say that that token that
+
+140
+00:06:08,100 --> 00:06:10,259
+我们要关联的那个标记是一个
+we're going to associate with is a
+
+141
+00:06:10,259 --> 00:06:13,080
+人的训练图像，但我不是来这里
+person training image but I'm not here
+
+142
+00:06:13,080 --> 00:06:15,120
+给你做这个关于
+to give you like this speech about how
+
+143
+00:06:15,120 --> 00:06:17,220
+梦想靴如何工作的演讲，主要是关于
+dream boot works and mostly about like
+
+144
+00:06:17,220 --> 00:06:19,560
+如何使用 Goya SS 进行梦想靴
+how to use Goya SS for dream boot
+
+145
+00:06:19,560 --> 00:06:22,800
+训练呃训练 一个图像那么
+training uh training an image so what
+
+146
+00:06:22,800 --> 00:06:25,500
+你的训练图像在哪里所以
+where where are your training image so
+
+147
+00:06:25,500 --> 00:06:28,080
+在这种情况下训练图像在我的
+training image in this case are in my
+
+148
+00:06:28,080 --> 00:06:30,600
+快速启动文件夹中并且它们在
+quick start folder and they are in the
+
+149
+00:06:30,600 --> 00:06:33,600
+人中呃抱歉在我的子集
+person uh sorry in the subset
+
+150
+00:06:33,600 --> 00:06:36,240
+文件夹中所以我有
+folder that I have so I've got a subset
+
+151
+00:06:36,240 --> 00:06:38,340
+八个图像的子集用于训练 所以我
+of eight image for a training so I'm
+
+152
+00:06:38,340 --> 00:06:40,860
+要使用子集文件夹，
+going to use the subset folder
+
+153
+00:06:40,860 --> 00:06:42,960
+在这里我要指定
+and here I'm going to specify how many
+
+154
+00:06:42,960 --> 00:06:45,600
+我想要这些图像的重复次数我
+repeats of those image do I want so do I
+
+155
+00:06:45,600 --> 00:06:48,120
+想要 40 次重复我想要训练
+want 40 repeats do I want to train for
+
+156
+00:06:48,120 --> 00:06:50,940
+160 次重复例如在这种情况下让我们
+160 repeats for example in this case
+
+157
+00:06:50,940 --> 00:06:53,400
+说 160 次重复 因为
+let's say 160 repeats because there is
+
+158
+00:06:53,400 --> 00:06:56,400
+只有八张图像，而 160 对于使用 koi ISS 呃正则化图像
+only eight image and 160 is sort of a
+
+159
+00:06:56,400 --> 00:06:58,860
+在八张图像上进行训练是一个很好的数字，
+good number for training on eight image
+
+160
+00:06:58,860 --> 00:07:03,120
+using koi ISS uh regularization image do
+
+161
+00:07:03,120 --> 00:07:06,720
+我想在大多数时候使用正则化图像吗，
+I want to use regularization image most
+
+162
+00:07:06,720 --> 00:07:09,000
+of the time it is a good idea to use
+
+163
+00:07:09,000 --> 00:07:10,740
+当你尝试远程时使用它们是个好主意所以 我
+those when you try to remote so I'm
+
+164
+00:07:10,740 --> 00:07:12,600
+要去选择正则化
+gonna go and pick the regularization
+
+165
+00:07:12,600 --> 00:07:15,180
+图像文件夹，这将成为我的
+image folder which is going to be my
+
+166
+00:07:15,180 --> 00:07:17,160
+person ddim
+person ddim
+
+167
+00:07:17,160 --> 00:07:19,259
+因为它是一个 person 类所以我要
+because it's a person class so I'm going
+
+168
+00:07:19,259 --> 00:07:22,139
+训练一个 person 正则化图像
+to train a person regularization image
+
+169
+00:07:22,139 --> 00:07:25,220
+我只想重复
+and I only want to repeat the
+
+170
+00:07:25,220 --> 00:07:27,860
+正则化一次
+regularization once
+
+171
+00:07:27,860 --> 00:07:32,960
+然后你指定你的训练呃
+then you specify your training uh
+
+172
+00:07:32,960 --> 00:07:35,340
+目的地培训目录，这是
+destination training directory which is
+
+173
+00:07:35,340 --> 00:07:39,120
+我想创建我的 Koya SS
+where do I want to create my Koya SS
+
+174
+00:07:39,120 --> 00:07:43,020
+结构化文件夹的地方，所以在这里我要
+structured uh folders so here I'm going
+
+175
+00:07:43,020 --> 00:07:44,639
+继续并再次单击它我要去
+to go ahead and click on this again I'm
+
+176
+00:07:44,639 --> 00:07:47,099
+并在我的快速启动下选择一些东西
+going to go and pick something under my
+
+177
+00:07:47,099 --> 00:07:49,020
+我要打电话
+quick start I'm going to call that for
+
+178
+00:07:49,020 --> 00:07:52,440
+例如，新文件夹，我将其命名为
+example new folder I'm going to call it
+
+179
+00:07:52,440 --> 00:07:53,580
+um
+um
+
+180
+00:07:53,580 --> 00:07:56,580
+kuya
+kuya
+
+181
+00:07:56,639 --> 00:07:59,419
+training，将其
+training
+
+182
+00:07:59,460 --> 00:08:01,979
+call it Korea training
+
+183
+00:08:01,979 --> 00:08:04,259
+命名为 Korea training，我将选择它作为
+and I'm gonna do a good select that as
+
+184
+00:08:04,259 --> 00:08:05,940
+我的目标文件夹，这样现在我们可以
+my destination folder so now we can
+
+185
+00:08:05,940 --> 00:08:09,240
+单击准备训练数据，
+click on prepare training data
+
+186
+00:08:09,240 --> 00:08:11,340
+它实际上应该启动并且
+it should actually fire up and it's
+
+187
+00:08:11,340 --> 00:08:13,560
+正在运行 告诉你它复制了这些
+going to tell you that it copied these
+
+188
+00:08:13,560 --> 00:08:17,460
+东西 uh 复制了子集到这个
+things uh copied the subset to this
+
+189
+00:08:17,460 --> 00:08:20,819
+文件夹，它复制了 person ddim 到
+folder and it copied the person ddim to
+
+190
+00:08:20,819 --> 00:08:23,639
+这个文件夹，正确的名字是
+this folder with the proper name being
+
+191
+00:08:23,639 --> 00:08:27,300
+你的令牌和类名所以它
+your token and the class name so it's
+
+192
+00:08:27,300 --> 00:08:30,539
+完成了创建所有必需的文件夹
+done creating all of the required folder
+
+193
+00:08:30,539 --> 00:08:32,219
+结构所以我们很好
+structure so that we are good to
+
+194
+00:08:32,219 --> 00:08:34,440
+继续所以接下来要做的
+continue so the next thing you want to
+
+195
+00:08:34,440 --> 00:08:37,860
+是点击复制信息到
+do is you want to click on copy info to
+
+196
+00:08:37,860 --> 00:08:39,659
+目录堆栈因为如果我们
+directory stack because if we go to the
+
+197
+00:08:39,659 --> 00:08:41,099
+现在转到目录样式你可以看到
+directory style right now you can see
+
+198
+00:08:41,099 --> 00:08:42,839
+它是空的它需要像
+it's empty it needs to be filled like
+
+199
+00:08:42,839 --> 00:08:44,940
+图像文件夹正则化
+what is the image folder regularization
+
+200
+00:08:44,940 --> 00:08:47,279
+文件夹输出一样填充 您可以
+folder output directory you could
+
+201
+00:08:47,279 --> 00:08:48,899
+手动进入目录并选择它们，但是
+manually go and pick those up but
+
+202
+00:08:48,899 --> 00:08:52,019
+因为我们使用了这个重启文件夹
+because we've used this reboot folder
+
+203
+00:08:52,019 --> 00:08:54,899
+准备实用程序，我们可以复制我们
+preparation utility we can just copy the
+
+204
+00:08:54,899 --> 00:08:57,300
+info that was actually
+
+205
+00:08:57,300 --> 00:08:59,519
+picked up by the configured we've typed
+
+206
+00:08:59,519 --> 00:09:02,100
+在此处输入的配置实际选择的信息，现在它将填充
+here and now it's going to fill the
+
+207
+00:09:02,100 --> 00:09:04,380
+图像文件夹名称 正则化
+image folder name the regularization
+
+208
+00:09:04,380 --> 00:09:07,080
+文件夹命名输出目录，
+folder name the output directory where
+
+209
+00:09:07,080 --> 00:09:08,640
+我们将实际吐出
+we're going to actually spit out the
+
+210
+00:09:08,640 --> 00:09:11,519
+结果模型和登录目录，
+resulting model and the login directory
+
+211
+00:09:11,519 --> 00:09:14,820
+我想
+where we're going to log uh I guess the
+
+212
+00:09:14,820 --> 00:09:16,620
+训练数据
+training data
+
+213
+00:09:16,620 --> 00:09:18,360
+接下来你要做的是
+next thing you're going to want to do is
+
+214
+00:09:18,360 --> 00:09:19,620
+你要去 想要进入
+you're going to want to go under the
+
+215
+00:09:19,620 --> 00:09:21,660
+训练参数，这是
+training parameters and this is where
+
+216
+00:09:21,660 --> 00:09:23,640
+你要指定你梦想的引导
+you're going to specify your dream boot
+
+217
+00:09:23,640 --> 00:09:26,640
+参数的地方，比如添加大小，就像我的情况一样，
+parameters like add size like in my case
+
+218
+00:09:26,640 --> 00:09:29,100
+我有一个相当强大的卡，它是
+I have a fairly powerful card it's a
+
+219
+00:09:29,100 --> 00:09:32,160
+3090，所以如果你喜欢，我可以做八个批量大小
+3090 so I can do batch sizes of eight if
+
+220
+00:09:32,160 --> 00:09:35,220
+一张 vram 较少的卡，那么
+you have like a card with less vram then
+
+221
+00:09:35,220 --> 00:09:36,839
+您可能希望默认情况下将其保持为
+you will probably want to keep that to
+
+222
+00:09:36,839 --> 00:09:38,160
+一个，即
+one
+
+223
+00:09:38,160 --> 00:09:41,519
+epochs 的数量，因此
+by default the the number of epochs so
+
+224
+00:09:41,519 --> 00:09:44,820
+how many iterations of the of the number
+
+225
+00:09:44,820 --> 00:09:45,720
+of
+
+226
+00:09:45,720 --> 00:09:47,880
+我们指定的重复次数的迭代次数
+repeats that we that we have specified
+
+227
+00:09:47,880 --> 00:09:51,060
+是我们想要做的，我只想做一个
+do we want to do I only want to do one
+
+228
+00:09:51,060 --> 00:09:54,240
+嗯，这些都是
+um how like those are all the typical
+
+229
+00:09:54,240 --> 00:09:55,920
+您已经知道的所有典型参数，对吧，
+parameter that you already know right
+
+230
+00:09:55,920 --> 00:09:57,480
+我不是很好，我不是要真正
+I'm not good I'm not there to really
+
+231
+00:09:57,480 --> 00:09:59,279
+教您如何进行排水引导，而是教您更多
+teach you how to do drain boot but more
+
+232
+00:09:59,279 --> 00:10:01,440
+如何使用此 GUI 快速开始工作，
+how to use this GUI to quickly get going
+
+233
+00:10:01,440 --> 00:10:03,899
+以便您可以进行配置 就像
+so you can go and configure like the
+
+234
+00:10:03,899 --> 00:10:05,279
+学习数组
+different like the learning array
+
+235
+00:10:05,279 --> 00:10:07,320
+调度程序一样不同，你可以配置
+scheduler you can configure like the
+
+236
+00:10:07,320 --> 00:10:10,500
+你想要的精确度呃什么样的
+Precision that you want uh what kind of
+
+237
+00:10:10,500 --> 00:10:12,480
+模型保存精度
+save Precision for the model the the
+
+238
+00:10:12,480 --> 00:10:15,360
+你想要的输出模型和谐呃
+output model that you want Harmony uh
+
+239
+00:10:15,360 --> 00:10:18,420
+CPU线程每个进程你
+CPU threads the per process do you
+
+240
+00:10:18,420 --> 00:10:20,700
+实际想要实际使用这是
+actually want to actually use this is
+
+241
+00:10:20,700 --> 00:10:24,000
+计算出来的 通过基于您的 CPU
+calculated by the GUI based on your CPU
+
+242
+00:10:24,000 --> 00:10:26,399
+报告信息的 GUI 所以在我的例子中它是
+reported information so in my case it's
+
+243
+00:10:26,399 --> 00:10:29,459
+12 你想用于交易的 C 在哪里
+12 where is the C that you want to use
+
+244
+00:10:29,459 --> 00:10:31,019
+什么是最大
+for the trading what is the max
+
+245
+00:10:31,019 --> 00:10:34,500
+分辨率 这是一个重要的你
+resolution this is an important one you
+
+246
+00:10:34,500 --> 00:10:36,839
+需要指定图像的最大分辨率
+need to specify the max resolution of
+
+247
+00:10:36,839 --> 00:10:39,060
+所以在我的 如果我使用
+your image so in my case I'm trading on
+
+248
+00:10:39,060 --> 00:10:41,519
+512 x 512 图像进行交易，所以我将设置
+512 by 512 image so I'm going to set the
+
+249
+00:10:41,519 --> 00:10:43,320
+最大分辨率，
+max resolution to that
+
+250
+00:10:43,320 --> 00:10:46,200
+如果您使用标题文件而
+if you were to use caption files instead
+
+251
+00:10:46,200 --> 00:10:51,420
+不是使用实际实例名称和
+of using the actual instance name and
+
+252
+00:10:51,420 --> 00:10:54,839
+实际类名称，您可以使用
+the actual class name you can use an
+
+253
+00:10:54,839 --> 00:10:56,279
+扩展文件来提供
+extension file to provide the
+
+254
+00:10:56,279 --> 00:10:58,800
+信息，因此它可能是 txt 文件或
+information so it could be a txt file or
+
+255
+00:10:58,800 --> 00:11:01,680
+DOT 标题文件，因此在这种情况下，我们
+a DOT caption file so in this case we're
+
+256
+00:11:01,680 --> 00:11:02,940
+不会使用我们将
+not going to use that we're going to
+
+257
+00:11:02,940 --> 00:11:04,920
+坚持文件夹命名约定
+stick with the folder naming convention
+
+258
+00:11:04,920 --> 00:11:08,579
+来导出这些虚假信息，因此
+for the deriving those disinformation so
+
+259
+00:11:08,579 --> 00:11:10,279
+我们不会使用 标题文件，
+we're not going to use a caption file
+
+260
+00:11:10,279 --> 00:11:13,140
+然后如果您想
+and then if you wanted to stop the text
+
+261
+00:11:13,140 --> 00:11:16,560
+在训练期间部分停止文本编码，
+encoding part way during the training
+
+262
+00:11:16,560 --> 00:11:19,140
+您可以按百分比指定
+you could specify percentage-wise how
+
+263
+00:11:19,140 --> 00:11:22,019
+like how how many percent of the trading
+
+264
+00:11:22,019 --> 00:11:24,600
+您想要使用多少百分比的交易，因为
+do you want to use that for
+
+265
+00:11:24,600 --> 00:11:26,339
+这里有一大堆选项，
+there's a whole bunch of options here
+
+266
+00:11:26,339 --> 00:11:28,440
+如果 如果你想
+that you can if you don't want token
+
+267
+00:11:28,440 --> 00:11:30,360
+padding for the training you can specify
+
+268
+00:11:30,360 --> 00:11:33,180
+使用安全张量作为
+it if you want to use safe tensors as
+
+269
+00:11:33,180 --> 00:11:36,899
+你的模型呃格式而不是bin
+your model uh format instead of the bin
+
+270
+00:11:36,899 --> 00:11:38,700
+当你使用扩散器模型时它会将
+when you use diffusers model it will
+
+271
+00:11:38,700 --> 00:11:41,700
+它们保存为点安全张量你
+save them as dot safe tensors uh do you
+
+272
+00:11:41,700 --> 00:11:44,000
+想要做渐变 checkpointing or not
+want to do gradient checkpointing or not
+
+273
+00:11:44,000 --> 00:11:47,339
+uh do you want to enable buckets I
+uh do you want to enable buckets I I
+
+274
+00:11:47,339 --> 00:11:49,260
+recommend that you keep this or
+recommend that you leave this one or
+
+275
+00:11:49,260 --> 00:11:51,240
+this one on because this is going to
+this one on because this is going to
+
+276
+00:11:51,240 --> 00:11:53,820
+resize your image if you don't enable
+resize your image if you don't enable
+
+277
+00:11:53,820 --> 00:11:57,779
+buckets if your image are not all of the
+buckets if your image are not all of the
+
+278
+00:11:57,779 --> 00:12:00,660
+same size such as 512 x 512 或
+same size like 512 by 512 or anything
+
+279
+00:12:00,660 --> 00:12:02,940
+类似的东西那么你会
+like that then you're gonna get an error
+
+280
+00:12:02,940 --> 00:12:04,980
+在训练过程中通过启用
+during the training by enabling
+
+281
+00:12:04,980 --> 00:12:07,920
+分桶得到一个错误它将确保
+bucketing it will ensure that all of
+
+282
+00:12:07,920 --> 00:12:11,339
+你的所有图像都适合这个最大
+your image fit within this maximum
+
+283
+00:12:11,339 --> 00:12:13,380
+分辨率空间
+resolution space
+
+284
+00:12:13,380 --> 00:12:16,380
+现金潜在使用原子使用
+cash latent using the atoms use
+
+285
+00:12:16,380 --> 00:12:19,740
+资源管理器这些都是
+explorers those are all typical training
+
+286
+00:12:19,740 --> 00:12:22,740
+你使用的典型训练配置和这个 是
+config that you use and this is where
+
+287
+00:12:22,740 --> 00:12:25,980
+您现在准备做的另一件事，
+you are now ready to go one more thing
+
+288
+00:12:25,980 --> 00:12:29,040
+这很重要，特别是因为我们正在
+that's important especially since we are
+
+289
+00:12:29,040 --> 00:12:32,459
+使用，因为您可以看到基于扩散器的
+using as you can see a diffuser based
+
+290
+00:12:32,459 --> 00:12:33,600
+模型，因为它将
+model because it's going to be
+
+291
+00:12:33,600 --> 00:12:38,540
+从稳定性 AI 下载，如果您愿意，我们需要将
+downloaded from stability AI we need to
+
+292
+00:12:38,540 --> 00:12:42,000
+其保存为不同的
+potentially save this as a different
+
+293
+00:12:42,000 --> 00:12:44,660
+模型 得到一个
+model right if you want to get like a
+
+294
+00:12:44,660 --> 00:12:48,600
+ckpt 文件或一个安全的张量文件，这是
+ckpt file or a safe tensors file this is
+
+295
+00:12:48,600 --> 00:12:50,880
+你要选择我
+where you're going to select what is my
+
+296
+00:12:50,880 --> 00:12:54,899
+想要的最终输出模型的地方，就像我
+final output model uh that I want like I
+
+297
+00:12:54,899 --> 00:12:58,440
+希望你将你要交易的那个扩散器
+want you to convert that uh diffuser
+
+298
+00:12:58,440 --> 00:13:00,600
+模型转换成
+model that you're going to trade on into
+
+299
+00:13:00,600 --> 00:13:03,660
+一个 ckpt 文件，这将
+a ckpt file and this is going to create
+
+300
+00:13:03,660 --> 00:13:07,440
+在最后创建一个 last.c kptpt 文件，
+a last.c kptpt file at the end and
+
+301
+00:13:07,440 --> 00:13:09,540
+因为这里我们使用的是 V2 模型，
+because here we are using a V2 model
+
+302
+00:13:09,540 --> 00:13:12,180
+它还将创建一个最后的
+it's also going to create a last that
+
+303
+00:13:12,180 --> 00:13:16,019
+yaml 文件，GUI 将使用它，例如
+yaml file that will be used by GUI like
+
+304
+00:13:16,019 --> 00:13:19,380
+Auto one one one 来知道什么
+Auto one one one one to know what
+
+305
+00:13:19,380 --> 00:13:22,680
+加载它们时要使用的参数
+parameters to use when loading them up
+
+306
+00:13:22,680 --> 00:13:24,959
+所以在这种情况下让我们假装我们
+so in this case Let's Pretend We're
+
+307
+00:13:24,959 --> 00:13:28,320
+要使用 ckpt 版本或者
+going to want to use the ckpt version or
+
+308
+00:13:28,320 --> 00:13:30,300
+让我们使用安全张量因为这
+let's go with safe tensor because this
+
+309
+00:13:30,300 --> 00:13:32,579
+是新标准它更安全所以它
+is the new standard it's safer so it's
+
+310
+00:13:32,579 --> 00:13:34,440
+被留下而不是创建一个 ckpd 让我们
+left instead of creating a ckpd let's
+
+311
+00:13:34,440 --> 00:13:36,180
+创建一个安全 张量
+create a safe tensors
+
+312
+00:13:36,180 --> 00:13:37,740
+文件格式
+file format
+
+313
+00:13:37,740 --> 00:13:40,680
+然后是的所以我们开始所以我只是
+and then yeah so here we go so I'm just
+
+314
+00:13:40,680 --> 00:13:43,139
+回到这里的源模型或者
+gonna go back into Source model here or
+
+315
+00:13:43,139 --> 00:13:44,399
+它并不重要因为经过
+it doesn't really matter because the
+
+316
+00:13:44,399 --> 00:13:46,800
+训练的模型按钮对于 UI
+trained model button is global to the UI
+
+317
+00:13:46,800 --> 00:13:48,779
+是全局的它可能会在
+it's something that might change in the
+
+318
+00:13:48,779 --> 00:13:50,399
+未来改变但现在 我可以点击
+future but for now I could click on
+
+319
+00:13:50,399 --> 00:13:52,920
+商标，然后你可以
+trademark and then you can look at the
+
+320
+00:13:52,920 --> 00:13:54,779
+返回这里查看输出，你可以
+outputs by going back here and you can
+
+321
+00:13:54,779 --> 00:13:58,440
+在这里看到 UI
+see here the actual command that the UI
+
+322
+00:13:58,440 --> 00:14:03,899
+用于启动培训的实际命令呃
+is using to launch the trainings uh
+
+323
+00:14:03,899 --> 00:14:07,260
+训练下划线 DB 下划线固定点
+train underscore DB underscore fixed dot
+
+324
+00:14:07,260 --> 00:14:10,380
+Pi 所以你可以用它来复制这个 并
+Pi so you can use that to copy this and
+
+325
+00:14:10,380 --> 00:14:12,779
+按摩它，就像你想
+massage it as well as if you want to use
+
+326
+00:14:12,779 --> 00:14:15,600
+在事后使用 CLI 一样，这样你就可以
+the CLI after the fact right so you can
+
+327
+00:14:15,600 --> 00:14:17,639
+从字面上接受该命令并
+literally take that command and rerun it
+
+328
+00:14:17,639 --> 00:14:20,459
+使用此加速启动通过 CLI 重新运行它，
+through the CLI using this accelerate
+
+329
+00:14:20,459 --> 00:14:23,040
+它将开始
+launch and it's going to start the
+
+330
+00:14:23,040 --> 00:14:26,279
+交易会话，就像它在这里所做的那样，
+trading session just like it does here
+
+331
+00:14:26,279 --> 00:14:29,279
+所以我' 我会让训练继续进行，所以
+so I'll let the training continue so
+
+332
+00:14:29,279 --> 00:14:30,779
+它现在正在做的事情我猜它正在用
+what it's doing right now I guess it's
+
+333
+00:14:30,779 --> 00:14:33,180
+caching all of the latents with the
+
+334
+00:14:33,180 --> 00:14:35,339
+桶缓存所有的潜伏，所以你可以看到它被剪切了，它是在
+buckets so as you can see it's cut it's
+
+335
+00:14:35,339 --> 00:14:37,500
+计算所有图像，并
+kind of calculating all of the image and
+
+336
+00:14:37,500 --> 00:14:40,500
+基于
+based on the number of regularization
+
+337
+00:14:40,500 --> 00:14:43,079
+我的正则化图像的数量 输入现在
+image that I have in my input now it's
+
+338
+00:14:43,079 --> 00:14:45,180
+有点随机化并为
+kind of going to go and randomize and
+
+339
+00:14:45,180 --> 00:14:46,980
+create a matching
+
+340
+00:14:46,980 --> 00:14:52,680
+每个图像创建一个匹配呃然后每个正则化
+per image uh then uh per regularization
+
+341
+00:14:52,680 --> 00:14:55,680
+图像以随机方式匹配这样
+image match in a random manner such that
+
+342
+00:14:55,680 --> 00:14:57,240
+训练实际上是完全
+the training is actually totally
+
+343
+00:14:57,240 --> 00:14:58,560
+随机的
+randomized
+
+344
+00:14:58,560 --> 00:15:00,120
+嘿
+hey
+
+345
+00:15:00,120 --> 00:15:04,399
+现在缓存所有这些潜在的
+is now caching all of those latents
+
+346
+00:15:06,120 --> 00:15:08,399
+好所以现在它完成了缓存和 正如您所
+okay so now it's done caching and as you
+
+347
+00:15:08,399 --> 00:15:11,120
+看到的，如果我们向上滚动它实际上
+can see if we scroll back up it actually
+
+348
+00:15:11,120 --> 00:15:12,920
+创建了
+created
+
+349
+00:15:12,920 --> 00:15:18,959
+2560 512 乘以 512 潜伏
+2560 512 by 512 latents uh for the
+
+350
+00:15:18,959 --> 00:15:21,380
+训练，
+training
+
+351
+00:15:22,019 --> 00:15:24,660
+那么它将开始
+then it's gonna go and start the
+
+352
+00:15:24,660 --> 00:15:27,540
+训练课程，所以
+training session so those five those uh
+
+353
+00:15:27,540 --> 00:15:30,540
+2560
+
+354
+00:15:30,899 --> 00:15:34,560
+如果您愿意，这五个 2560 步现在将被压缩
+steps if you wish will now be compressed
+
+355
+00:15:34,560 --> 00:15:38,760
+320，因为在我的情况下，我 我正在使用 8
+320 because in my case I'm using eight
+
+356
+00:15:38,760 --> 00:15:39,600
+um
+um
+
+357
+00:15:39,600 --> 00:15:42,180
+8 平行三治疗，所以我在
+eight parallel three healing so I'm kind
+
+358
+00:15:42,180 --> 00:15:44,399
+of using this option here under the
+
+359
+00:15:44,399 --> 00:15:46,139
+训练参数下使用这个选项，使批量
+training parameters to have like batch
+
+360
+00:15:46,139 --> 00:15:49,079
+大小为 8，这就是为什么这个数字
+sizes of eight so that's why this number
+
+361
+00:15:49,079 --> 00:15:51,660
+现在在这里看起来更低，
+now is going to look lower in here
+
+362
+00:15:51,660 --> 00:15:54,120
+因为它实际上是在除以这个
+because it's actually dividing this
+
+363
+00:15:54,120 --> 00:15:58,260
+总数 呃训练步骤
+total number of uh training steps by
+
+364
+00:15:58,260 --> 00:16:01,500
+8 给出 320 现在它
+eight which gives 320 and now it's kind
+
+365
+00:16:01,500 --> 00:16:03,480
+有点缓慢进步并且让你
+of slowly progressing and that gives you
+
+366
+00:16:03,480 --> 00:16:06,000
+了解我在 3090 上获得的速度
+an idea of the speed that I get on the
+
+367
+00:16:06,000 --> 00:16:09,740
+它实际上有点做
+3090 it's actually sort of doing
+
+368
+00:16:09,740 --> 00:16:13,019
+1.2 一点我想它可能会
+1.2 one point I guess it's probably
+
+369
+00:16:13,019 --> 00:16:14,519
+稳定下来到
+going to stabilize down to something
+
+370
+00:16:14,519 --> 00:16:17,399
+类似的东西 1.15 所以它较低，因为我
+like 1.15 so that's lower because I'm
+
+371
+00:16:17,399 --> 00:16:18,899
+同时记录了这个，
+kind of recording this at the same time
+
+372
+00:16:18,899 --> 00:16:20,579
+但训练即将开始，
+but the training is going to get going
+
+373
+00:16:20,579 --> 00:16:22,260
+所以我要暂停这个，然后我将
+so I'm going to pause this and then I'm
+
+374
+00:16:22,260 --> 00:16:23,760
+在训练完成后恢复，
+going to resume when the training is
+
+375
+00:16:23,760 --> 00:16:26,000
+done
+
+376
+00:16:27,779 --> 00:16:30,720
+阿喀琉斯几乎到了 结束
+Achilles were almost to the end
+
+377
+00:16:30,720 --> 00:16:32,820
+所以大约需要 4 分 35
+so it took about 4 minutes and 35
+
+378
+00:16:32,820 --> 00:16:34,740
+秒来
+seconds to
+
+379
+00:16:34,740 --> 00:16:36,240
+完成
+complete
+
+380
+00:16:36,240 --> 00:16:39,680
+整个处理
+the full processing
+
+381
+00:16:40,019 --> 00:16:42,980
+，
+and
+
+382
+00:16:43,680 --> 00:16:46,320
+现在它保存了模型，现在它正在将
+now it saved the model and now it's
+
+383
+00:16:46,320 --> 00:16:48,959
+模型转换为安全的舞者，所以
+converting the model to a safe dancer so
+
+384
+00:16:48,959 --> 00:16:50,820
+现在你可以看到它把它保存为一个
+now as you can see it saved it as a
+
+385
+00:16:50,820 --> 00:16:53,339
+保存答案的玻璃杯
+glass that saved answers
+
+386
+00:16:53,339 --> 00:16:56,120
+，
+and
+
+387
+00:16:58,740 --> 00:17:00,839
+最后转换保存 保险
+finally converting saving the insurance
+
+388
+00:17:00,839 --> 00:17:03,420
+模型，所以我们都完成了，所以现在我们
+model so we're all done so now we have
+
+389
+00:17:03,420 --> 00:17:06,839
+the model saved
+
+390
+00:17:06,839 --> 00:17:10,380
+以半精度保存了模型，它实际上也
+in half precision and it's actually also
+
+391
+00:17:10,380 --> 00:17:14,660
+有最后一个
+has the required last the camel file for
+
+392
+00:17:14,660 --> 00:17:18,599
+auto 实际使用它所需的骆驼文件现在让我们
+auto to actually use it now let's give
+
+393
+00:17:18,599 --> 00:17:20,400
+试一试，看看它是否有效，
+that a try let's see if it worked
+
+394
+00:17:20,400 --> 00:17:22,260
+因为那是 整点是对的，我们
+because that's the whole point right we
+
+395
+00:17:22,260 --> 00:17:23,579
+想确保这个模型能正常
+want to make sure that this model is
+
+396
+00:17:23,579 --> 00:17:24,720
+工作，所以我要
+going to work so I'm going to go and
+
+397
+00:17:24,720 --> 00:17:28,339
+启动自动，一张一张
+fire up Auto one one one
+
+398
+00:17:28,679 --> 00:17:31,200
+到这里到
+here into here
+
+399
+00:17:31,200 --> 00:17:34,280
+网络，
+to web
+
+400
+00:17:35,299 --> 00:17:38,820
+所以让我们真正地一张一张地加载照片
+so let's actually load photo one one one
+
+401
+00:17:38,820 --> 00:17:40,919
+，当它这样做的时候我' 我要去
+one and while it does that I'm going to
+
+402
+00:17:40,919 --> 00:17:42,780
+确保模型在
+go and make sure the model is in the
+
+403
+00:17:42,780 --> 00:17:46,559
+正确的地方所以让我们去打开
+right place so let's go and open up
+
+404
+00:17:46,559 --> 00:17:50,400
+山的位置所以这里的模型
+the mountain location so here model
+
+405
+00:17:50,400 --> 00:17:52,200
+应该在
+should have been put under a quick start
+
+406
+00:17:52,200 --> 00:17:54,480
+Koya 训练下快速启动因为
+under the Koya training because that's
+
+407
+00:17:54,480 --> 00:17:56,220
+我们把模型放在那里现在可以在
+where we put the model is now found
+
+408
+00:17:56,220 --> 00:17:58,919
+这里找到 在最后一次和最后一次保存
+under here under last and last save
+
+409
+00:17:58,919 --> 00:18:01,799
+张量下 所以这是模型
+tensor so this is the model
+
+410
+00:18:01,799 --> 00:18:04,320
+是的 更多文件 它在这里如果
+yeah more file it goes like this here if
+
+411
+00:18:04,320 --> 00:18:07,140
+你想使用扩散器版本
+you wanted to use the diffuser version
+
+412
+00:18:07,140 --> 00:18:08,940
+这也是模型的扩散器版本
+this is the diffuser version of the
+
+413
+00:18:08,940 --> 00:18:10,559
+因为我们使用
+model as well because we use the
+
+414
+00:18:10,559 --> 00:18:13,559
+它创建的扩散源
+diffuserous source it got created a
+
+415
+00:18:13,559 --> 00:18:16,559
+最初输出或 作为扩散器，
+outputted originally or as a diffuser
+
+416
+00:18:16,559 --> 00:18:19,380
+然后转换为最后保存的
+and then converted to a last.saved
+
+417
+00:18:19,380 --> 00:18:23,280
+答案并持续了是的所以我们要去
+answer and lasted yeah so we're gonna go
+
+418
+00:18:23,280 --> 00:18:25,380
+复制这两个东西在这里我要把
+and copy those two things here I'm gonna
+
+419
+00:18:25,380 --> 00:18:28,880
+它们转储到我的模型
+dump them into my model
+
+420
+00:18:28,880 --> 00:18:31,559
+文件夹所以模型我要转储它们
+folders so models I'm going to dump them
+
+421
+00:18:31,559 --> 00:18:35,340
+让我们创建一个新的 文件夹在这里 新
+let's create a new folder here new
+
+422
+00:18:35,340 --> 00:18:36,900
+文件夹 我们将称之为
+folder that we're going to call it
+
+423
+00:18:36,900 --> 00:18:39,500
+测试
+testing
+
+424
+00:18:39,660 --> 00:18:42,299
+我要去这里 把那两个模型放在
+I'm gonna go here put those two models
+
+425
+00:18:42,299 --> 00:18:44,480
+那里 让
+there
+
+426
+00:18:44,640 --> 00:18:47,880
+我们去并在 Auto one 中打开它
+and let's go and open that up in Auto
+
+427
+00:18:47,880 --> 00:18:49,260
+one one
+
+428
+00:18:49,260 --> 00:18:52,559
+我们去这里 让我们开火 让我们
+let's go up here let's fire up that
+
+429
+00:18:52,559 --> 00:18:55,140
+刷新 这样我们就有了 大多数
+let's refresh so that we have the most
+
+430
+00:18:55,140 --> 00:18:57,240
+可用的模型然后让我们来看看
+models available and then let's go look
+
+431
+00:18:57,240 --> 00:18:58,559
+at
+
+432
+00:18:58,559 --> 00:19:02,340
+测试所以测试最后一个让我们说
+testing so testing the last let's say
+
+433
+00:19:02,340 --> 00:19:04,380
+小张量因为你可以看到它
+tensor small as you can see it's picked
+
+434
+00:19:04,380 --> 00:19:07,200
+在那里被拾取我们要加载它
+up there we're gonna load it
+
+435
+00:19:07,200 --> 00:19:09,539
+我不记得我们
+and I don't remember exactly what we
+
+436
+00:19:09,539 --> 00:19:12,539
+使用的是什么因为
+used as the
+
+437
+00:19:12,539 --> 00:19:15,480
+它是 ESD 人所以让我们 去使用
+it was ESD person so let's go and use
+
+438
+00:19:15,480 --> 00:19:17,340
+这两个标记，看看我们是否可以
+those two tokens to see if we can
+
+439
+00:19:17,340 --> 00:19:20,220
+从那里生成一些东西，
+generate something out of there
+
+440
+00:19:20,220 --> 00:19:23,760
+我们将使用 ESD
+we're gonna use ESD
+
+441
+00:19:23,760 --> 00:19:25,620
+，我们将保留
+and we're going to leave the defaults
+
+442
+00:19:25,620 --> 00:19:27,059
+所有东西的默认值，我们将让它像
+for everything we're gonna make it like
+
+443
+00:19:27,059 --> 00:19:29,760
+一批力一样，我们有我的样本，
+batch of force we have my sample and
+
+444
+00:19:29,760 --> 00:19:33,559
+让我们生成 那里有一些东西
+let's generate something out of there
+
+445
+00:19:42,360 --> 00:19:44,580
+我们走了所以我们有四个
+there we go so we have the four
+
+446
+00:19:44,580 --> 00:19:47,220
+不同的
+different outputs
+
+447
+00:19:47,220 --> 00:19:49,440
+模型输出我可以向你展示
+for the model I can show you the
+
+448
+00:19:49,440 --> 00:19:51,840
+原始输入看起来
+original inputs which appear to match
+
+449
+00:19:51,840 --> 00:19:55,080
+与预期的
+quite well with what was expected to be
+
+450
+00:19:55,080 --> 00:19:57,360
+训练非常匹配所以这些是实际输出让
+trained so those are the actual outputs
+
+451
+00:19:57,360 --> 00:20:00,840
+我们看看实际输入 所以
+and let's look at the actual inputs so
+
+452
+00:20:00,840 --> 00:20:04,260
+这里在每个子集下快速启动，
+here under a quick starts under per
+
+453
+00:20:04,260 --> 00:20:07,559
+我们可以看看
+under subset and we can look at the
+
+454
+00:20:07,559 --> 00:20:08,760
+实际的，
+actual
+
+455
+00:20:08,760 --> 00:20:12,419
+我们将要查看大图标，
+we're going to view large icons
+
+456
+00:20:12,419 --> 00:20:13,080
+嗯，
+um
+
+457
+00:20:13,080 --> 00:20:17,640
+所以我们喜欢这些典型的图像，所以
+so we have like these typicals image so
+
+458
+00:20:17,640 --> 00:20:22,080
+这就是输入的样子
+this is what the input is like
+
+459
+00:20:22,080 --> 00:20:24,480
+，你可以清楚地看到
+and you can clearly see that the
+
+460
+00:20:24,480 --> 00:20:27,660
+结果图像
+resulting image are kind of matching the
+
+461
+00:20:27,660 --> 00:20:28,799
+style
+
+462
+00:20:28,799 --> 00:20:32,520
+如果我们返回此处，则有点与输入中的样式相匹配，
+of what was in the input if we go back
+
+463
+00:20:32,520 --> 00:20:34,799
+因此您可以看到，如果我们返回
+here so you can see that if we go back
+
+464
+00:20:34,799 --> 00:20:35,880
+to
+
+465
+00:20:35,880 --> 00:20:37,919
+收音机用户界面，
+the radio UI
+
+466
+00:20:37,919 --> 00:20:40,200
+您可以看到
+you can see that
+
+467
+00:20:40,200 --> 00:20:43,440
+我们的结果非常相似，
+we have quite similarly looking results
+
+468
+00:20:43,440 --> 00:20:44,760
+因此可以得出
+so
+
+469
+00:20:44,760 --> 00:20:47,580
+如何实际使用
+that concludes how you can actually use
+
+470
+00:20:47,580 --> 00:20:53,039
+Koya SS 的结论 用于快速准备您的
+Koya SS GUI to quickly prepare your
+
+471
+00:20:53,039 --> 00:20:56,100
+文件夹结构的 GUI 配置您的训练
+folder structure configure your training
+
+472
+00:20:56,100 --> 00:20:59,460
+参数 选择
+parameters select your actual model that
+
+473
+00:20:59,460 --> 00:21:04,080
+您想要训练的实际模型，然后简单地
+you want to train into and then simply
+
+474
+00:21:04,080 --> 00:21:06,000
+训练您的模型直到
+train your model up to the point where
+
+475
+00:21:06,000 --> 00:21:07,919
+您可以将生成的文件
+you can take the resulting files put
+
+476
+00:21:07,919 --> 00:21:11,400
+放入您的自动 1111 模型文件夹
+them into your auto 1111 models folder
+
+477
+00:21:11,400 --> 00:21:14,039
+或其他一些呃 您可能正在使用的解决方案并将
+or some other uh solution that you might
+
+478
+00:21:14,039 --> 00:21:16,980
+它们用作
+be using and use them as a
+
+479
+00:21:16,980 --> 00:21:20,280
+生成输出的模型
+models for generating outputs
+
+480
+00:21:20,280 --> 00:21:23,390
+希望这很有用并祝大家
+hope that was useful and have a great
+
+481
+00:21:23,390 --> 00:21:24,480
+[音乐]
+[Music]
+
+482
+00:21:24,480 --> 00:21:25,679
+日愉快
+day guys
+
+483
+00:21:25,679 --> 00:21:29,340
+再见
+and girls bye
+

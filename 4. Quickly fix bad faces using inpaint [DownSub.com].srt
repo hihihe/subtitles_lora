@@ -1,0 +1,886 @@
+1
+00:00:01,680 --> 00:00:04,080
+大家早上好，
+good morning everyone
+
+2
+00:00:04,080 --> 00:00:08,160
+嗯，我想录制一个关于
+um I want to record a quick tutorial on
+
+3
+00:00:08,160 --> 00:00:12,440
+如何在
+how to actually improve faces
+
+4
+00:00:12,440 --> 00:00:16,500
+主要扩散中实际改善面部的快速教程，我不确定你是否
+in staple diffusion I'm not sure if you
+
+5
+00:00:16,500 --> 00:00:18,480
+遇到了这个问题，你实际上
+run into this issue where you actually
+
+6
+00:00:18,480 --> 00:00:21,060
+有一个稳定的扩散提示，或者
+have like a stable diffusion prompt or
+
+7
+00:00:21,060 --> 00:00:23,939
+你正在尝试像模型一样运行 就像
+you're trying to run like a model like a
+
+8
+00:00:23,939 --> 00:00:26,580
+劳拉一样，你正在创建
+Laura and you're creating like a
+
+9
+00:00:26,580 --> 00:00:29,400
+一堆图像，其中一些
+a bunch of image and some of them have
+
+10
+00:00:29,400 --> 00:00:32,040
+像扭曲的脸，你想
+like a distorted face and you want to
+
+11
+00:00:32,040 --> 00:00:33,719
+修复它们，所以我将向你展示一个
+fix them so I'm going to show you a
+
+12
+00:00:33,719 --> 00:00:36,719
+快速技巧让我们
+quick trick let's bring a prompt here
+
+13
+00:00:36,719 --> 00:00:41,040
+从我运行的现有提示中获取提示 所以让我们
+from an existing one I ran so let's
+
+14
+00:00:41,040 --> 00:00:43,739
+apply that gotta remove the model
+
+15
+00:00:43,739 --> 00:00:45,360
+在这里应用必须删除模型限制
+restriction here
+
+16
+00:00:45,360 --> 00:00:47,340
+确保没有额外的网络
+make sure there is no additional Network
+
+17
+00:00:47,340 --> 00:00:50,760
+加载一切都很好没有控制导航暗淡一切都
+loaded all good no control navig dim all
+
+18
+00:00:50,760 --> 00:00:55,680
+很好所以只使用随机
+good so just gonna go with the random
+
+19
+00:00:55,680 --> 00:00:58,260
+前面以便我们获得一些随机性
+front so that we get some Randomness and
+
+20
+00:00:58,260 --> 00:01:00,059
+然后我们可以看到我们如何解决
+then we can see how we can fix over
+
+21
+00:01:00,059 --> 00:01:02,160
+这些问题所以在这里我将
+those issues so here I'm going to use
+
+22
+00:01:02,160 --> 00:01:04,799
+像我一直在研究的劳拉一样使用，
+like a Laura I've been working on and
+
+23
+00:01:04,799 --> 00:01:08,100
+我注意到有时它会
+I've noticed that sometimes it creates
+
+24
+00:01:08,100 --> 00:01:11,460
+在脸上造成一些问题，不是因为
+um some issues with the face not because
+
+25
+00:01:11,460 --> 00:01:14,040
+模型不好，而是因为没有
+the model is bad but because there is no
+
+26
+00:01:14,040 --> 00:01:17,159
+学习阶段的大小 这是
+learned phase of the size that are part
+
+27
+00:01:17,159 --> 00:01:22,759
+渲染提示的一部分所以让我们渲染
+of the render prompt so let's render
+
+28
+00:01:23,040 --> 00:01:26,400
+或让我们生成我应该说
+or let's generate I should say
+
+29
+00:01:26,400 --> 00:01:28,860
+那些所以让我们做四个因为一个
+those ones so let's do four because one
+
+30
+00:01:28,860 --> 00:01:31,140
+是不够的所以让
+is not going to be enough so let's get
+
+31
+00:01:31,140 --> 00:01:33,659
+我们得到四个图像但是正如你在这里看到的
+us four image but as you can see here we
+
+32
+00:01:33,659 --> 00:01:35,460
+那样我们已经可以看到
+can already sort of see that the face is
+
+33
+00:01:35,460 --> 00:01:37,860
+在主题没有放大的特定较小版本中，脸部看起来不会很好，
+not going to be looking good in that
+
+34
+00:01:37,860 --> 00:01:41,159
+particular smaller version where the
+
+35
+00:01:41,159 --> 00:01:44,159
+所以当你
+subject is not zoomed in so when you
+
+36
+00:01:44,159 --> 00:01:46,020
+有一个距离很远的主题时，
+have a subject that's kind of far away
+
+37
+00:01:46,020 --> 00:01:49,500
+脸部往往很糟糕，这就是
+the face tends to be bad and that's
+
+38
+00:01:49,500 --> 00:01:51,780
+能够修复这些问题的好地方
+where it's good to be able to sort of
+
+39
+00:01:51,780 --> 00:01:53,759
+有了这个技巧，我将向
+fix those with the trick I'm going to
+
+40
+00:01:53,759 --> 00:01:56,060
+您展示，
+show you
+
+41
+00:01:56,159 --> 00:01:57,299
+um
+
+42
+00:01:57,299 --> 00:02:00,899
+嗯，让我们继续为图像渲染那些，
+so let's well let's keep rendering those
+
+43
+00:02:00,899 --> 00:02:03,600
+我们快完成了，然后
+for image and we're almost done and then
+
+44
+00:02:03,600 --> 00:02:04,860
+我们将看看它们的
+we're going to look at what they look
+
+45
+00:02:04,860 --> 00:02:07,619
+样子，所以如果我们看这个，是的，
+like so if we look at this one yeah the
+
+46
+00:02:07,619 --> 00:02:09,538
+脸是 看起来有点奇怪 嘴唇
+face is kind of looking weird there's
+
+47
+00:02:09,538 --> 00:02:12,120
+上方有一种奇怪的人工制品
+sort of a weird artifact above the the
+
+48
+00:02:12,120 --> 00:02:13,620
+lips
+
+49
+00:02:13,620 --> 00:02:16,739
+同样这里的眼睛不好
+same thing here the eyes are bad I face
+
+50
+00:02:16,739 --> 00:02:19,020
+it just generally bad this one's got bad
+
+51
+00:02:19,020 --> 00:02:22,800
+eyes and this one is sort of okay but I
+
+52
+00:02:22,800 --> 00:02:25,080
+guess we could probably improve it so
+
+53
+00:02:25,080 --> 00:02:27,540
+嗯，第一个，所以我们
+let's work on uh the first one so we're
+
+54
+00:02:27,540 --> 00:02:29,760
+要选择第一个，然后
+gonna go pick the first one and then
+
+55
+00:02:29,760 --> 00:02:33,000
+我们要把它发送给临时演员，所以我们
+we're gonna send it to extras so we're
+
+56
+00:02:33,000 --> 00:02:35,040
+要把它发送给临时演员，我们
+going to send that to extras and we're
+
+57
+00:02:35,040 --> 00:02:39,360
+要调整两个大小
+gonna run a resize of two
+
+58
+00:02:39,360 --> 00:02:43,319
+，我喜欢运行 uh upscaler 叫
+and I like to run the uh upscaler called
+
+59
+00:02:43,319 --> 00:02:45,780
+swinner
+swinner
+
+60
+00:02:45,780 --> 00:02:49,680
+所以游泳 我猜是 swin IR 4X
+so swim I guess swin IR 4X
+
+61
+00:02:49,680 --> 00:02:52,920
+没有 no face fix 没有类似的东西
+and no no face fix no anything like that
+
+62
+00:02:52,920 --> 00:02:55,379
+we're just gonna run and double the
+
+63
+00:02:55,379 --> 00:02:57,840
+resolution of that
+
+64
+00:02:57,840 --> 00:02:58,680
+um
+
+65
+00:02:58,680 --> 00:03:01,319
+by running it through I guess the swin
+
+66
+00:03:01,319 --> 00:03:03,360
+IR upscaler
+
+67
+00:03:03,360 --> 00:03:05,400
+我们有一个
+and there you go so now we have a
+
+68
+00:03:05,400 --> 00:03:07,379
+高档版本，但脸并没有
+upscale version but the face is not
+
+69
+00:03:07,379 --> 00:03:09,120
+更好，对吧，我们仍然有坏
+better right we still have like the bad
+
+70
+00:03:09,120 --> 00:03:11,340
+嘴，脸仍然看起来不太好，
+mouth the face is still not looking good
+
+71
+00:03:11,340 --> 00:03:13,920
+所以你如何解决这个问题，现在你发送
+so how do you fix that is now you send
+
+72
+00:03:13,920 --> 00:03:17,760
+这个升级版本，发送到油漆中，
+this upscaled version to send to in the
+
+73
+00:03:17,760 --> 00:03:18,900
+paint
+
+74
+00:03:18,900 --> 00:03:20,940
+那将要做什么 它
+what that's going to do and it's
+
+75
+00:03:20,940 --> 00:03:25,739
+实际上会带来呃实际的呃
+actually going to bring uh the actual uh
+
+76
+00:03:25,739 --> 00:03:29,519
+图像但我也会在那里复制我的
+image but I'm also going to copy my
+
+77
+00:03:29,519 --> 00:03:33,260
+原始提示
+original prompt in there
+
+78
+00:03:33,959 --> 00:03:36,180
+所以我猜这里的技巧我想如果我把
+so I guess the trick here I think if I
+
+79
+00:03:36,180 --> 00:03:38,700
+它从耳朵痛苦地发送到现在我有
+send it to in pain from ear now I've got
+
+80
+00:03:38,700 --> 00:03:40,379
+错误的版本 图片，但如果
+the wrong version of the picture but if
+
+81
+00:03:40,379 --> 00:03:42,599
+我返回提取图片并将该
+I go back to extract and just send that
+
+82
+00:03:42,599 --> 00:03:44,700
+版本的图片发送
+version of the picture
+
+83
+00:03:44,700 --> 00:03:46,200
+到
+to
+
+84
+00:03:46,200 --> 00:03:47,940
+um in paint，
+um in paint
+
+85
+00:03:47,940 --> 00:03:49,500
+那么现在我应该使用
+so now I should have the higher
+
+86
+00:03:49,500 --> 00:03:50,760
+我的原始
+resolution with my original
+
+87
+00:03:50,760 --> 00:03:52,739
+配置为提示和
+configuration for the prompt and
+
+88
+00:03:52,739 --> 00:03:54,239
+所有内容提供更高分辨率，所以所有内容都应该在那里，
+everything so everything should be there
+
+89
+00:03:54,239 --> 00:03:57,239
+所以我们现在想做什么 是遮住
+so what we want to do now is mask the
+
+90
+00:03:57,239 --> 00:04:00,599
+脸，这样我们只画图的那
+face such that we only in paint that
+
+91
+00:04:00,599 --> 00:04:02,220
+部分，所以我
+portion of the diagram so I'm just going
+
+92
+00:04:02,220 --> 00:04:05,760
+要去选择那部分，我
+to go and select that portion and I'm
+
+93
+00:04:05,760 --> 00:04:07,620
+要去这里，我会说
+going to go here and I'm going to say
+
+94
+00:04:07,620 --> 00:04:11,819
+我只想画面具
+that I only want to in paint mask the
+
+95
+00:04:11,819 --> 00:04:15,420
+蒙版部分，我想画什么是
+Mask Part and I want to in paint what is
+
+96
+00:04:15,420 --> 00:04:17,699
+蒙版，所以蒙版模式不是付费面具，
+mask so the mask mode isn't paid mask
+
+97
+00:04:17,699 --> 00:04:20,880
+然后我只想
+and then the in paint area is I only
+
+98
+00:04:20,880 --> 00:04:23,639
+专注于画脸的这个区域
+want to focus on in painting this area
+
+99
+00:04:23,639 --> 00:04:26,639
+，我想在
+of the face and I want to give this in
+
+100
+00:04:26,639 --> 00:04:31,020
+画一个 512 x 512 的分辨率
+painting a resolution of 512 by 512
+
+101
+00:04:31,020 --> 00:04:33,900
+大致正确，脸部有点方形，
+roughly right the face is sort squarish
+
+102
+00:04:33,900 --> 00:04:36,240
+所以我们要走了，不要担心，
+so we're gonna go and don't don't worry
+
+103
+00:04:36,240 --> 00:04:38,220
+如果那种显示它
+if that kind of displays that it's going
+
+104
+00:04:38,220 --> 00:04:39,960
+会像那张照片的裁剪，它
+to be like a crop of that picture it's
+
+105
+00:04:39,960 --> 00:04:42,240
+不会是因为我们' 如果我们只在
+not going to be because we're doing only
+
+106
+00:04:42,240 --> 00:04:45,360
+蒙版区域内进行绘画，它
+in painting within the masked area it's
+
+107
+00:04:45,360 --> 00:04:47,699
+只会以
+just going to render that one part in
+
+108
+00:04:47,699 --> 00:04:50,400
+512 x 512 渲染该部分，并将
+512 by 512 and it's going to replace the
+
+109
+00:04:50,400 --> 00:04:53,160
+用改进后的版本替换原始版本中的面部，
+face in this original with the uh
+
+110
+00:04:53,160 --> 00:04:55,800
+所以让我们渲染它，
+improved version so let's render it and
+
+111
+00:04:55,800 --> 00:04:57,540
+看看会发生什么让我们仔细
+let's see what happens let's double
+
+112
+00:04:57,540 --> 00:04:59,759
+检查其他所有内容 75 是的，这是一个
+check everything else 75 yeah that's a
+
+113
+00:04:59,759 --> 00:05:03,000
+很好的比例，我们只赢了一个所以让我们
+good ratio we only won one so let's go
+
+114
+00:05:03,000 --> 00:05:05,220
+继续生成它，
+ahead and generate it
+
+115
+00:05:05,220 --> 00:05:07,259
+你会马上看到
+and you're going to see that right away
+
+116
+00:05:07,259 --> 00:05:10,699
+它开始看起来更像安娜的
+it starts to look a lot more like Anna's
+
+117
+00:05:10,699 --> 00:05:12,740
+深帕尔马
+deep parmes
+
+118
+00:05:12,740 --> 00:05:17,460
+，这就是你如何快速修复一张
+and that is how you can quickly fix a
+
+119
+00:05:17,460 --> 00:05:20,160
+脸
+face by in painting
+
+120
+00:05:20,160 --> 00:05:22,440
+使用你的原始模型只绘制面部的一部分，
+just the portion of the face using your
+
+121
+00:05:22,440 --> 00:05:24,900
+在我的例子中它是劳拉，
+original model in my case it was a Laura
+
+122
+00:05:24,900 --> 00:05:27,539
+它完全修复了
+and it totally fixed the bad phase that
+
+123
+00:05:27,539 --> 00:05:30,479
+通过使用模型
+was created by using what the model has
+
+124
+00:05:30,479 --> 00:05:33,960
+对模型本身的了解但通过将
+learned about the model Itself by but by
+
+125
+00:05:33,960 --> 00:05:36,960
+其正确绘制成 512 x 512 而创建的不良阶段
+properly painting it into a 512 by 512
+
+126
+00:05:36,960 --> 00:05:39,720
+分辨率 让我们快速写另一个，
+resolution let's write another one
+
+127
+00:05:39,720 --> 00:05:42,360
+只是为了给你看 让我们再次选择
+quickly just to show you let's pick the
+
+128
+00:05:42,360 --> 00:05:44,759
+第二个，它是一张相当小的脸
+second one which was a fairly small face
+
+129
+00:05:44,759 --> 00:05:47,340
+我的意思是在整个图片中那是一张小脸
+again I mean that's a small face in the
+
+130
+00:05:47,340 --> 00:05:49,740
+所以难怪它不是
+whole picture so no wonder that it's not
+
+131
+00:05:49,740 --> 00:05:52,020
+那么好所以我们要发送
+so great so we're I'm going to send it
+
+132
+00:05:52,020 --> 00:05:54,600
+我将再次生成它，
+to extra again I'm going to generate so
+
+133
+00:05:54,600 --> 00:05:55,860
+这样我们就可以获得
+that we get
+
+134
+00:05:55,860 --> 00:05:57,960
+实际的
+the actual
+
+135
+00:05:57,960 --> 00:05:59,960
+um
+um
+
+136
+00:06:00,539 --> 00:06:03,120
+高档版本，
+upscale version
+
+137
+00:06:03,120 --> 00:06:05,639
+因为我们已经得到了我可以将它发送到
+now that we've got that I can send it to
+
+138
+00:06:05,639 --> 00:06:06,840
+油漆中
+in paint
+
+139
+00:06:06,840 --> 00:06:08,280
+，在这里
+and here
+
+140
+00:06:08,280 --> 00:06:09,960
+我只是要确保是的，我们
+I'm just going to make sure that yeah we
+
+141
+00:06:09,960 --> 00:06:11,880
+有种子减一 对于一个
+have seed minus one for a seed that's
+
+142
+00:06:11,880 --> 00:06:14,400
+很好的种子，所以现在我们看到我们有像我
+fine so now we see that we have like the
+
+143
+00:06:14,400 --> 00:06:16,460
+要走的脸一样，
+face I'm gonna go and
+
+144
+00:06:16,460 --> 00:06:20,340
+只需选择那个区域，这样我们就可以
+just select that area so that we just in
+
+145
+00:06:20,340 --> 00:06:22,620
+绘制那个部分，我仍然
+paint that part and I still have that
+
+146
+00:06:22,620 --> 00:06:24,539
+选择了那个部分，所以让我们撤消这个让我们
+part selected so let's undo this let's
+
+147
+00:06:24,539 --> 00:06:27,479
+撤消这个然后让我们
+undo this and let's just select this one
+
+148
+00:06:27,479 --> 00:06:30,139
+在这里选择这一部分
+part here
+
+149
+00:06:30,259 --> 00:06:33,720
+好吧现在生成
+okay now generate
+
+150
+00:06:33,720 --> 00:06:36,419
+我我仍然有 512 哦不
+I I still have like 512 oh no the
+
+151
+00:06:36,419 --> 00:06:38,880
+分辨率不是她实际上呃
+resolution was not she was actually uh
+
+152
+00:06:38,880 --> 00:06:40,919
+更改为更高分辨率你知道
+changed to a higher resolution you know
+
+153
+00:06:40,919 --> 00:06:42,180
+在这种情况下它并不重要
+in this case it's not going to matter
+
+154
+00:06:42,180 --> 00:06:44,160
+它只是要去做一个更大的
+it's just going to go and do a bigger
+
+155
+00:06:44,160 --> 00:06:48,300
+区域尽可能远 因为画布与
+area as far as the canvas is concerned
+
+156
+00:06:48,300 --> 00:06:50,520
+图像的生成有关
+for the for the generation of the image
+
+157
+00:06:50,520 --> 00:06:52,800
+并且它工作得很好你可以
+and it worked quite well right you can
+
+158
+00:06:52,800 --> 00:06:54,960
+看到它实际上在为它
+see that it's actually it actually did a
+
+159
+00:06:54,960 --> 00:06:58,199
+绘制正确的
+pretty good job at in painting a proper
+
+160
+00:06:58,199 --> 00:07:00,780
+脸方面做得非常好我可以去改回
+face into it I could go and change back
+
+161
+00:07:00,780 --> 00:07:03,479
+512 并重做 再次向您展示
+to 512 and redo it again just to show
+
+162
+00:07:03,479 --> 00:07:05,900
+you that
+
+163
+00:07:06,360 --> 00:07:09,360
+512 x 512，我将开始
+so 512 by 512 and I'm just gonna go and
+
+164
+00:07:09,360 --> 00:07:11,400
+生成，现在您将看到
+generate and now you're gonna see that
+
+165
+00:07:11,400 --> 00:07:13,680
+它将更多地集中在
+it's going to focus a lot more on just
+
+166
+00:07:13,680 --> 00:07:16,160
+那个部分，
+that part
+
+167
+00:07:17,039 --> 00:07:19,800
+然后您就可以了，所以现在我们有了一个新的
+and there you go so now we have a new in
+
+168
+00:07:19,800 --> 00:07:21,539
+画了脸，你可以生成
+painted face and you can generate
+
+169
+00:07:21,539 --> 00:07:23,759
+多个版本这个版本是松弛的，
+multiple versions this version was slaky
+
+170
+00:07:23,759 --> 00:07:25,500
+头部稍微向左转，
+the head was slightly turned to the left
+
+171
+00:07:25,500 --> 00:07:27,720
+现在这个脸稍微多一点，
+now this one is facing a little bit more
+
+172
+00:07:27,720 --> 00:07:29,880
+所以你可以做一堆渲染来获得
+so you can do a bunch of renders to get
+
+173
+00:07:29,880 --> 00:07:33,180
+你想要的正确的脸，用于
+the right face that you want for the in
+
+174
+00:07:33,180 --> 00:07:34,259
+绘画
+painting
+
+175
+00:07:34,259 --> 00:07:37,639
+和 这就是你如何
+and that's how you can quickly fix faces
+
+176
+00:07:37,639 --> 00:07:41,819
+在绘画中使用呃快速修复面部并使用
+using uh in painting and using your
+
+177
+00:07:41,819 --> 00:07:45,240
+你想要使用的模型所以我希望
+model that you want to use so I hope
+
+178
+00:07:45,240 --> 00:07:47,759
+这很有用它是一个快速教程
+that was useful it's a quick tutorial
+
+179
+00:07:47,759 --> 00:07:49,319
+并且
+and
+
+180
+00:07:49,319 --> 00:07:51,979
+喜欢
+enjoy
+

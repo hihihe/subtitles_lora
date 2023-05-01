@@ -1,0 +1,4338 @@
+1
+00:00:02,460 --> 00:00:07,140
+欢迎来到这个呃
+welcome to part two of this uh creation
+
+2
+00:00:07,140 --> 00:00:10,320
+of a lower weight
+
+3
+00:00:10,320 --> 00:00:14,160
+使用 Koya SS GUI 创建更轻重量的第二部分所以在第一
+uh using Koya SS GUI so in the first
+
+4
+00:00:14,160 --> 00:00:16,859
+部分我们去了并且我们
+part we went and we collected a whole
+
+5
+00:00:16,859 --> 00:00:19,619
+从互联网上收集了一大堆图像我们
+bunch of image from the internet and we
+
+6
+00:00:19,619 --> 00:00:22,980
+有点破坏它们因此他们从
+sort of corrupt them and hence them from
+
+7
+00:00:22,980 --> 00:00:25,439
+分辨率的角度来增强
+the resolution perspective to augment
+
+8
+00:00:25,439 --> 00:00:28,460
+分辨率，然后我们给
+the resolution and then we
+
+9
+00:00:28,460 --> 00:00:31,460
+每张图片加上标题，
+captioned each of the image
+
+10
+00:00:31,460 --> 00:00:34,079
+这样我们就有了一个正确的描述，
+such that we have a proper description
+
+11
+00:00:34,079 --> 00:00:36,360
+这对
+that's going to be important for the
+
+12
+00:00:36,360 --> 00:00:38,340
+知识的训练很重要，
+training of the lore
+
+13
+00:00:38,340 --> 00:00:40,620
+所以现在我们可以
+so now we're at the stage where we can
+
+14
+00:00:40,620 --> 00:00:44,480
+去实际配置呃实际的
+go and actually configure uh the actual
+
+15
+00:00:44,480 --> 00:00:46,399
+Laura
+Laura
+
+16
+00:00:46,399 --> 00:00:49,500
+参数和 训练并
+parameters and for the training and
+
+17
+00:00:49,500 --> 00:00:51,600
+开始训练 这样我们就可以真正
+start the training so we can actually
+
+18
+00:00:51,600 --> 00:00:53,280
+得到我们的模型
+get our model
+
+19
+00:00:53,280 --> 00:00:55,379
+那么你如何
+so how do you go about training Aurora
+
+20
+00:00:55,379 --> 00:00:57,420
+在 GUI 中很好地训练 Aurora 有几个
+well within the GUI there's a couple of
+
+21
+00:00:57,420 --> 00:00:59,579
+选项卡 有 drain boot stream boot
+tabs there's drain boot stream boot
+
+22
+00:00:59,579 --> 00:01:02,699
+Laura dream boot 文本版本
+Laura dream boot textual version fine
+
+23
+00:01:02,699 --> 00:01:05,400
+微调和实用程序就像我们一直在
+tuning and utilities like we've been in
+
+24
+00:01:05,400 --> 00:01:07,260
+我们实际上
+the utility sections where we actually
+
+25
+00:01:07,260 --> 00:01:11,159
+为我们的图像做了深唇字幕的实用部分
+did deep lip captioning for our image
+
+26
+00:01:11,159 --> 00:01:14,100
+有一大堆其他像 wd14
+there's a whole bunch of other like wd14
+
+27
+00:01:14,100 --> 00:01:16,080
+字幕基本字幕还有
+captioning basic captioning there's a
+
+28
+00:01:16,080 --> 00:01:18,299
+一大堆你可以通过 GUI 做的事情，
+whole bunch of things you can do through
+
+29
+00:01:18,299 --> 00:01:21,320
+但它是一个关于
+the GUI as well but it's a focused
+
+30
+00:01:21,320 --> 00:01:24,000
+如何做 Dreamboat
+tutorial on how to do the Dreamboat
+
+31
+00:01:24,000 --> 00:01:25,500
+Laura 的重点教程 所以我们将坚持
+Laura so we're going to stick with what
+
+32
+00:01:25,500 --> 00:01:27,140
+使用我们需要使用的东西，
+we need to use
+
+33
+00:01:27,140 --> 00:01:30,360
+但欢迎您探索
+but you're welcome to explore uh the
+
+34
+00:01:30,360 --> 00:01:33,060
+其他选项卡以及其他正确的东西所以
+other tabs and what else right so let's
+
+35
+00:01:33,060 --> 00:01:35,100
+现在让我们进入 Dreamboat 的传说，这是
+go to the Dreamboat lore now this is
+
+36
+00:01:35,100 --> 00:01:36,720
+我们将开始配置
+where we're going to start to configure
+
+37
+00:01:36,720 --> 00:01:40,680
+我们的方式的地方 我们将实际进行 Laura
+how we're going to actually do our Laura
+
+38
+00:01:40,680 --> 00:01:43,259
+培训，所以首先我们需要
+training so first thing first we need to
+
+39
+00:01:43,259 --> 00:01:45,840
+指定我们将使用什么模型
+specify what model we're going to
+
+40
+00:01:45,840 --> 00:01:48,240
+作为基础，因此您
+leverage as the base so there's a couple
+
+41
+00:01:48,240 --> 00:01:50,100
+可以做几件事您可以使用
+of things you can do you can either use
+
+42
+00:01:50,100 --> 00:01:52,020
+自定义模型，您可以在其中选择
+a custom model that where you can pick
+
+43
+00:01:52,020 --> 00:01:54,720
+实际模型 为包含模型的扩散器
+the actual model file out for diffuser
+
+44
+00:01:54,720 --> 00:01:57,659
+文件夹输出模型文件，如果
+folder that contains the model if that's
+
+45
+00:01:57,659 --> 00:02:00,240
+在我们的案例中是这样的话，我们将
+what you have in our case we're going to
+
+46
+00:02:00,240 --> 00:02:01,979
+坚持基本原则，我们将
+stick to the basics we're going to go
+
+47
+00:02:01,979 --> 00:02:04,079
+使用稳定的扩散器版本 1.5，
+with the stable diffusion version 1.5
+
+48
+00:02:04,079 --> 00:02:07,020
+这将是一个基于扩散器的
+which is going to be a diffuser-based
+
+49
+00:02:07,020 --> 00:02:10,020
+模型 它将被使用，
+model that it's going to be used and
+
+50
+00:02:10,020 --> 00:02:12,360
+显然这不是 V2 模型，
+obviously this is not a V2 model and
+
+51
+00:02:12,360 --> 00:02:14,879
+也不是 v 参数化模型，
+it's not a v parameterization model
+
+52
+00:02:14,879 --> 00:02:16,800
+因为这仅在
+because this is only available when
+
+53
+00:02:16,800 --> 00:02:19,500
+您进行 V2 稳定扩散模型时可用，
+you're doing a V2 stable diffusion model
+
+54
+00:02:19,500 --> 00:02:22,080
+因此如果我们添加 selected 例如只是
+so if we add selected for example just
+
+55
+00:02:22,080 --> 00:02:26,160
+为了向您展示稳定扩散 2.1 基础
+to show you a stable diffusion 2.1 base
+
+56
+00:02:26,160 --> 00:02:29,940
+现在这是一个 V2 模型，
+now this is a V2 model and it's got like
+
+57
+00:02:29,940 --> 00:02:32,459
+如果我们选择
+this stability AI now if we were to pick
+
+58
+00:02:32,459 --> 00:02:34,680
+一个
+a
+
+59
+00:02:34,680 --> 00:02:38,340
+稳定的扩散 2.1，它是一个 v
+stable diffusion 2.1 which is a v
+
+60
+00:02:38,340 --> 00:02:40,680
+参数化模型，那么它现在就像这个稳定性 AI，那么在这种情况下
+parameterization model then in this case
+
+61
+00:02:40,680 --> 00:02:42,840
+它会自动被标记，但在
+automatically it's getting tagged but in
+
+62
+00:02:42,840 --> 00:02:44,879
+我们的例子中我们想坚持使用基本的
+our case we want to stick with the basic
+
+63
+00:02:44,879 --> 00:02:48,840
+稳定扩散 v1.5 所以我们要
+stable diffusion with v1.5 so we're
+
+64
+00:02:48,840 --> 00:02:50,819
+退出，现在我们要将
+going to quit that now we're going to
+
+65
+00:02:50,819 --> 00:02:54,300
+生成的 Laura 保存为安全
+save the resulting Laura as a safe
+
+66
+00:02:54,300 --> 00:02:57,599
+张量文件格式，这样您
+tensors file format so that's here you
+
+67
+00:02:57,599 --> 00:02:59,580
+就可以在这里选择其他文件格式，如果您
+could select other file formats if you
+
+68
+00:02:59,580 --> 00:03:02,400
+想要扩散器模型 A 扩散器
+wanted like a diffuser Model A diffuser
+
+69
+00:03:02,400 --> 00:03:06,180
+with safex with safe tensors
+with safex with safe tensors files
+
+70
+00:03:06,180 --> 00:03:07,800
+里面的文件，但我们
+inside but we're going to stick with
+
+71
+00:03:07,800 --> 00:03:09,420
+save tensors
+
+72
+00:03:09,420 --> 00:03:12,480
+现在要坚持在下一个选项卡中保存张量，我们将不得不
+now in the next tab we're going to have
+
+73
+00:03:12,480 --> 00:03:15,180
+指定我们
+to specify folders where we are going to
+
+74
+00:03:15,180 --> 00:03:18,800
+现在要保存我们信息的文件夹，如果你去
+keep our information now if you go here
+
+75
+00:03:18,800 --> 00:03:23,519
+我们原来的呃
+in our original uh
+
+76
+00:03:24,360 --> 00:03:26,459
+目录这里我们有詹妮弗
+directory here we have the Jennifer
+
+77
+00:03:26,459 --> 00:03:30,300
+安妮斯顿 我们用 Laura
+Aniston folder we created with the Laura
+
+78
+00:03:30,300 --> 00:03:32,819
+子文件夹和图像子文件夹创建的文件夹现在
+sub folder and the image subfolder now
+
+79
+00:03:32,819 --> 00:03:36,120
+您不需要，这很棘手，您
+you don't want and this is tricky you
+
+80
+00:03:36,120 --> 00:03:39,060
+不想选择 100 Jennifer
+don't want to select the 100 Jennifer
+
+81
+00:03:39,060 --> 00:03:42,120
+Aniston 文件夹 Koya 有点，
+Aniston folder Koya is a little bit
+
+82
+00:03:42,120 --> 00:03:43,560
+因为您可能有一大堆
+because you could have a whole bunch of
+
+83
+00:03:43,560 --> 00:03:45,239
+不同的模型 你会
+different models that you would train at
+
+84
+00:03:45,239 --> 00:03:46,700
+同时训练，这样你就可以拥有
+the same time so you could have like a
+
+85
+00:03:46,700 --> 00:03:50,280
+第二个模型，因为我不认识
+second model for I don't know
+
+86
+00:03:50,280 --> 00:03:53,159
+Phil Collins 或其他什么有洞察力的人，
+Phil Collins or something else Insight
+
+87
+00:03:53,159 --> 00:03:55,500
+但在我们的例子中，我们将
+here but in our case we're going to
+
+88
+00:03:55,500 --> 00:03:58,140
+与一个单一的模型进行交易，那就是
+trade with a single model which is the
+
+89
+00:03:58,140 --> 00:04:00,420
+珍妮弗安妮斯顿，所以我 我只是
+uh Jennifer Aniston so I'm just going to
+
+90
+00:04:00,420 --> 00:04:04,019
+去复制这个路径，就像
+go and copy this path like the the
+
+91
+00:04:04,019 --> 00:04:09,180
+在斜杠 IMG 处停止的文件夹一样，所以
+folder that stops at the slash IMG so
+
+92
+00:04:09,180 --> 00:04:10,920
+我要复制它，现在我
+I'm going to copy that and now I'm going
+
+93
+00:04:10,920 --> 00:04:13,200
+要将它粘贴到图像
+to go and paste this into the image
+
+94
+00:04:13,200 --> 00:04:15,060
+文件夹
+folder
+
+95
+00:04:15,060 --> 00:04:15,840
+um
+um
+
+96
+00:04:15,840 --> 00:04:20,160
+位置，这样就可以了 读取
+location so this will go and read
+
+97
+00:04:20,160 --> 00:04:23,280
+其中 100 Jennifer Aniston 的子文件夹的内容，
+the content of the subfolder inside
+
+98
+00:04:23,280 --> 00:04:26,520
+这
+which is 100 Jennifer Aniston and this
+
+99
+00:04:26,520 --> 00:04:28,800
+将告诉 Koya SS 我们想
+is going to tell Koya SS that we want to
+
+100
+00:04:28,800 --> 00:04:32,460
+在训练期间对每张图像重复 100 次，
+do 100 repeats of every image during the
+
+101
+00:04:32,460 --> 00:04:34,259
+因此它将查看每张
+training so it's going to look at every
+
+102
+00:04:34,259 --> 00:04:37,639
+图像 100 次，因此
+image 100 times so that's about
+
+103
+00:04:37,639 --> 00:04:40,740
+我们需要大约 1600 步 将经历
+1600 steps that we're gonna go through
+
+104
+00:04:40,740 --> 00:04:44,400
+Laura 的学习过程，
+for the learning process of the Laura
+
+105
+00:04:44,400 --> 00:04:44,940
+所以
+um
+
+106
+00:04:44,940 --> 00:04:48,600
+我们不需要 Laura 的正则化图像，
+so regularization image we don't need
+
+107
+00:04:48,600 --> 00:04:50,940
+但它在那里你可以
+that for Laura but it's there you could
+
+108
+00:04:50,940 --> 00:04:53,100
+使用它它有一些有趣的效果，
+use it it's got some interesting effect
+
+109
+00:04:53,100 --> 00:04:54,979
+但我个人
+but I don't personally use
+
+110
+00:04:54,979 --> 00:04:57,500
+在做 Laura 时不使用正则化图像
+regularization image when I do a Laura
+
+111
+00:04:57,500 --> 00:05:00,600
+output 文件夹 我们要在哪里输出
+output folder where do we want to Output
+
+112
+00:05:00,600 --> 00:05:04,259
+实际生成的图像 在我们的例子中
+the actual resulting image in our case
+
+113
+00:05:04,259 --> 00:05:07,320
+我们要将它输出到 stable
+we're going to Output that to the stable
+
+114
+00:05:07,320 --> 00:05:09,660
+diffusion web UI
+diffusion web UI
+
+115
+00:05:09,660 --> 00:05:11,880
+文件夹 所以我要进入我的 stable
+folder so I'm going to go into my stable
+
+116
+00:05:11,880 --> 00:05:14,340
+diffusion web UI 并且我们想在
+diffusion web UI and we want to Output
+
+117
+00:05:14,340 --> 00:05:17,520
+embeddings 文件夹，所以
+that under the embeddings folder so
+
+118
+00:05:17,520 --> 00:05:20,720
+我们要复制它，
+we're going to go copy that
+
+119
+00:05:20,759 --> 00:05:22,620
+所以我要把它放在
+so I'm gonna go and put that in the
+
+120
+00:05:22,620 --> 00:05:25,979
+embeddings 下一个是我们要去哪里，
+embeddings next one is we're gonna where
+
+121
+00:05:25,979 --> 00:05:28,440
+我们想要
+do we want the logs uh that are going to
+
+122
+00:05:28,440 --> 00:05:30,240
+在训练期间创建的日志，呃，
+be created during the training where do
+
+123
+00:05:30,240 --> 00:05:31,919
+我们想要在哪里 将所有这些日志放入
+we want to put all those logs so we're
+
+124
+00:05:31,919 --> 00:05:34,620
+going to put those into a subfolder
+
+125
+00:05:34,620 --> 00:05:36,900
+lower 文件夹下方的子文件夹中，因此
+within the lower the lower folder so
+
+126
+00:05:36,900 --> 00:05:39,060
+我们将进入 Laura 反斜杠日志下方，
+we're going to go under Laura backslash
+
+127
+00:05:39,060 --> 00:05:40,259
+logs
+
+128
+00:05:40,259 --> 00:05:42,240
+因此我将把日志放入该
+so I'm going to put the logs in that
+
+129
+00:05:42,240 --> 00:05:45,840
+文件夹中我们想要什么 命名我们的模型
+folder what do we want to name our model
+
+130
+00:05:45,840 --> 00:05:48,840
+默认情况下它被称为最后但在这种
+by default it's called last but in this
+
+131
+00:05:48,840 --> 00:05:51,060
+情况下我将调用模型
+case I'm going to call the model
+
+132
+00:05:51,060 --> 00:05:52,979
+来推断
+to infer
+
+133
+00:05:52,979 --> 00:05:56,580
+旋转并且它将是一个版本
+spun and it's going to be a version one
+
+134
+00:05:56,580 --> 00:05:59,699
+模型所以我将它命名为 v1.0
+model so I'm going to name it v1.0 just
+
+135
+00:05:59,699 --> 00:06:01,740
+以便我知道什么时候我 查看模型
+so that I know when I look at the model
+
+136
+00:06:01,740 --> 00:06:04,020
+名称，这是
+name that this was the version one of
+
+137
+00:06:04,020 --> 00:06:05,699
+我们创建的模型的第一个版本，
+the model that we created
+
+138
+00:06:05,699 --> 00:06:08,340
+do we want to add some training comments
+
+139
+00:06:08,340 --> 00:06:11,699
+在这种情况下，我们想添加一些训练评论吗？我真的不需要呃
+in this case I don't really need to uh
+
+140
+00:06:11,699 --> 00:06:14,280
+训练参数，我们现在要去这里，
+training parameters we're gonna go here
+
+141
+00:06:14,280 --> 00:06:17,100
+这是有趣的地方 东西从
+now this is where the interesting stuff
+
+142
+00:06:17,100 --> 00:06:20,699
+这里开始，如果我们想
+start so here it's if we want to start
+
+143
+00:06:20,699 --> 00:06:22,919
+从现有的劳拉开始训练，你
+training from an existing Laura you
+
+144
+00:06:22,919 --> 00:06:24,900
+可以选择一个现有的文件，这样
+could go and select an existing file so
+
+145
+00:06:24,900 --> 00:06:27,000
+你就可以继续训练，但
+that you could keep training on it but
+
+146
+00:06:27,000 --> 00:06:29,460
+在我的情况下，我没有任何现有的
+in my case I don't have any existing
+
+147
+00:06:29,460 --> 00:06:31,319
+劳拉文件可以开始，因为我们' 我
+Laura file to start from because we're
+
+148
+00:06:31,319 --> 00:06:32,759
+要创建一个全新的，所以我
+going to create a brand new one so I
+
+149
+00:06:32,759 --> 00:06:36,479
+将它留空 training batch size
+leave it empty training batch size what
+
+150
+00:06:36,479 --> 00:06:39,120
+我发现效果很好的实际上是将
+I find works well is actually to set the
+
+151
+00:06:39,120 --> 00:06:41,580
+训练 batch size 设置为两个
+training batch size to two number of
+
+152
+00:06:41,580 --> 00:06:43,740
+epoch 我只想做一个我想
+epoch I only want to do one I want to
+
+153
+00:06:43,740 --> 00:06:46,680
+在每个 Epoch 保存现在显然
+save at every Epoch obviously now the
+
+154
+00:06:46,680 --> 00:06:48,600
+caption extension that's important to
+
+155
+00:06:48,600 --> 00:06:50,940
+设置的字幕扩展很重要，所以它是鸭子 txt 字幕，因为
+set so it's a duck txt caption because
+
+156
+00:06:50,940 --> 00:06:53,940
+这是我们
+this is the captioning extension that we
+
+157
+00:06:53,940 --> 00:06:56,580
+在使用实际
+have created when we use the actual
+
+158
+00:06:56,580 --> 00:06:58,979
+实用程序时创建的字幕扩展，您将在此处看到我们
+utilities you're gonna see here that we
+
+159
+00:06:58,979 --> 00:07:00,960
+使用 txt 的字幕文件扩展名，
+use the caption file extension of the
+
+160
+00:07:00,960 --> 00:07:04,020
+因此我们想使用
+txt so we want to use the same caption
+
+161
+00:07:04,020 --> 00:07:07,100
+标题字段中的相同标题扩展混合
+extension here in the caption field
+
+162
+00:07:07,100 --> 00:07:13,340
+精度我倾向于使用 FP 或 bf16，
+mixed Precision I tend to use FP or bf16
+
+163
+00:07:13,340 --> 00:07:16,139
+因为它提供更好的精度，它
+because it gives better Precision it's
+
+164
+00:07:16,139 --> 00:07:18,419
+几乎像浮点级别，但
+almost like floating Point level but at
+
+165
+00:07:18,419 --> 00:07:21,240
+实际内存占用量的一半，
+half the actual memory footprint and
+
+166
+00:07:21,240 --> 00:07:23,699
+当我保存我的模型时，我将它们和
+when I save my model I save them as well
+
+167
+00:07:23,699 --> 00:07:27,660
+bf16 一起保存，具体取决于 你
+as bf16 depending on the card that you
+
+168
+00:07:27,660 --> 00:07:29,880
+有 Nvidia 卡的卡你可能会或可能
+have the Nvidia card you may or may not
+
+169
+00:07:29,880 --> 00:07:33,300
+不会使用 bf16 但对我来说因为我的
+be able to use bf16 but for me since my
+
+170
+00:07:33,300 --> 00:07:36,360
+卡支持它是一个更好的选择呃
+card supported it's a better option uh
+
+171
+00:07:36,360 --> 00:07:39,319
+喜剧每个内核的 CPU Treads
+comedy a number of CPU Treads per core
+
+172
+00:07:39,319 --> 00:07:42,180
+保持在一到两个之间就像我的
+keep it between one and two it's like my
+
+173
+00:07:42,180 --> 00:07:44,520
+CPU 有两个 每个核心线程，所以我将
+CPU has two thread per core so I'm going
+
+174
+00:07:44,520 --> 00:07:48,419
+它保留为 2
+to leave it as two the seed random
+
+175
+00:07:48,419 --> 00:07:50,280
+你可以选择的种子随机数 我将它保留为
+number that you can pick I leave it to
+
+176
+00:07:50,280 --> 00:07:52,080
+1 二 3 4 但你可以更改
+one two three four but you can change it
+
+177
+00:07:52,080 --> 00:07:55,199
+它 没关系 这取决于你 但我
+it doesn't matter it's up to you but I
+
+178
+00:07:55,199 --> 00:07:56,940
+保留 我喜欢保留它 因为
+keep I like keeping it because then for
+
+179
+00:07:56,940 --> 00:07:59,160
+如果我重建模型
+repeatability if I rebuild the model
+
+180
+00:07:59,160 --> 00:08:01,020
+然后为了可重复性我知道它将开始使用
+then I know it's going to start using
+
+181
+00:08:01,020 --> 00:08:02,660
+相同的种子所以我应该期望
+the same seed so I should expect
+
+182
+00:08:02,660 --> 00:08:06,300
+使用与
+Improvement using the same kind of
+
+183
+00:08:06,300 --> 00:08:08,699
+原始模型中使用的相同类型的种子进行改进
+seed that was used in the original one
+
+184
+00:08:08,699 --> 00:08:11,639
+所以我想保留它让我们看一组
+so I'd like to keep that let's see a set
+
+185
+00:08:11,639 --> 00:08:15,000
+point burning rate 什么是
+point burning rate what is a good
+
+186
+00:08:15,000 --> 00:08:17,660
+较低模型的良好学习率
+learning rate for a lower model
+
+187
+00:08:17,660 --> 00:08:21,860
+通常学习率
+typically learning rate of
+
+188
+00:08:21,860 --> 00:08:27,060
+0.0001 是好的，就像我
+0.0001 is good just as the as the base I
+
+189
+00:08:27,060 --> 00:08:31,760
+喜欢训练我的低运行模型的基础一样，呃，
+like to train my low run models uh
+
+190
+00:08:31,760 --> 00:08:33,620
+constant
+
+191
+00:08:33,620 --> 00:08:37,380
+没有预热的恒定水平，
+levels with no warm-ups
+
+192
+00:08:37,380 --> 00:08:40,380
+所以学习率为零的恒定调度程序
+so constant scheduler for learning rate
+
+193
+00:08:40,380 --> 00:08:44,219
+预热百分比 嗯，我们想要
+with zero percent warm-ups uh we want to
+
+194
+00:08:44,219 --> 00:08:46,320
+缓存潜伏，以便更快地
+Cache the latent so that it's faster to
+
+195
+00:08:46,320 --> 00:08:49,680
+训练文本编码器学习率，将
+train text encoder learning rate it's
+
+196
+00:08:49,680 --> 00:08:54,060
+其保持在 5e 减 5 作为
+good to keep it to 5e Minus 5 as the
+
+197
+00:08:54,060 --> 00:08:57,800
+实际学习率是很好的，显然对于
+actual learning rate and obviously for
+
+198
+00:08:57,800 --> 00:09:01,800
+单位学习率 1 e 减 3
+the unit learning rate one e minus three
+
+199
+00:09:01,800 --> 00:09:05,040
+也不错 从字面上看，
+is not a bad place to start so literally
+
+200
+00:09:05,040 --> 00:09:07,620
+我也可以将其设置为 1 e 减
+I could set that as well to one e minus
+
+201
+00:09:07,620 --> 00:09:09,899
+3，就像理论上一样，因为如果您
+three like in theory because if you set
+
+202
+00:09:09,899 --> 00:09:12,360
+同时设置这两个值，那么
+both of those this value is ignored by
+
+203
+00:09:12,360 --> 00:09:14,760
+如果您没有设置任何一个，培训师将忽略该值，
+the trainer if you didn't set any of
+
+204
+00:09:14,760 --> 00:09:16,860
+并且该值
+those and this value would take would
+
+205
+00:09:16,860 --> 00:09:19,080
+实际上是 适用于两者所以我喜欢
+actually be be applied to both so I like
+
+206
+00:09:19,080 --> 00:09:23,279
+以较低的学习率训练我的文本编码器
+to train my text encoder at the lower
+
+207
+00:09:23,279 --> 00:09:25,019
+然后我将训练
+learning rate then I'm going to train
+
+208
+00:09:25,019 --> 00:09:26,279
+the unit
+
+209
+00:09:26,279 --> 00:09:30,360
+网络等级的单位数量呃将它推到
+number of network ranks uh push it up to
+
+210
+00:09:30,360 --> 00:09:33,420
+128 和网络 Alpha 个人我
+128 and the network Alpha personally I
+
+211
+00:09:33,420 --> 00:09:36,540
+发现它最好在 128 所以 匹配
+find it to be best at 128 so matching
+
+212
+00:09:36,540 --> 00:09:40,620
+顶部，所以如果我确实喜欢 64 等级的劳拉，
+the top so if I did like a 64 rank Laura
+
+213
+00:09:40,620 --> 00:09:44,220
+我会将网络 Alpha 保持为 64。
+I would keep the network Alpha to be 64.
+
+214
+00:09:44,220 --> 00:09:46,740
+但由于我正在做 128，我将把
+but since I'm doing a 128 I'm going to
+
+215
+00:09:46,740 --> 00:09:50,220
+它保持在 128。最大分辨率年 512
+keep it to 128. max resolution year 512
+
+216
+00:09:50,220 --> 00:09:53,339
+又是 512，所以它会继续 以在 512 乘以 512 的像素数内适应所有
+by 512 again so it's going to fit all of
+
+217
+00:09:53,339 --> 00:09:55,440
+这些不同纵横比的图像。
+those different aspect ratio image
+
+218
+00:09:55,440 --> 00:10:00,779
+within the pixel count of 512 times 512.
+
+219
+00:10:00,779 --> 00:10:02,760
+所以它不会比那个更高，
+so it's not going to go higher than that
+
+220
+00:10:02,760 --> 00:10:05,220
+所以它将把它限制在
+so it's going to keep it confined within
+
+221
+00:10:05,220 --> 00:10:08,279
+最大分辨率尺寸内
+that maximum resolution size
+
+222
+00:10:08,279 --> 00:10:11,459
+停止训练编码器所以我们
+uh stop training encoder so we're not
+
+223
+00:10:11,459 --> 00:10:14,279
+不会 做到这一点，呃，启用桶，这
+going to do that uh enable buckets this
+
+224
+00:10:14,279 --> 00:10:16,260
+就是让你能够使用
+is what gives you the ability to use
+
+225
+00:10:16,260 --> 00:10:18,899
+各种纵横比图像的原因，所以你想
+various aspect ratio image so you want
+
+226
+00:10:18,899 --> 00:10:21,800
+保留那个打勾的
+to leave that ticked
+
+227
+00:10:21,800 --> 00:10:23,820
+高级配置，我们
+Advanced configuration we're going to
+
+228
+00:10:23,820 --> 00:10:25,620
+需要去设置一些
+need to go and set a few things token
+
+229
+00:10:25,620 --> 00:10:27,240
+我们不改变梯度
+padding we don't change that gradient
+
+230
+00:10:27,240 --> 00:10:30,120
+累积的东西令牌填充 我们不使用任何
+accumulation we don't use any of that
+
+231
+00:10:30,120 --> 00:10:33,560
+先前丢失的重量，我们将它留给一个
+prior lost weight we leave it to one
+
+232
+00:10:33,560 --> 00:10:36,680
+我们将做一个
+we're gonna do a
+
+233
+00:10:36,680 --> 00:10:39,899
+8 位原子并使用
+8-bit atoms and use x formers the
+
+234
+00:10:39,899 --> 00:10:43,320
+默认的 x 形式，所以保持这样我们不会
+default so keep that like that we're not
+
+235
+00:10:43,320 --> 00:10:45,839
+做颜色或翻转增强
+going to do color nor flip augmentation
+
+236
+00:10:45,839 --> 00:10:48,839
+我们' 我将使用跳过剪辑 2。我发现
+we're going to use skip clip 2. I find
+
+237
+00:10:48,839 --> 00:10:51,240
+当你跳过两个剪辑时，这会提供更好的结果，
+that this provides better results when
+
+238
+00:10:51,240 --> 00:10:53,760
+you when you do a clip skip of two
+
+239
+00:10:53,760 --> 00:10:56,519
+我们不想使用内存高效
+uh we don't want to use memory efficient
+
+240
+00:10:56,519 --> 00:10:58,740
+注意力，因为我的卡足够大，
+attention because my card is big enough
+
+241
+00:10:58,740 --> 00:11:01,519
+可以毫无问题地实际运行它
+to actually run that without any issue
+
+242
+00:11:01,519 --> 00:11:04,320
+所以 我将保持关闭状态，因为
+so I'm going to keep that off because
+
+243
+00:11:04,320 --> 00:11:06,540
+这会使训练变慢，但随后
+this would make training slower but then
+
+244
+00:11:06,540 --> 00:11:09,779
+它会减少你的呃 Nvidia 卡上的 vram 使用率
+it reduced the vram usage on your uh
+
+245
+00:11:09,779 --> 00:11:13,200
+呃这里我不关心在
+Nvidia cards uh here I don't care about
+
+246
+00:11:13,200 --> 00:11:15,360
+我完成这里的训练时保存训练状态
+saving the training State when I'm done
+
+247
+00:11:15,360 --> 00:11:17,700
+我可以指定
+with the training here I could specify
+
+248
+00:11:17,700 --> 00:11:19,680
+如果我有一个安全的训练状态，我可以
+if I had a safe training State I could
+
+249
+00:11:19,680 --> 00:11:22,380
+指定训练状态文件夹以
+specify the training State folder to
+
+250
+00:11:22,380 --> 00:11:25,380
+从中恢复训练，以及
+resume training from it and the maximum
+
+251
+00:11:25,380 --> 00:11:27,500
+number of epoch
+
+252
+00:11:27,500 --> 00:11:29,880
+我不需要更改的最大纪元数，我将
+I don't really need to change that I'm
+
+253
+00:11:29,880 --> 00:11:31,920
+让系统
+going to let the system specify it
+
+254
+00:11:31,920 --> 00:11:34,260
+通过计算指定它和最大值 每个
+through the calculation and the maximum
+
+255
+00:11:34,260 --> 00:11:37,320
+数据加载器的工作人员数量我喜欢
+number of workers per data loader I like
+
+256
+00:11:37,320 --> 00:11:40,920
+把它设置为一个，它会让事情更快地
+to put that to one it make things faster
+
+257
+00:11:40,920 --> 00:11:44,579
+开始训练，如果你
+to actually start uh the training if you
+
+258
+00:11:44,579 --> 00:11:47,220
+把它放在一个工具上，那么
+put that to a tool to high number then
+
+259
+00:11:47,220 --> 00:11:49,980
+it may actually end up being slower to
+
+260
+00:11:49,980 --> 00:11:51,540
+start training
+
+261
+00:11:51,540 --> 00:11:53,579
+当你完成时，它实际上可能会更慢地开始训练 我喜欢
+when you're done with that what I like
+
+262
+00:11:53,579 --> 00:11:55,680
+做的是我喜欢去保存我的
+to do is I like to go and save my
+
+263
+00:11:55,680 --> 00:11:57,720
+配置文件，这样我就不会丢失
+configuration file so that I don't lose
+
+264
+00:11:57,720 --> 00:12:00,000
+用于
+the parameters that were used for the
+
+265
+00:12:00,000 --> 00:12:02,339
+培训课程的参数所以我倾向于做的是
+training session so what I tend to do is
+
+266
+00:12:02,339 --> 00:12:04,800
+我进入我的 Laura 文件夹我只是
+I go into my Laura folders I'm just
+
+267
+00:12:04,800 --> 00:12:06,959
+去 去复制这个快速入门
+going to go and copy this quick start
+
+268
+00:12:06,959 --> 00:12:10,260
+Laura for Jennifer Aniston 我只是要用
+Laura for Jennifer Aniston and I'm just
+
+269
+00:12:10,260 --> 00:12:12,120
+反斜杠出去 我将
+going to go out on a backslash I'm going
+
+270
+00:12:12,120 --> 00:12:15,899
+调用它 v1.0.json
+to call that v1.0.json
+
+271
+00:12:16,079 --> 00:12:18,180
+这样我们将创建一个 Json
+so that we're going to create a Json
+
+272
+00:12:18,180 --> 00:12:20,279
+文件这是格式 对于
+file which is the format for the
+
+273
+00:12:20,279 --> 00:12:21,899
+配置文件，我们将把
+configuration file and we're going to
+
+274
+00:12:21,899 --> 00:12:24,959
+它保存为 v1.0，最终与
+save it as a v1.0 that ends up matching
+
+275
+00:12:24,959 --> 00:12:28,380
+v1.0 模型输出名称匹配，所以现在
+the v1.0 model output name so now
+
+276
+00:12:28,380 --> 00:12:30,120
+有一个相关性，所以
+there's a correlation so it's easier
+
+277
+00:12:30,120 --> 00:12:34,019
+在路上更容易找到
+down the road to go and find that the
+
+278
+00:12:34,019 --> 00:12:35,640
+你没有的工具选项卡
+tools tab you don't really need those
+
+279
+00:12:35,640 --> 00:12:37,980
+如果您想像
+are tools if you wanted to prepare like
+
+280
+00:12:37,980 --> 00:12:40,860
+梦想中的靴子一样准备，我们真的不需要这些工具，在这种情况下我们已经手动完成了，
+your dream boot we've done it manually
+
+281
+00:12:40,860 --> 00:12:42,839
+但是有一种方法可以
+in this case but there is a way to kind
+
+282
+00:12:42,839 --> 00:12:44,940
+加载任何
+of load any
+
+283
+00:12:44,940 --> 00:12:47,639
+文件夹，包括包含图像的文件夹
+folders including that includes image
+
+284
+00:12:47,639 --> 00:12:49,440
+，然后您可以指定重复次数，
+and then you can specify your repeats
+
+285
+00:12:49,440 --> 00:12:51,120
+这有点像 为您构建一个结构，
+and it kind of builds a structure for
+
+286
+00:12:51,120 --> 00:12:53,399
+我们在这里手动完成，所以
+you we've done it manually here so don't
+
+287
+00:12:53,399 --> 00:12:55,260
+不需要这样做还有像
+need to do that there's also like
+
+288
+00:12:55,260 --> 00:12:57,839
+Dreamboat Laura 数据集平衡，
+Dreamboat Laura data set balancing that
+
+289
+00:12:57,839 --> 00:13:01,260
+您可以这样做，您可以使用合并 Laura 和
+you can do there's a merge Laura and a
+
+290
+00:13:01,260 --> 00:13:04,800
+验证 Laura 工具，所以
+verify Laura tool that you can use so
+
+291
+00:13:04,800 --> 00:13:08,040
+您可以使用其他工具
+other tools you can go and sort of play
+
+292
+00:13:08,040 --> 00:13:10,620
+如果你有兴趣，就去玩吧，但我们
+with if you are interested but we don't
+
+293
+00:13:10,620 --> 00:13:12,839
+不需要将它们作为本次
+need to use those as part of this
+
+294
+00:13:12,839 --> 00:13:14,579
+培训课程的一部分，
+training session
+
+295
+00:13:14,579 --> 00:13:18,480
+所以我认为我们
+so I think we're pretty good to start uh
+
+296
+00:13:18,480 --> 00:13:20,040
+现在可以开始了，嗯，所以我们要开始
+at this point so we're gonna go and
+
+297
+00:13:20,040 --> 00:13:23,899
+培训了，嗯 很快，在
+start the training uh pretty soon
+
+298
+00:13:24,000 --> 00:13:26,459
+我们开始训练之前，
+just one quick thing before we start the
+
+299
+00:13:26,459 --> 00:13:28,500
+我想仔细检查一下我
+training I want to double check with my
+
+300
+00:13:28,500 --> 00:13:32,279
+以前的 Cyndi
+previous training parameters for a Cyndi
+
+301
+00:13:32,279 --> 00:13:34,980
+Lauper 模型的训练参数，我只是想
+Lauper model I did just want to make
+
+302
+00:13:34,980 --> 00:13:38,459
+确保我有正确的单位，所以
+sure that I've got the right unit uh so
+
+303
+00:13:38,459 --> 00:13:41,820
+在这里查看我的学习率是什么
+see my learning rate here for what zero
+
+304
+00:13:41,820 --> 00:13:44,880
+零零一这样我们就可以看到
+zero one so that would well let's see
+
+305
+00:13:44,880 --> 00:13:48,000
+零零点零零零一
+about zero zero dot zero zero zero one
+
+306
+00:13:48,000 --> 00:13:50,040
+所以这就是我要设置的位置
+so that's what I'm going to set it at
+
+307
+00:13:50,040 --> 00:13:51,720
+然后让我们仔细检查下一个
+and let's double check the next one
+
+308
+00:13:51,720 --> 00:13:55,040
+是呃
+which was uh
+
+309
+00:13:55,040 --> 00:13:58,260
+预热零所以我使用
+warm up zero so I was using with
+
+310
+00:13:58,260 --> 00:14:03,779
+常量很好呃 BF 16，所以我只想
+constant that's fine uh BF 16 so I just
+
+311
+00:14:03,779 --> 00:14:05,519
+检查单元学习
+want to check okay the unit learning
+
+312
+00:14:05,519 --> 00:14:08,339
+率，它前面是三个零，
+rate which was three zero in front of
+
+313
+00:14:08,339 --> 00:14:10,500
+所以让我们确保我在这里削减了
+the one so let's make sure I've cut the
+
+314
+00:14:10,500 --> 00:14:12,779
+完全相同的
+exact same
+
+315
+00:14:12,779 --> 00:14:15,420
+配置，因为我不想
+configuration here because I don't want
+
+316
+00:14:15,420 --> 00:14:17,339
+to
+
+317
+00:14:17,339 --> 00:14:19,980
+得到坏模型，因为我做了 一个
+get with the bad model because I did a
+
+318
+00:14:19,980 --> 00:14:21,660
+错误的配置 其他一切都应该
+wrong config everything else should be
+
+319
+00:14:21,660 --> 00:14:23,959
+很好
+fine
+
+320
+00:14:24,740 --> 00:14:27,240
+名称 其他一切都很好 所以我认为
+name everything else is good so I think
+
+321
+00:14:27,240 --> 00:14:30,000
+我们现在可以开始了 所以让我们保存你这样
+we're good to go now so let's save so
+
+322
+00:14:30,000 --> 00:14:32,279
+做的方式 现在你一旦
+the way you do that so now you once
+
+323
+00:14:32,279 --> 00:14:35,639
+你得到了我们要去的呃配置文件名
+you've got like the uh config file name
+
+324
+00:14:35,639 --> 00:14:37,440
+单击“保存”，这
+we're going to click on Save and this is
+
+325
+00:14:37,440 --> 00:14:40,260
+将把它保存在我们的
+going to go and save this within our
+
+326
+00:14:40,260 --> 00:14:44,519
+文件夹中，所以如果我们去检查文件夹，嗯，
+folder so if we go and check the folder
+
+327
+00:14:44,519 --> 00:14:46,940
+你会看到 Jennifer
+um here you're going to see Jennifer
+
+328
+00:14:46,940 --> 00:14:50,040
+Aniston Laura 和 winter 应该是
+Aniston Laura and winter should be the
+
+329
+00:14:50,040 --> 00:14:53,339
+v1.0 文件，如果我们双击
+v1.0 file and if we double click on that
+
+330
+00:14:53,339 --> 00:14:56,220
+这是
+this is the actual config that is for
+
+331
+00:14:56,220 --> 00:14:59,040
+Jennifer Aniston 模型的实际配置，
+the Jennifer Aniston model and
+
+332
+00:14:59,040 --> 00:15:01,260
+如您所见，批量大小
+everything as you can see batch size
+
+333
+00:15:01,260 --> 00:15:04,320
+Epoch 的所有内容都与
+Epoch everything is matching similar to
+
+334
+00:15:04,320 --> 00:15:07,860
+Cyndi Lauper 类型的模块相似，
+what was for Cyndi Lauper type of module
+
+335
+00:15:07,860 --> 00:15:11,220
+好吧，现在我们已经
+okay so now that this is there we're
+
+336
+00:15:11,220 --> 00:15:14,279
+准备好开始了 训练和
+pretty much ready to start training and
+
+337
+00:15:14,279 --> 00:15:16,380
+开始训练就像
+to start the training it's as easy as
+
+338
+00:15:16,380 --> 00:15:18,959
+点击训练模型一样简单
+clicking on train model
+
+339
+00:15:18,959 --> 00:15:21,360
+现在你会看到它开始
+and now you're gonna see that it starts
+
+340
+00:15:21,360 --> 00:15:23,459
+训练现在它吐出整个
+the training now it spits out the whole
+
+341
+00:15:23,459 --> 00:15:26,160
+命令实际上将被提供
+command that is actually going to be fed
+
+342
+00:15:26,160 --> 00:15:28,500
+给 CLI
+to the CLI
+
+343
+00:15:28,500 --> 00:15:30,540
+以实际开始训练所以 你
+to actually start the training so as you
+
+344
+00:15:30,540 --> 00:15:32,579
+可以在这里看到，所以现在你可以看到它，它
+can see here so now you can see it it
+
+345
+00:15:32,579 --> 00:15:34,860
+查看了分桶，它发现
+looked at the bucketing and it found
+
+346
+00:15:34,860 --> 00:15:39,000
+我们有 100 次重复的图像，这些图像
+that we have 100 repeats of image that
+
+347
+00:15:39,000 --> 00:15:42,260
+将在 320 x 704 范围内，
+are going to be in the 320 by 704 range
+
+348
+00:15:42,260 --> 00:15:45,600
+在其他分辨率下为 700，所以它会
+700 in that other resolution so it kind
+
+349
+00:15:45,600 --> 00:15:48,540
+分桶所有不同的 图像
+of buckets all of the different image
+
+350
+00:15:48,540 --> 00:15:51,000
+是每个桶中 16s 的一部分，
+that are part of the 16s in each of
+
+351
+00:15:51,000 --> 00:15:53,100
+并
+those buckets and kind of apply the
+
+352
+00:15:53,100 --> 00:15:56,820
+在这些桶上应用重复计数，所以我们将
+repeat counts on those so we're gonna
+
+353
+00:15:56,820 --> 00:15:59,100
+得到一个总数，如果我们要将这个
+get to a total if we were to Total this
+
+354
+00:15:59,100 --> 00:16:03,240
+加起来，它应该是 1600 呃总重复
+up it should be 1600 uh total repeats
+
+355
+00:16:03,240 --> 00:16:05,040
+现在它有点通过
+now it's kind of going through the
+
+356
+00:16:05,040 --> 00:16:08,519
+加载实际模型的过程，
+process of loading the actual model and
+
+357
+00:16:08,519 --> 00:16:11,040
+然后加载图像，嗯，
+then it's loading the image and the uh
+
+358
+00:16:11,040 --> 00:16:12,899
+所以它被删除了缓存，所以它加载了
+so it's caching deleted so it's loading
+
+359
+00:16:12,899 --> 00:16:14,639
+所有不同的图像，并
+all of the different image and created
+
+360
+00:16:14,639 --> 00:16:17,880
+从中创建和创建潜在模型，现在
+and creating latents out of them and now
+
+361
+00:16:17,880 --> 00:16:20,160
+就像那样，它已经开始
+just like that it's already starting to
+
+362
+00:16:20,160 --> 00:16:24,240
+训练模型了，嗯， 正如你所看到的，我们
+train the model uh and as you can see we
+
+363
+00:16:24,240 --> 00:16:26,940
+现在有 800 次重复，你会想
+have 800 repeats now you're going to
+
+364
+00:16:26,940 --> 00:16:29,639
+知道为什么你告诉我 800 会
+wonder why 800 you told me it's going to
+
+365
+00:16:29,639 --> 00:16:32,699
+变成 1600，这是正确的，因为它是
+be 1600 which is right because it's the
+
+366
+00:16:32,699 --> 00:16:36,060
+图像的总数，所以我们有 1600 个
+total number of image so we have 1 600
+
+367
+00:16:36,060 --> 00:16:40,980
+经过训练的重复图像，现在我们
+trained image with repeating now we have
+
+368
+00:16:40,980 --> 00:16:45,660
+设置了两个
+set a two train
+
+369
+00:16:45,660 --> 00:16:46,500
+um
+
+370
+00:16:46,500 --> 00:16:49,320
+正确地训练 um 正确的措辞是
+like the right the right wording is to a
+
+371
+00:16:49,320 --> 00:16:52,079
+训练批量大小为 2 所以因为我们的
+train batch size of two so because we
+
+372
+00:16:52,079 --> 00:16:54,060
+批量大小为 2 我们实际上是
+have a batch size of two we are
+
+373
+00:16:54,060 --> 00:16:57,060
+essentially training two image in
+
+374
+00:16:57,060 --> 00:17:01,800
+在 GPU 的内存中并行训练两个图像因此
+parallel within the uh memory of the GPU
+
+375
+00:17:01,800 --> 00:17:05,699
+我们将 1 600
+so because of that we're dividing 1 600
+
+376
+00:17:05,699 --> 00:17:09,599
+by 2 这给了我们 800 次重复，但它
+by 2 which gives us 800 repeats but it's
+
+377
+00:17:09,599 --> 00:17:12,240
+仍然在做 1600 次，但是因为我们
+still doing the 1600 but because we're
+
+378
+00:17:12,240 --> 00:17:15,720
+一次做两次，所以它减少了
+doing two at a time it cuts down uh the
+
+379
+00:17:15,720 --> 00:17:18,900
+步数，两次达到 800 次。
+number of steps and two to go to 800.
+
+380
+00:17:18,900 --> 00:17:20,699
+现在
+now
+
+381
+00:17:20,699 --> 00:17:23,339
+你会问我为什么不这样做 想像
+you're going to ask why wouldn't I want
+
+382
+00:17:23,339 --> 00:17:25,760
+to go and put like
+
+383
+00:17:25,760 --> 00:17:30,480
+16 那样放。呃训练过的批量大小
+16. uh trained batch size
+
+384
+00:17:30,480 --> 00:17:33,299
+我想如果你有一个 vram 你
+I guess if you're having a vram you
+
+385
+00:17:33,299 --> 00:17:36,539
+可以在你的 GPU 中做到这一点但
+could do that in your GPU but the
+
+386
+00:17:36,539 --> 00:17:38,640
+问题是现在你将有很少的
+problem is now you're gonna have so few
+
+387
+00:17:38,640 --> 00:17:42,059
+步骤就像你学习时
+steps like when you learn
+
+388
+00:17:42,059 --> 00:17:43,860
+如果你看这个 这里的损失数字会
+if you look at this loss number here
+
+389
+00:17:43,860 --> 00:17:46,020
+逐渐下降，
+it's gradually going to go down right
+
+390
+00:17:46,020 --> 00:17:49,500
+但系统需要一段时间才能
+but it takes a while for the system to
+
+391
+00:17:49,500 --> 00:17:52,020
+开始学习东西，如果你同时向它提供
+start to learn things and if you feed it
+
+392
+00:17:52,020 --> 00:17:54,600
+太多信息来
+too much information at once in parallel
+
+393
+00:17:54,600 --> 00:17:58,260
+并行训练，那么你最终的
+to train then you end up having too few
+
+394
+00:17:58,260 --> 00:18:00,780
+步骤太少而且它不会 有足够的时间来
+steps and it doesn't have enough time to
+
+395
+00:18:00,780 --> 00:18:03,539
+正确地学习模型，所以你
+properly learn the model so you're
+
+396
+00:18:03,539 --> 00:18:05,880
+最好做一两个训练的批量大小，
+better off to do trained batch size of
+
+397
+00:18:05,880 --> 00:18:09,059
+除非
+one or two unless you have like maybe a
+
+398
+00:18:09,059 --> 00:18:11,520
+你的数据集中可能有几百张
+couple hundred image in your data set
+
+399
+00:18:11,520 --> 00:18:13,440
+你想要交易的图像，然后
+that you want to trade on and then it
+
+400
+00:18:13,440 --> 00:18:15,240
+在这一点上有意义 可能会有
+makes sense at that point to maybe have
+
+401
+00:18:15,240 --> 00:18:18,299
+更大的批量大小，因为你
+more a larger batch size because you're
+
+402
+00:18:18,299 --> 00:18:20,820
+要训练更多的
+going to train over a longer number of
+
+403
+00:18:20,820 --> 00:18:23,460
+步骤，但在我们的例子中，因为我们只
+steps but in our case because we're only
+
+404
+00:18:23,460 --> 00:18:27,480
+使用 16 张图像，我不想训练得
+using 16 image I don't want to train too
+
+405
+00:18:27,480 --> 00:18:29,700
+太快，我希望系统需要一段时间
+fast I want the system to take a while
+
+406
+00:18:29,700 --> 00:18:31,980
+训练需要一段时间，这样
+the training to take a while such that
+
+407
+00:18:31,980 --> 00:18:33,900
+它就有机会
+it gives a chance to learn the model
+
+408
+00:18:33,900 --> 00:18:37,940
+更好地学习模型，并随着时间的推移降低损失，
+better and to get the loss to be lower
+
+409
+00:18:37,940 --> 00:18:40,679
+这样我们就开始
+over time such that we start to learn
+
+410
+00:18:40,679 --> 00:18:42,539
+越来越多地了解模型，
+more and more and more about the model
+
+411
+00:18:42,539 --> 00:18:44,700
+所以人们犯的一个错误是
+so that's one mistake people make is
+
+412
+00:18:44,700 --> 00:18:47,820
+他们会 以太大的批次
+they will train with too high a batch
+
+413
+00:18:47,820 --> 00:18:51,360
+大小进行训练，最终会限制
+size and it's going to end up limiting
+
+414
+00:18:51,360 --> 00:18:54,179
+您可以在实际模型上进行的学习量，
+the amount of learning you can do on an
+
+415
+00:18:54,179 --> 00:18:56,400
+actual model
+
+416
+00:18:56,400 --> 00:18:59,700
+所以我会在这里暂停，让
+so I will pause here and I will let the
+
+417
+00:18:59,700 --> 00:19:02,160
+实际训练继续进行，一旦
+actual training proceed and then once
+
+418
+00:19:02,160 --> 00:19:05,280
+完成，我们可以做几个
+it's done uh we can do a couple of
+
+419
+00:19:05,280 --> 00:19:08,220
+提示查询模型并查看
+prompt queries on the model and see the
+
+420
+00:19:08,220 --> 00:19:10,400
+结果
+results
+
+421
+00:19:12,179 --> 00:19:14,520
+我们的模型现在已经准备好了，
+our model is now ready
+
+422
+00:19:14,520 --> 00:19:18,679
+所以我猜我们损失了一个
+so we have I guess gone to a loss of one
+
+423
+00:19:18,679 --> 00:19:23,760
+0.111，看起来还不错，最后一个会
+0.111 and it looks okay the last will
+
+424
+00:19:23,760 --> 00:19:25,740
+因模型而异，但听起来
+vary from model to model but that sounds
+
+425
+00:19:25,740 --> 00:19:28,440
+相当不错，
+like fairly good
+
+426
+00:19:28,440 --> 00:19:31,140
+所以现在是时候开始了 并尝试这个
+so now it's time to go and try this
+
+427
+00:19:31,140 --> 00:19:34,220
+名为 Jennifer Aniston
+model which is called Jennifer Aniston
+
+428
+00:19:34,220 --> 00:19:37,559
+v1.0 safe dancer 的模型，让我们来看看
+v1.0 safe dancer so let's go and have a
+
+429
+00:19:37,559 --> 00:19:40,400
+它
+look at that
+
+430
+00:19:41,760 --> 00:19:44,760
+好吧，让我们转到稳定的扩散 Web
+okay so let's go to stable diffusion web
+
+431
+00:19:44,760 --> 00:19:46,080
+UI，
+UI
+
+432
+00:19:46,080 --> 00:19:49,260
+在这里我们要加载确保
+and here we're going to load make sure
+
+433
+00:19:49,260 --> 00:19:51,620
+我们加载了 prune 模型
+that we have the prune model
+
+434
+00:19:51,620 --> 00:19:56,280
+v15 作为一个检查点，
+v15 loaded as a checkpoint and
+
+435
+00:19:56,280 --> 00:19:58,559
+不需要像
+don't really need like to change like
+
+436
+00:19:58,559 --> 00:20:00,360
+大多数人那样改变它会成为一个
+for most people it's going to be an
+
+437
+00:20:00,360 --> 00:20:01,640
+自动
+automatic
+
+438
+00:20:01,640 --> 00:20:06,960
+vae，所以我喜欢像这样使用 VA ft MSC
+vae so I like to use the VA ft MSC in
+
+439
+00:20:06,960 --> 00:20:09,419
+like this one
+
+440
+00:20:09,419 --> 00:20:11,700
+作为我的 VA
+as my VA
+
+441
+00:20:11,700 --> 00:20:15,840
+现在我们需要去加载一些并
+now we need to go and load some and
+
+442
+00:20:15,840 --> 00:20:18,539
+配置它 这样我们就可以使用
+configure this so that we can use
+
+443
+00:20:18,539 --> 00:20:21,480
+自动或自动一对一，所以有
+automatic or Auto one one one so there's
+
+444
+00:20:21,480 --> 00:20:24,000
+两种方法可以做到，你可以
+two ways you can do that you can either
+
+445
+00:20:24,000 --> 00:20:28,559
+使用称为 SD web
+use an extension uh that's called SD web
+
+446
+00:20:28,559 --> 00:20:31,440
+UI 附加网络的扩展来实际加载
+UI additional networks to actually load
+
+447
+00:20:31,440 --> 00:20:36,419
+它们，这是由 koi ISS 制作的，或者你可以
+them which is made by koi ISS or you can
+
+448
+00:20:36,419 --> 00:20:38,820
+使用内置的 - 在
+use the built-in
+
+449
+00:20:38,820 --> 00:20:42,980
+Auto one one one Laura uh
+Auto one one one one Laura uh
+
+450
+00:20:42,980 --> 00:20:45,720
+embedding settings 如果你点击
+embedding settings if you click on that
+
+451
+00:20:45,720 --> 00:20:48,720
+这里的那个小图标 show Extra Networks
+little icon here show Extra Networks
+
+452
+00:20:48,720 --> 00:20:50,940
+你会看到文本反转
+you're going to see textual inversion
+
+453
+00:20:50,940 --> 00:20:53,160
+超网络和 Laura 所以如果我在
+hyper networks and Laura so if I go
+
+454
+00:20:53,160 --> 00:20:55,860
+Laura 下我们会看到我们
+under Laura we're going to see that we
+
+455
+00:20:55,860 --> 00:20:58,799
+有我们的 Jennifer  Aniston V1 顺便说一下，
+have our Jennifer Aniston V1 and by the
+
+456
+00:20:58,799 --> 00:21:01,080
+我犯了一个错误，就像我在
+way I made it a mistake like when I
+
+457
+00:21:01,080 --> 00:21:06,480
+配置和这里我的文件夹时使用了
+configured and here my folders I use the
+
+458
+00:21:06,480 --> 00:21:08,760
+嵌入目标，这是错误的，
+embeddings destination which was wrong
+
+459
+00:21:08,760 --> 00:21:11,760
+我应该使用默认的
+right I should have used the default
+
+460
+00:21:11,760 --> 00:21:13,980
+Laura
+Laura
+
+461
+00:21:13,980 --> 00:21:16,740
+文件夹，所以它应该是
+folder within so it should have been
+
+462
+00:21:16,740 --> 00:21:20,460
+这个文件夹，所以如果我去这里 而
+this one instead so if I go here instead
+
+463
+00:21:20,460 --> 00:21:23,700
+不是嵌入我应该
+of embeddings I should have used this
+
+464
+00:21:23,700 --> 00:21:26,100
+在模型下使用它我应该使用
+under models I should have used the
+
+465
+00:21:26,100 --> 00:21:29,400
+模型文件夹本身中的 Laura 文件夹
+Laura folder within the models folder
+
+466
+00:21:29,400 --> 00:21:31,140
+作为我的目的地所以我
+itself for my destination so what I've
+
+467
+00:21:31,140 --> 00:21:33,299
+现在所做的是我将生成的
+done now is I kind of move the resulting
+
+468
+00:21:33,299 --> 00:21:35,340
+文件移动到该文件夹​​中
+file into that folder
+
+469
+00:21:35,340 --> 00:21:37,740
+以便我们拥有它所以我 我将把
+so that we have that so I'm going to
+
+470
+00:21:37,740 --> 00:21:40,320
+它保存为默认值，所以这是
+save it as the as the default so this is
+
+471
+00:21:40,320 --> 00:21:43,860
+你放置你的
+where you would put your
+
+472
+00:21:43,860 --> 00:21:45,480
+uh
+
+473
+00:21:45,480 --> 00:21:48,480
+文件的地方，我猜你的文件还有其他
+I guess your your file there's other
+
+474
+00:21:48,480 --> 00:21:50,340
+方法你也可以配置，比如如果你
+ways you can also configure like if you
+
+475
+00:21:50,340 --> 00:21:53,159
+使用扩展名，例如
+use the extension for example
+
+476
+00:21:53,159 --> 00:21:54,059
+um
+um
+
+477
+00:21:54,059 --> 00:21:56,400
+在这里你将找到的设置
+here under settings you're going to find
+
+478
+00:21:56,400 --> 00:21:58,980
+就像一个额外的网络
+like an additional networks
+
+479
+00:21:58,980 --> 00:22:01,200
+配置选项卡，您可以在其中指定
+configuration tab where you can specify
+
+480
+00:22:01,200 --> 00:22:03,539
+其他位置，您可以在其中存储
+other location where you might store
+
+481
+00:22:03,539 --> 00:22:06,840
+一些 lauras，这是另一种
+some of your lauras so that's another
+
+482
+00:22:06,840 --> 00:22:09,000
+访问方式，但
+way to kind of access that but by
+
+483
+00:22:09,000 --> 00:22:11,880
+默认情况下，在 Auto 中，Laura
+default in Auto one one one that Laura
+
+484
+00:22:11,880 --> 00:22:14,700
+文件夹是所有实际 Lora
+folder is where all of the actual Lora
+
+485
+00:22:14,700 --> 00:22:16,559
+模型所在的位置 放这样你就可以
+models should be put so that you can
+
+486
+00:22:16,559 --> 00:22:17,820
+使用它们
+make use of them
+
+487
+00:22:17,820 --> 00:22:21,240
+所以我们将使用自动 1111
+so we're going to use the auto 1111
+
+488
+00:22:21,240 --> 00:22:25,620
+方法来实际使用 dolora
+method to actually make use of dolora
+
+489
+00:22:25,620 --> 00:22:28,799
+所以第一件事我会去尝试获得
+so first thing I'll go and try to get
+
+490
+00:22:28,799 --> 00:22:31,980
+我做过一段时间的现有提示之一
+one of the existing prompt that I did a
+
+491
+00:22:31,980 --> 00:22:35,000
+就像呃当 在与 Laura 合作时，
+while like uh when when working with
+
+492
+00:22:35,000 --> 00:22:38,340
+我们可以将其重新用作
+Laura's so we can reuse that as a
+
+493
+00:22:38,340 --> 00:22:40,500
+我们将
+template for the prompt that we're going
+
+494
+00:22:40,500 --> 00:22:42,419
+用于生成图片的提示的模板，
+to use to generate the pictures
+
+495
+00:22:42,419 --> 00:22:46,200
+呃，所以我将进入稳定扩散的输出
+uh so I'm going to go under outputs of
+
+496
+00:22:46,200 --> 00:22:49,220
+stable diffusion
+
+497
+00:22:49,220 --> 00:22:52,380
+，在这里我将进入我的形象
+and here I'm going to go under my image
+
+498
+00:22:52,380 --> 00:22:54,179
+文件夹，我会找到一张
+folder and I'm going to find like an
+
+499
+00:22:54,179 --> 00:22:57,120
+我过去生成的
+image that I've generated in the past
+
+500
+00:22:57,120 --> 00:22:59,760
+看起来不错的图像，所以假设我们
+that looks good so let's say that we
+
+501
+00:22:59,760 --> 00:23:01,559
+喜欢这个风格，我们
+like the style of this one and we would
+
+502
+00:23:01,559 --> 00:23:04,559
+希望看到 Jennifer
+like to see our picture of Jennifer
+
+503
+00:23:04,559 --> 00:23:08,159
+Aniston 的一般风格照片
+Aniston in the general style that this
+
+504
+00:23:08,159 --> 00:23:10,140
+图片提供了，所以我们要去这里
+picture provides so we're gonna go here
+
+505
+00:23:10,140 --> 00:23:14,419
+，我要去把它拖到
+and I'm gonna go and drag this into
+
+506
+00:23:14,419 --> 00:23:18,720
+这个呃字段中，它会吐出
+this uh field and it spits out all of
+
+507
+00:23:18,720 --> 00:23:21,000
+这张图片中的所有元数据信息，
+the metadata info that were within this
+
+508
+00:23:21,000 --> 00:23:24,179
+现在我可以使用这个图标将
+image and now I can use this icon to
+
+509
+00:23:24,179 --> 00:23:27,720
+配置推送到哪里 它需要
+kind of push the config where it needs
+
+510
+00:23:27,720 --> 00:23:31,320
+在提示负舞会
+to be in the prompt the negative prom
+
+511
+00:23:31,320 --> 00:23:33,600
+字段中，其他所有内容都按照
+field and everything else gets kind of
+
+512
+00:23:33,600 --> 00:23:35,580
+我
+configured the way it was when I
+
+513
+00:23:35,580 --> 00:23:38,039
+生成此图片时的方式进行配置，我
+generated this picture one thing that I
+
+514
+00:23:38,039 --> 00:23:39,840
+要确保禁用的一件事是我
+will want to make sure I disable is I
+
+515
+00:23:39,840 --> 00:23:41,700
+不想启用实际的
+don't want to enable the actual
+
+516
+00:23:41,700 --> 00:23:44,100
+附加网络 因为我用它
+additional networks because I used that
+
+517
+00:23:44,100 --> 00:23:46,260
+来创建图像 我想向您展示
+to create the image I want to show you
+
+518
+00:23:46,260 --> 00:23:48,980
+如何使用自动一对一
+how to use the auto one one one
+
+519
+00:23:48,980 --> 00:23:51,539
+内置的 Lora 支持，这样您就不必
+built-in Lora support so you don't have
+
+520
+00:23:51,539 --> 00:23:54,360
+安装额外的扩展来
+to install that extra extension to
+
+521
+00:23:54,360 --> 00:23:57,840
+生成您的图像，所以现在我们有
+generate your image so now that we have
+
+522
+00:23:57,840 --> 00:24:01,320
+正确的设置 只是为了
+the right settings in place just for the
+
+523
+00:24:01,320 --> 00:24:03,539
+好玩，让我们禁用高风险
+fun let's I'm going to disable high-risk
+
+524
+00:24:03,539 --> 00:24:04,740
+修复，因为它需要一段时间
+fix because it's going to take a while
+
+525
+00:24:04,740 --> 00:24:07,260
+才能生成，但让我们生成这种
+to generate but let's generate the kind
+
+526
+00:24:07,260 --> 00:24:10,080
+图片，这将
+of picture this would this would produce
+
+527
+00:24:10,080 --> 00:24:14,280
+在没有
+on its own without any uh
+
+528
+00:24:14,280 --> 00:24:16,380
+任何劳拉的情况下自行生成，所以你可以 看到
+any Laura so you can kind of see the
+
+529
+00:24:16,380 --> 00:24:18,179
+图片的风格还不错我的意思是
+style of picture it's not bad I mean
+
+530
+00:24:18,179 --> 00:24:20,940
+这不是一张糟糕的图片它是默认的
+it's not a bad picture it's a default
+
+531
+00:24:20,940 --> 00:24:24,659
+稳定扩散 1.5 类型图像但是如果
+stable diffusion 1.5 Type image but if
+
+532
+00:24:24,659 --> 00:24:26,820
+我们开始添加我们的 Laura 所以我将
+we start to add our Laura so I'm going
+
+533
+00:24:26,820 --> 00:24:29,400
+在此处进入该提示并且我
+to go into that prompt here and I'm
+
+534
+00:24:29,400 --> 00:24:31,559
+将扩展 额外的网络，
+going to expand the additional Network
+
+535
+00:24:31,559 --> 00:24:33,860
+我要点击这个 Jennifer
+and I'm going to click on this Jennifer
+
+536
+00:24:33,860 --> 00:24:36,419
+Aniston V1 模型，
+Aniston V1 model
+
+537
+00:24:36,419 --> 00:24:38,940
+现在你会看到它
+now you're gonna see that it added this
+
+538
+00:24:38,940 --> 00:24:41,400
+在 The Prompt 的末尾添加了这个所以我想
+at the end of The Prompt so I want to
+
+539
+00:24:41,400 --> 00:24:43,679
+移动它所以 Ctrl X 我想把
+move this so Ctrl X and I want to move
+
+540
+00:24:43,679 --> 00:24:45,780
+它移到开头 因为这
+it up to the beginning because this is
+
+541
+00:24:45,780 --> 00:24:48,120
+很好，我想在
+well I guess it doesn't matter in the
+
+542
+00:24:48,120 --> 00:24:50,220
+劳拉的情况下没关系，它可能在最后它
+case of a Laura it can be at the end it
+
+543
+00:24:50,220 --> 00:24:52,260
+没有任何它不是一个令牌它
+doesn't have any it's not a token it's
+
+544
+00:24:52,260 --> 00:24:53,700
+只是一个
+just going to be an embedding that's
+
+545
+00:24:53,700 --> 00:24:55,919
+将要被替换的嵌入所以我们要
+going to be replaced so we're going to
+
+546
+00:24:55,919 --> 00:24:57,600
+坚持你可能想做的一件事
+stick with that one thing you may want
+
+547
+00:24:57,600 --> 00:25:01,200
+是，我认为如果你将
+to do is I think if you lower the
+
+548
+00:25:01,200 --> 00:25:04,799
+这个较低的强度降低到 0.7，
+strength of this lower to 0.7
+
+549
+00:25:04,799 --> 00:25:07,260
+效果会更好，我们将尝试
+it's a better effect we're going to try
+
+550
+00:25:07,260 --> 00:25:10,980
+0.7 和 1，这是 allora 的默认值，
+at 0.7 and 1 which is the default for
+
+551
+00:25:10,980 --> 00:25:13,020
+当你实际将它添加到
+allora when you actually add it to the
+
+552
+00:25:13,020 --> 00:25:16,140
+提示 呃 但我们要使用 0.7
+prompt uh but we're going to go with 0.7
+
+553
+00:25:16,140 --> 00:25:18,000
+因为我知道通常这会
+because I know usually this tend to
+
+554
+00:25:18,000 --> 00:25:20,700
+产生更好的图像 我们要
+produce better image and we're going to
+
+555
+00:25:20,700 --> 00:25:22,919
+添加
+add the
+
+556
+00:25:22,919 --> 00:25:24,840
+um 标题中的一些词
+um some of the words from the caption
+
+557
+00:25:24,840 --> 00:25:26,880
+这基本上我们要将
+which essentially we're gonna add
+
+558
+00:25:26,880 --> 00:25:29,480
+Jennifer
+Jennifer
+
+559
+00:25:32,039 --> 00:25:34,200
+Aniston 添加
+Aniston
+
+560
+00:25:34,200 --> 00:25:37,620
+到提示 我们已经有了
+to the prompt and we already have the
+
+561
+00:25:37,620 --> 00:25:40,020
+关键字 woman，它已经是其中的一部分
+keyword woman which is already part of
+
+562
+00:25:40,020 --> 00:25:41,760
+我们将确保提示有意义
+this we're going to make sure that the
+
+563
+00:25:41,760 --> 00:25:44,460
+我认为它
+prompt kind of makes sense I think it
+
+564
+00:25:44,460 --> 00:25:47,100
+确实 Jennifer 有一种褐色的空气
+does Jennifer has sort of brownish air
+
+565
+00:25:47,100 --> 00:25:50,039
+所以我们应该没问题 如此迷人的年轻
+so we should be fine so attractive young
+
+566
+00:25:50,039 --> 00:25:52,200
+女性 美丽的脸庞 详细的眼睛
+woman beautiful face detailed eyes
+
+567
+00:25:52,200 --> 00:25:55,380
+烟熏眼妆所以波浪形的头发
+smokey eye makeup so wavy hair that's
+
+568
+00:25:55,380 --> 00:25:57,539
+没关系所以我认为我们很好地进行
+all right so I think we're good to give
+
+569
+00:25:57,539 --> 00:26:00,059
+测试所以让我们关闭它我们
+it a test so let's close that and we're
+
+570
+00:26:00,059 --> 00:26:03,000
+将制作一批四张所以我们
+gonna make a batch of four so we're
+
+571
+00:26:03,000 --> 00:26:05,100
+将获得四张图片而不是一张
+gonna get four image instead of just one
+
+572
+00:26:05,100 --> 00:26:07,500
+我们 将获得四张图像
+we're gonna get four images
+
+573
+00:26:07,500 --> 00:26:08,940
+渲染
+render
+
+574
+00:26:08,940 --> 00:26:10,860
+所以让我们去看看它给我们带来了什么
+so let's go and let's see what it gives
+
+575
+00:26:10,860 --> 00:26:13,460
+结果
+us a result
+
+576
+00:26:13,860 --> 00:26:16,919
+所以我们已经可以看到詹妮弗安妮斯顿
+so we can already see Jennifer Aniston
+
+577
+00:26:16,919 --> 00:26:19,679
+成为渲染的一部分
+being part of the render
+
+578
+00:26:19,679 --> 00:26:24,600
+并且哇，如果我
+and wow that looks pretty solid if I'm
+
+579
+00:26:24,600 --> 00:26:27,059
+问我认为我们有一个非常可靠的
+asking I think we have a pretty solid
+
+580
+00:26:27,059 --> 00:26:28,140
+渲染
+render
+
+581
+00:26:28,140 --> 00:26:31,380
+并且我 认为这些图像变得
+and I think those image are turning to
+
+582
+00:26:31,380 --> 00:26:33,720
+非常好
+be pretty good
+
+583
+00:26:33,720 --> 00:26:37,380
+所以如果我单击它让我们在
+so if I click on it let's look at one in
+
+584
+00:26:37,380 --> 00:26:38,460
+the
+
+585
+00:26:38,460 --> 00:26:41,460
+展开的视图中看一个美丽的我认为这正是
+expanded view beautiful I think this is
+
+586
+00:26:41,460 --> 00:26:42,360
+pretty
+
+587
+00:26:42,360 --> 00:26:45,980
+我们所期望的
+exactly what we are would expect
+
+588
+00:26:45,980 --> 00:26:49,559
+眼睛可能有点
+eyes might be a little bit
+
+589
+00:26:49,559 --> 00:26:52,140
+糟糕但我认为这还不错我的意思是 我们
+bad but I think it's not bad I mean we
+
+590
+00:26:52,140 --> 00:26:54,059
+有一个非常好的图像，我会给你一个技巧，
+have a pretty good image one trick I'm
+
+591
+00:26:54,059 --> 00:26:55,440
+gonna give you
+
+592
+00:26:55,440 --> 00:26:58,559
+这些图像看起来不错，但要
+those image looks good but there is to
+
+593
+00:26:58,559 --> 00:27:01,320
+改进这些图像，你可以做的
+improve on those image what you can do
+
+594
+00:27:01,320 --> 00:27:03,600
+是，你实际上可以打开
+is you can actually turn on
+
+595
+00:27:03,600 --> 00:27:07,080
+呃高分辨率修复它要做的
+uh high-res fix what that's going to do
+
+596
+00:27:07,080 --> 00:27:09,900
+是它会
+is it's going to scale up this image to
+
+597
+00:27:09,900 --> 00:27:13,380
+在这种情况下，将此图像放大到大小的 1.5 倍，这样
+in this case 1.5 times the size so that
+
+598
+00:27:13,380 --> 00:27:17,159
+它就不是 384 x 704，而是
+it is instead of being 384 by 704 it's
+
+599
+00:27:17,159 --> 00:27:21,360
+576 x 1056，但它
+going to be 576 by 1056 but it does it
+
+600
+00:27:21,360 --> 00:27:24,120
+使用潜在的
+using the latent
+
+601
+00:27:24,120 --> 00:27:28,200
+um 图像来实现它，因此它缩放潜在的而
+um image so it scales the latent instead
+
+602
+00:27:28,200 --> 00:27:30,600
+不是仅仅做一个 upres 产生
+of just doing an upres which produce
+
+603
+00:27:30,600 --> 00:27:34,140
+更好的结果并且当你这样做时它产生了
+much better results and It produced much
+
+604
+00:27:34,140 --> 00:27:37,020
+看起来更自然的呃结果
+more natural looking uh results when you
+
+605
+00:27:37,020 --> 00:27:39,600
+所以让我们再次运行它
+do that so let's run it again
+
+606
+00:27:39,600 --> 00:27:41,100
+现在需要更多时间因为
+it's going to take more time now because
+
+607
+00:27:41,100 --> 00:27:43,140
+我们将不得不提升实际
+we're gonna have to upres the actual
+
+608
+00:27:43,140 --> 00:27:45,480
+图像所以它做的第一件事就是
+image so the first thing it does and
+
+609
+00:27:45,480 --> 00:27:48,779
+生成准确的图像 我们添加
+generates the exact same image we add uh
+
+610
+00:27:48,779 --> 00:27:52,980
+在上一次运行中生成的相同图像，但是当
+generated in the previous run but when
+
+611
+00:27:52,980 --> 00:27:55,200
+它达到 50% 时，它将
+it gets to 50 percent then it's going to
+
+612
+00:27:55,200 --> 00:27:58,140
+开始升级和
+start to upscale and
+
+613
+00:27:58,140 --> 00:28:00,419
+分组并创建
+group and create high resolution
+
+614
+00:28:00,419 --> 00:28:03,120
+这些图像的高分辨率版本，看起来会
+versions of those image which will look
+
+615
+00:28:03,120 --> 00:28:04,740
+好得多，
+much better
+
+616
+00:28:04,740 --> 00:28:06,240
+所以现在你会看到它们
+so now you are going to see that they
+
+617
+00:28:06,240 --> 00:28:07,620
+会变成 软，
+will become soft
+
+618
+00:28:07,620 --> 00:28:10,440
+因为现在他们有点像它正在
+because now they have been kind of it's
+
+619
+00:28:10,440 --> 00:28:13,380
+使用它在低分辨率下所做的最终图像的潜在版本
+using the latent version of the final
+
+620
+00:28:13,380 --> 00:28:16,140
+来开始
+image it did at low resolution to start
+
+621
+00:28:16,140 --> 00:28:18,720
+创建高共振的过程
+the process of creating a high resonage
+
+622
+00:28:18,720 --> 00:28:21,059
+这样做是为了确保
+what that does is that it ensures
+
+623
+00:28:21,059 --> 00:28:24,419
+一致性它不会创建一个
+consistency it's not going to create one
+
+624
+00:28:24,419 --> 00:28:26,820
+关键图像因为它有 分辨率太高 请
+key image because it's got too high a
+
+625
+00:28:26,820 --> 00:28:29,340
+记住，该模型是
+resolution remember that this model was
+
+626
+00:28:29,340 --> 00:28:33,260
+在 512 x 512 分辨率上训练的，
+trained on a 512 by 512 resolution
+
+627
+00:28:33,260 --> 00:28:36,360
+因此如果您尝试生成
+so if you try to produce image that are
+
+628
+00:28:36,360 --> 00:28:38,880
+远高于此分辨率的图像，它往往会
+well Above This resolution it tends to
+
+629
+00:28:38,880 --> 00:28:41,940
+创建可怕的图像，但通过利用
+create monstrous image but by leveraging
+
+630
+00:28:41,940 --> 00:28:45,840
+这种潜在的放大，它将保持
+this latent upscaling it will keep the
+
+631
+00:28:45,840 --> 00:28:49,380
+最终生成的外观 图像，它
+look of the final produced image and it
+
+632
+00:28:49,380 --> 00:28:51,720
+会知道头部、
+will know where the head and the
+
+633
+00:28:51,720 --> 00:28:54,360
+肩膀和腿应该在哪里，
+shoulders and the legs should be and
+
+634
+00:28:54,360 --> 00:28:56,279
+然后它会使用它以适当连贯的方式创建
+then it will just use that to create the
+
+635
+00:28:56,279 --> 00:28:58,740
+精细范围的渲染
+render of the fine range
+
+636
+00:28:58,740 --> 00:29:01,279
+in a properly
+
+637
+00:29:01,279 --> 00:29:04,140
+所以现在如果我们看
+coherent matter so now if we look at
+
+638
+00:29:04,140 --> 00:29:07,140
+那些我们可以看到现在我们有 更精细的
+those we can see that now we have finer
+
+639
+00:29:07,140 --> 00:29:09,600
+细节你已经可以看到
+details you can already see that the
+
+640
+00:29:09,600 --> 00:29:12,120
+图片看起来
+pictures look
+
+641
+00:29:12,120 --> 00:29:15,299
+更清晰你可以看到
+a lot more defined you can see the
+
+642
+00:29:15,299 --> 00:29:18,120
+背景模糊它看起来
+background the blurriness it looks
+
+643
+00:29:18,120 --> 00:29:20,419
+很棒岩石
+awesome the Rocks
+
+644
+00:29:20,419 --> 00:29:23,100
+它是一个完美的图像让我们尝试
+it's a perfect image let's try another
+
+645
+00:29:23,100 --> 00:29:25,320
+另一个只是为了踢一下我们去从
+one just for a kick let's go and pick
+
+646
+00:29:25,320 --> 00:29:28,500
+一堆中挑选另一个呃让我们
+another one out of the bunch uh let's go
+
+647
+00:29:28,500 --> 00:29:30,779
+回到最近的一个，例如我为
+back to a more recent one for example I
+
+648
+00:29:30,779 --> 00:29:34,140
+did a couple of share the model for
+
+649
+00:29:34,140 --> 00:29:36,899
+Cyndi Lauper 做了几个分享模型让我们试试我不知道
+Cyndi Lauper let's try I don't know if
+
+650
+00:29:36,899 --> 00:29:38,340
+这是否会运作良好，因为那是
+that's going to work well because that's
+
+651
+00:29:38,340 --> 00:29:40,860
+一个非常疯狂的图像，但让我们说如果我们
+a pretty crazy image but let's say if we
+
+652
+00:29:40,860 --> 00:29:42,659
+要在什么地方重用这个提示 我们
+were to reuse this prompt where we're
+
+653
+00:29:42,659 --> 00:29:46,559
+要求紫色或粉红色和红色的
+asking for purple or for pink and red
+
+654
+00:29:46,559 --> 00:29:48,299
+头发 我不知道这是否适用于
+hair I don't know if that would work on
+
+655
+00:29:48,299 --> 00:29:50,340
+我们的模型 尝试很有趣 让我们
+our model it's interesting to try let's
+
+656
+00:29:50,340 --> 00:29:53,580
+疯狂地尝试一下 所以我们将
+go wild and try that so we're going to
+
+657
+00:29:53,580 --> 00:29:55,679
+应用与我相同的设置 但现在
+apply the same settings I had but now
+
+658
+00:29:55,679 --> 00:29:58,260
+我' 我要回去把我们的
+I'm going to go back and bring back our
+
+659
+00:29:58,260 --> 00:30:01,260
+詹妮弗·安妮斯顿带回来，
+Jennifer Aniston
+
+660
+00:30:01,260 --> 00:30:04,159
+我们将用詹妮弗·安妮斯顿 1990 年代 1990 年代的衣服取代 1980 年代的辛迪·劳珀，
+and we're going to replace Cyndi Lauper
+
+661
+00:30:04,159 --> 00:30:09,960
+1980s with Jennifer Aniston 1990s
+
+662
+00:30:11,480 --> 00:30:14,100
+所以这会给
+1990d so it's so it's going to tend to
+
+663
+00:30:14,100 --> 00:30:18,960
+她带来 1990 年代风格的服装，我
+give her a clothing of 1990 style and I
+
+664
+00:30:18,960 --> 00:30:20,220
+想其他一切都应该在照片上
+guess everything else should be photo
+
+665
+00:30:20,220 --> 00:30:23,299
+很有吸引力 好吧，嘴唇
+attractive okay lips
+
+666
+00:30:23,299 --> 00:30:27,720
+有翅膀的眼线紧身体粉红色的头发所以
+winged eye line tight body pink hair so
+
+667
+00:30:27,720 --> 00:30:29,580
+我们要求粉红色的头发所以让我们
+it's we're asking for pink hair so let's
+
+668
+00:30:29,580 --> 00:30:33,240
+看看我们穿了一件夹克是什么让我们
+see what we get wearing a jacket uh yeah
+
+669
+00:30:33,240 --> 00:30:35,700
+试一试好奇看看
+let's give it a try curious to see what
+
+670
+00:30:35,700 --> 00:30:38,419
+这会给我们带来什么
+that's going to give us
+
+671
+00:30:40,440 --> 00:30:44,480
+不应该理论很好
+shouldn't Theory be pretty good
+
+672
+00:30:45,059 --> 00:30:48,720
+劳拉很好地解决了
+that Laura is complying quite well to
+
+673
+00:30:48,720 --> 00:30:50,220
+你给它的问题，就像
+the problem that you are giving it like
+
+674
+00:30:50,220 --> 00:30:52,500
+她有夹克，她有
+it's she's got the jacket she's got like
+
+675
+00:30:52,500 --> 00:30:54,240
+粉红色的空气，
+the pink Air
+
+676
+00:30:54,240 --> 00:30:58,260
+你真的可以看到这是她
+you can really see that it's her
+
+677
+00:30:58,260 --> 00:31:02,220
+和歌剧，所以我认为我们学到的
+and the operas so I think we've learned
+
+678
+00:31:02,220 --> 00:31:04,020
+可能有点太多了
+maybe a little bit too much like the
+
+679
+00:31:04,020 --> 00:31:06,480
+模型在创建输出时
+model when it when it creates the output
+
+680
+00:31:06,480 --> 00:31:10,620
+它非常强大正确对比度
+it's pretty strong right the contrast is
+
+681
+00:31:10,620 --> 00:31:13,020
+非常高就像高分辨率修复一样
+very high like the high-res fix kind of
+
+682
+00:31:13,020 --> 00:31:15,179
+使它恢复到更自然的色调
+brings it back to a more natural tone
+
+683
+00:31:15,179 --> 00:31:17,640
+但这告诉我的是
+but what that tells me is
+
+684
+00:31:17,640 --> 00:31:21,480
+我可能应该减少是的看到我
+I should probably reduce yeah see I I
+
+685
+00:31:21,480 --> 00:31:23,340
+有价值 在这种情况下为 1，
+had the value to one in this case
+
+686
+00:31:23,340 --> 00:31:26,340
+而不是 0.7，这就是为什么它如此
+instead of 0.7 this is why it was so
+
+687
+00:31:26,340 --> 00:31:28,860
+强大，所以
+strong so to kind of tone it down a
+
+688
+00:31:28,860 --> 00:31:30,960
+如果你将
+little bit if you bring the actual
+
+689
+00:31:30,960 --> 00:31:35,880
+模型的实际重量 uh 调整为 0.7，那么它会稍微调低一点，然后它会
+weight of the model uh to 0.7 then it
+
+690
+00:31:35,880 --> 00:31:39,600
+产生一个对比度较低的基础
+kind of produce a less contrasty base
+
+691
+00:31:39,600 --> 00:31:42,240
+图像，即
+image which is
+
+692
+00:31:42,240 --> 00:31:45,000
+更多 看起来很自然，我想当你
+more natural looking I guess when you
+
+693
+00:31:45,000 --> 00:31:47,460
+这样做的时候，但即使从
+when you do that but still even starting
+
+694
+00:31:47,460 --> 00:31:50,100
+一个非常反差的图像开始，它
+it with a very contrasty image it's
+
+695
+00:31:50,100 --> 00:31:52,320
+也会产生非常好的
+going to produce very good
+
+696
+00:31:52,320 --> 00:31:55,159
+结果，
+results
+
+697
+00:31:55,380 --> 00:31:59,120
+让我们等待最终的渲染，
+let's wait for the final render
+
+698
+00:32:10,700 --> 00:32:14,220
+你已经有了它，所以现在我们有一个
+there you have it so now we have a
+
+699
+00:32:14,220 --> 00:32:18,480
+非常好的詹妮弗安妮斯顿图像，我的意思是
+Jennifer Aniston image very good I mean
+
+700
+00:32:18,480 --> 00:32:21,419
+那些 没有像它们那样被挑选它们
+those are not picked like they're they
+
+701
+00:32:21,419 --> 00:32:24,659
+实际上就像是从稳定的
+are literally like out of a stable
+
+702
+00:32:24,659 --> 00:32:29,340
+扩散中出来的没有没有挑剔
+diffusion no no pickiness like that the
+
+703
+00:32:29,340 --> 00:32:31,679
+通过这个模型产生的图片
+the picture produced through this model
+
+704
+00:32:31,679 --> 00:32:36,419
+大多是 100 好和可用
+are mostly 100 good and usable very
+
+705
+00:32:36,419 --> 00:32:38,580
+很少需要做修饰它们
+little needs to be done to retouch them
+
+706
+00:32:38,580 --> 00:32:40,799
+即使衣服有点在
+even the clothing is kind of in the
+
+707
+00:32:40,799 --> 00:32:44,399
+1990 年代的风格有点
+1990s style like it's this one is kind
+
+708
+00:32:44,399 --> 00:32:46,679
+糟糕，我猜是黑眼睛，
+of a little bit bad I guess dark eyes
+
+709
+00:32:46,679 --> 00:32:49,440
+因为我们有一个非常对比的开始，
+because we had a very contrasty start
+
+710
+00:32:49,440 --> 00:32:51,960
+但只是为了向你展示不同之处，我
+but just to show you the difference I'm
+
+711
+00:32:51,960 --> 00:32:53,940
+不会做高的休息，
+not going to do the high of the up rest
+
+712
+00:32:53,940 --> 00:32:56,159
+但如果我去和 降低这个值让我们说
+but if I go and lower this to let's say
+
+713
+00:32:56,159 --> 00:32:59,760
+0.5 甚至比 0.7 低得多，并
+0.5 even much lower than 0.7 and
+
+714
+00:32:59,760 --> 00:33:02,159
+重新生成图像，它们不会得到
+regenerate the image they will not get
+
+715
+00:33:02,159 --> 00:33:04,500
+那么高的对比度，因为现在我们施加
+as contrasty because now we're applying
+
+716
+00:33:04,500 --> 00:33:07,020
+less weight now it's quite possible that
+
+717
+00:33:07,020 --> 00:33:09,120
+的重量更少了，面部特征很可能不像
+the feature of the face will be less
+
+718
+00:33:09,120 --> 00:33:11,159
+Jennifer Aniston，因为我们的
+like Jennifer Aniston because we have
+
+719
+00:33:11,159 --> 00:33:15,120
+重量更轻 但考虑到
+less weight but given the strong model
+
+720
+00:33:15,120 --> 00:33:17,760
+我们在开始时添加的强大模型存在，我认为这
+presence that we add to start I think it
+
+721
+00:33:17,760 --> 00:33:18,899
+会很好
+will be fine
+
+722
+00:33:18,899 --> 00:33:23,039
+，给她一个相当明确的
+and giving her a fairly well-defined
+
+723
+00:33:23,039 --> 00:33:25,279
+脸
+face
+
+724
+00:33:25,320 --> 00:33:28,740
+，然后你就可以了，所以我们的
+and there you go so we have a much
+
+725
+00:33:28,740 --> 00:33:31,320
+低音图像对比度要低得多，
+less contrasty bass image
+
+726
+00:33:31,320 --> 00:33:33,779
+所以你可以根据
+uh so you can play with those values to
+
+727
+00:33:33,779 --> 00:33:36,840
+自己的喜好使用这些值 并且有点改变
+your taste and kind of change the
+
+728
+00:33:36,840 --> 00:33:38,940
+图像的整体外观和感觉而
+overall look and feel of the image
+
+729
+00:33:38,940 --> 00:33:41,159
+不是粉红色的头发我们可以只是
+instead of pink hair we could just take
+
+730
+00:33:41,159 --> 00:33:43,860
+为了好玩而把它拿出来
+that out for example just for a just for
+
+731
+00:33:43,860 --> 00:33:46,260
+并坚持
+fun and stick out the
+
+732
+00:33:46,260 --> 00:33:49,140
+头发颜色的规范现在它
+specification for hair color and now it
+
+733
+00:33:49,140 --> 00:33:52,019
+应该在这里生成我们的自然头发
+should generate with our natural hair
+
+734
+00:33:52,019 --> 00:33:54,260
+颜色
+color
+
+735
+00:33:59,100 --> 00:34:02,159
+我们 去吧，现在我们有了一个
+here we go so now we have like a version
+
+736
+00:34:02,159 --> 00:34:06,360
+带有她自然发色的图像版本，
+of the image with her natural hair
+
+737
+00:34:06,360 --> 00:34:08,899
+color
+
+738
+00:34:09,540 --> 00:34:13,040
+所以我希望这能为您提供一个
+so I hope this is giving you kind of a
+
+739
+00:34:13,040 --> 00:34:16,379
+良好的基础，让您开始创建
+good base to get going with creating
+
+740
+00:34:16,379 --> 00:34:19,139
+自己的 Laura 并创建像好
+your own Laura and creating good picture
+
+741
+00:34:19,139 --> 00:34:22,440
+照片一样的好照片也需要一个好的
+like a good picture also require a good
+
+742
+00:34:22,440 --> 00:34:24,060
+提示
+prompt
+
+743
+00:34:24,060 --> 00:34:26,099
+嗯 我发现你可以使用的一件事，
+um one thing I've found to you can use
+
+744
+00:34:26,099 --> 00:34:27,359
+也许我会向你展示这个
+and maybe I'm going to show you this
+
+745
+00:34:27,359 --> 00:34:29,879
+技巧，这些年我正在使用 Chad GPT
+trick years I'm kind of using Chad GPT
+
+746
+00:34:29,879 --> 00:34:33,060
+来帮助创建一些舞会，
+to help with some of those prom
+
+747
+00:34:33,060 --> 00:34:34,918
+creations
+
+748
+00:34:34,918 --> 00:34:36,480
+嗯，
+um
+
+749
+00:34:36,480 --> 00:34:39,179
+我将向你展示它是什么
+I'm going to show you one how what it
+
+750
+00:34:39,179 --> 00:34:41,099
+看起来如果我去打开我的聊天
+looks like if I go and open up my chat
+
+751
+00:34:41,099 --> 00:34:44,099
+GPT 你的会话已经过期了
+GPT your session has expired
+
+752
+00:34:44,099 --> 00:34:47,460
+呃好吧让我们暂时忘记它我
+uh well let's forget about it for now I
+
+753
+00:34:47,460 --> 00:34:49,679
+想我可以制作一个单独的视频来说明
+guess I can make a separate video on how
+
+754
+00:34:49,679 --> 00:34:52,199
+如何做到这一点但是是的
+to do that but yeah
+
+755
+00:34:52,199 --> 00:34:52,800
+嗯
+um
+
+756
+00:34:52,800 --> 00:34:55,139
+这远远超出了
+that's going well beyond the scope of
+
+757
+00:34:55,139 --> 00:34:56,760
+这个视频的范围所以改为 跳入
+this video so instead of jumping into
+
+758
+00:34:56,760 --> 00:34:58,800
+其中并使这种方式太长让我们
+that and making this way too long let's
+
+759
+00:34:58,800 --> 00:35:02,040
+暂时保持它，我将在
+keep it to that for now and I'm gonna
+
+760
+00:35:02,040 --> 00:35:05,460
+磁盘中添加到
+add into the disk into the description
+
+761
+00:35:05,460 --> 00:35:08,280
+YouTube 视频的描述中，例如指向
+of the YouTube video like links to the
+
+762
+00:35:08,280 --> 00:35:10,859
+扩展文件夹的链接，
+extension folder uh the extension that
+
+763
+00:35:10,859 --> 00:35:12,480
+如果你想要的话，你需要安装的扩展 要使用
+you need to install if you want to use
+
+764
+00:35:12,480 --> 00:35:14,880
+这个额外的网络，请看这里这是
+this additional Network see here this is
+
+765
+00:35:14,880 --> 00:35:16,680
+制作劳拉的另一种方法，如果我从这里
+the other way to do a Laura if I take
+
+766
+00:35:16,680 --> 00:35:17,820
+拿出来，
+this out
+
+767
+00:35:17,820 --> 00:35:19,380
+from here
+
+768
+00:35:19,380 --> 00:35:22,200
+显然现在如果我渲染这个，我们
+obviously now if I render this we're
+
+769
+00:35:22,200 --> 00:35:23,820
+将得到
+gonna get
+
+770
+00:35:23,820 --> 00:35:26,160
+一些基本的东西，
+something basic that is not going to
+
+771
+00:35:26,160 --> 00:35:30,000
+看起来不会很像詹妮弗安妮斯顿，
+look very much like Jennifer Aniston it
+
+772
+00:35:30,000 --> 00:35:31,680
+有点像 看起来像 ER 但它不如
+kind of looks like ER but it's not as
+
+773
+00:35:31,680 --> 00:35:34,980
+我们使用 Lora um 时得到的那么好
+good as what we get when we use the Lora
+
+774
+00:35:34,980 --> 00:35:37,099
+um
+
+775
+00:35:37,859 --> 00:35:39,660
+所以这可能是
+so this is probably one of the reason
+
+776
+00:35:39,660 --> 00:35:42,480
+我们拥有如此强大的背景或
+why we have such a strong background or
+
+777
+00:35:42,480 --> 00:35:44,520
+强大的 Vibe 的原因之一因为我们已经对
+a strong Vibe because we already have
+
+778
+00:35:44,520 --> 00:35:46,680
+她有了相当多的了解
+like quite a bit of knowledge about her
+
+779
+00:35:46,680 --> 00:35:50,640
+扩散已经稳定了，呃，
+in stable diffusion already uh
+
+780
+00:35:50,640 --> 00:35:53,820
+但是如果我加入这个 Jennifer Aniston，
+but if I kick in this Jennifer Aniston
+
+781
+00:35:53,820 --> 00:35:56,640
+然后我把它踢回去，让我们说这里的
+and I kick it back to let's say 0.7 here
+
+782
+00:35:56,640 --> 00:35:58,260
+权重为 0.7，
+from the weight
+
+783
+00:35:58,260 --> 00:36:00,599
+然后重新生成图像，现在我们
+and regenerate the image now we're going
+
+784
+00:36:00,599 --> 00:36:03,079
+要让 Laura 实际重新
+to get the Laura to actually
+
+785
+00:36:03,079 --> 00:36:05,339
+创建它，它应该是
+recreate it it should be it should be
+
+786
+00:36:05,339 --> 00:36:09,079
+一样的 像我们以前的图像，
+the same image as we had before
+
+787
+00:36:12,780 --> 00:36:15,540
+这就是你如何使用这个
+and that's how you can use this
+
+788
+00:36:15,540 --> 00:36:17,700
+额外的网络，它可能更
+additional Network which might be more
+
+789
+00:36:17,700 --> 00:36:19,079
+方便，因为它使你能够将
+convenient because it gives you the
+
+790
+00:36:19,079 --> 00:36:21,420
+一堆 loras 堆叠
+ability to stack also a bunch of loras
+
+791
+00:36:21,420 --> 00:36:23,040
+在一起，每个具有
+on one on top of each others with
+
+792
+00:36:23,040 --> 00:36:25,680
+不同的权重，所以你可以最终得到
+different weights so you can end up with
+
+793
+00:36:25,680 --> 00:36:27,420
+uh
+uh
+
+794
+00:36:27,420 --> 00:36:30,540
+I 当你创建你的图像时猜测 loras 的混合是的
+I guess mixes of loras when you create
+
+795
+00:36:30,540 --> 00:36:33,560
+你可以看到
+your image yeah you can see how
+
+796
+00:36:33,560 --> 00:36:37,020
+它变得多么反差所以我认为
+contrasty this is getting so I think
+
+797
+00:36:37,020 --> 00:36:39,420
+因为
+because there's already a strong
+
+798
+00:36:39,420 --> 00:36:42,060
+詹妮弗安妮斯顿在
+presence of Jennifer Aniston in the
+
+799
+00:36:42,060 --> 00:36:45,599
+实际的基本模型中已经有很强的存在即使低于 0.5
+actual base model even going below 0.5
+
+800
+00:36:45,599 --> 00:36:48,060
+实际上可能足以得到
+might actually be enough to get
+
+801
+00:36:48,060 --> 00:36:51,420
+像 0.3 这样的东西 在现有基础知识
+something going like a 0.3 to get the
+
+802
+00:36:51,420 --> 00:36:53,640
+之上获得 Laura 的影响，而
+influence of the Laura on top of the
+
+803
+00:36:53,640 --> 00:36:56,579
+不会受到
+existing base knowledge without getting
+
+804
+00:36:56,579 --> 00:37:01,320
+太强的外国影响，
+too strong an impact
+
+805
+00:37:01,320 --> 00:37:03,920
+foreign
+
+806
+00:37:05,520 --> 00:37:07,560
+所以这个应该产生更少的
+so this one should produce much less
+
+807
+00:37:07,560 --> 00:37:10,440
+对比结果，这将更容易进行
+contrasty results which would be easier
+
+808
+00:37:10,440 --> 00:37:14,339
+高档和升级，
+to kind of upscale and upres
+
+809
+00:37:14,339 --> 00:37:15,540
+但
+but
+
+810
+00:37:15,540 --> 00:37:19,140
+总的来说，
+overall that's how it it works obviously
+
+811
+00:37:19,140 --> 00:37:21,599
+如果你的 主题已经不稳定
+if your subject is not in stable
+
+812
+00:37:21,599 --> 00:37:24,180
+扩散你会得到
+diffusion already you're gonna get a
+
+813
+00:37:24,180 --> 00:37:27,119
+很多你需要
+much you're going to need a much higher
+
+814
+00:37:27,119 --> 00:37:30,720
+比现有模型更高的权重呃所以要
+weight uh over the existing models so to
+
+815
+00:37:30,720 --> 00:37:34,440
+真正得到那个模型就像我
+actually get that that model like I
+
+816
+00:37:34,440 --> 00:37:36,720
+可以向你展示的例如
+could show you for example the other
+
+817
+00:37:36,720 --> 00:37:39,420
+我创建的另一个模型让我 去把
+model I create let me go and bring a
+
+818
+00:37:39,420 --> 00:37:41,940
+它的副本放到
+copy of that into
+
+819
+00:37:41,940 --> 00:37:44,640
+它需要的地方让我去
+into where it needs to be let me go and
+
+820
+00:37:44,640 --> 00:37:47,180
+copy
+
+821
+00:37:47,880 --> 00:37:50,820
+这里复制蓝色 Laura
+blue here Laura
+
+822
+00:37:50,820 --> 00:37:53,579
+所以让我拿 Cyndi Lauper 为例，
+so let me bring Cyndi Lauper for example
+
+823
+00:37:53,579 --> 00:37:56,040
+这是我
+which is the other one I did
+
+824
+00:37:56,040 --> 00:38:00,060
+剪下的另一个，现在让我们把它带到
+cut this and now let's bring it into
+
+825
+00:38:00,060 --> 00:38:04,200
+我的稳定扩散中
+my stable diffusion here
+
+826
+00:38:04,200 --> 00:38:07,380
+， 现在如果我在这里刷新如果我点击
+and now if I refresh this here if I hit
+
+827
+00:38:07,380 --> 00:38:11,099
+刷新我们应该开始看到 uh Cyndi
+refresh we should start to see uh Cyndi
+
+828
+00:38:11,099 --> 00:38:15,720
+Lauper 80s 所以如果我们要禁用这个
+Lauper 80s so if we were to disable this
+
+829
+00:38:15,720 --> 00:38:18,900
+球如果我要使用
+ball this and if I was to kind of use
+
+830
+00:38:18,900 --> 00:38:24,240
+Cyndi Lauper 1980s
+the Cyndi Lauper 1980s
+
+831
+00:38:30,599 --> 00:38:33,260
+hits
+hits
+
+832
+00:38:34,380 --> 00:38:36,780
+Cindy law 非常适合
+Cindy law perfect
+
+833
+00:38:36,780 --> 00:38:39,000
+我们生成
+for us to generate
+
+834
+00:38:39,000 --> 00:38:41,700
+图片 什么会让 Cindy Lauper 变得非常糟糕，
+a picture what would get a pretty bad
+
+835
+00:38:41,700 --> 00:38:44,940
+因为她
+Cindy Lauper right because she's kind of
+
+836
+00:38:44,940 --> 00:38:47,220
+在稳定的
+not very well known by the stable
+
+837
+00:38:47,220 --> 00:38:50,700
+扩散模型中不太为人所知，你可以看到
+diffusion model you can kind of see that
+
+838
+00:38:50,700 --> 00:38:53,040
+她去过那里，就像她
+she's been there like it's she she's
+
+839
+00:38:53,040 --> 00:38:54,540
+接受过培训一样，但
+been trained but
+
+840
+00:38:54,540 --> 00:38:57,660
+它不是很好，
+it's not very good images are pretty
+
+841
+00:38:57,660 --> 00:38:59,300
+rough
+
+842
+00:38:59,300 --> 00:39:02,820
+如果我们看的话，图像非常粗糙 它有点像它是
+if we look at it like it's kind of there
+
+843
+00:39:02,820 --> 00:39:05,460
+她的旧版本
+like it's an older version of of her
+
+844
+00:39:05,460 --> 00:39:08,820
+出现就像它有些更年轻
+showing up like it's some are younger
+
+845
+00:39:08,820 --> 00:39:11,940
+但不是最好的但如果我
+but not the best right but if I was to
+
+846
+00:39:11,940 --> 00:39:15,480
+现在去启用这个模型有
+go and enable now this model with uh
+
+847
+00:39:15,480 --> 00:39:18,300
+一些重量让我们看看 0.7 这
+some weight let's see 0.7 which is
+
+848
+00:39:18,300 --> 00:39:21,060
+通常是一个很好的比例 当
+usually a good ratio when there's a
+
+849
+00:39:21,060 --> 00:39:22,560
+模型中有一些已知的
+little bit of them of the model known
+
+850
+00:39:22,560 --> 00:39:24,960
+稳定积液影响时，
+into stable effusion to influence and
+
+851
+00:39:24,960 --> 00:39:27,599
+现在我重新生成图像，您将
+now I regenerate the image you're going
+
+852
+00:39:27,599 --> 00:39:30,060
+看到
+to see a drastic difference in what the
+
+853
+00:39:30,060 --> 00:39:32,339
+输出已经存在的巨大差异，
+output is going to be
+
+854
+00:39:32,339 --> 00:39:35,099
+您可以开始看到更多的
+already you can start to see a lot more
+
+855
+00:39:35,099 --> 00:39:36,599
+存在
+presence
+
+856
+00:39:36,599 --> 00:39:38,339
+of
+
+857
+00:39:38,339 --> 00:39:40,079
+Cindy
+Cindy
+
+858
+00:39:40,079 --> 00:39:43,040
+，你可以开始看到 1980 年代
+and you can start to see much more
+
+859
+00:39:43,040 --> 00:39:46,380
+的 Cindy Lopper 的更多特征，
+characteristics look for Cindy Lopper of
+
+860
+00:39:46,380 --> 00:39:48,300
+the 1980s
+
+861
+00:39:48,300 --> 00:39:51,300
+所以这是我制作的另一个模型，完全
+so this is another model I made exactly
+
+862
+00:39:51,300 --> 00:39:53,040
+按照我给你展示的相同配方制作
+following the same recipe I showed you
+
+863
+00:39:53,040 --> 00:39:55,980
+，现在你可以看到
+for this one and now you can see the
+
+864
+00:39:55,980 --> 00:39:59,520
+一个
+quite contrastic difference when a
+
+865
+00:39:59,520 --> 00:40:01,320
+人身体不适时的截然不同 以稳定
+person is not well known to stable
+
+866
+00:40:01,320 --> 00:40:04,740
+扩散而闻名新火车 Dam 和 Laura 现在
+diffusion a new train Dam and Laura now
+
+867
+00:40:04,740 --> 00:40:09,020
+你开始变得更生动
+you start to get much more Vivid
+
+868
+00:40:09,020 --> 00:40:14,060
+就像那个人的输出所以
+be like output of that person so
+
+869
+00:40:14,060 --> 00:40:17,400
+再次希望你喜欢这个希望它可以帮助
+again hope you like this hope it helps
+
+870
+00:40:17,400 --> 00:40:22,680
+你了解如何训练和使用
+you understand how to uh train and use a
+
+871
+00:40:22,680 --> 00:40:23,780
+Laura
+Laura
+
+872
+00:40:23,780 --> 00:40:29,040
+与锦鲤 ISS 和汽车 1111 稳定
+with koi ISS and auto 1111 stable
+
+873
+00:40:29,040 --> 00:40:30,240
+扩散
+diffusion
+
+874
+00:40:30,240 --> 00:40:33,480
+呃网络用户界面
+uh web UI
+
+875
+00:40:33,480 --> 00:40:36,140
+晚安
+good night
+

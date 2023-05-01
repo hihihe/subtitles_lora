@@ -1,0 +1,845 @@
+1
+00:00:01,680 --> 00:00:03,959
+大家下午好，
+hey good afternoon everyone
+
+2
+00:00:03,959 --> 00:00:07,980
+嗯，我有几个关于
+um I've had a few requests for a video
+
+3
+00:00:07,980 --> 00:00:10,260
+如何使用
+on how to use
+
+4
+00:00:10,260 --> 00:00:12,179
+我猜张量板的视频的请求，
+I guess tensorboard
+
+5
+00:00:12,179 --> 00:00:15,960
+当你在
+to look at the logs of uh when you're
+
+6
+00:00:15,960 --> 00:00:19,500
+韩国 SS 为 Dreamboat
+training uh with Korea SS for Dreamboat
+
+7
+00:00:19,500 --> 00:00:22,680
+Laura Greenwood TI 训练
+Laura Greenwood TI one of the parameter
+
+8
+00:00:22,680 --> 00:00:25,260
+你设置的参数之一时，查看 uh 的日志 是日志文件夹，
+that you set is the logging folder where
+
+9
+00:00:25,260 --> 00:00:27,060
+我们将在其中放置实际的训练
+we're going to put the actual training
+
+10
+00:00:27,060 --> 00:00:29,699
+日志，以及您如何实际使用
+logs and how do you actually make use of
+
+11
+00:00:29,699 --> 00:00:32,460
+它，所以这里有一个关于如何使用它的快速教程，
+that so here's a quick tutorial on how
+
+12
+00:00:32,460 --> 00:00:37,140
+所以让我在这里打开一个
+you do that so let me bring up here a
+
+13
+00:00:37,140 --> 00:00:38,640
+窗口，
+the window
+
+14
+00:00:38,640 --> 00:00:39,300
+um
+
+15
+00:00:39,300 --> 00:00:41,399
+嗯，这通常是您使用的
+so that typically is what you're going
+
+16
+00:00:41,399 --> 00:00:45,120
+如果你进入 Koyo SS 并且你
+to get if you go into Koyo SS and you
+
+17
+00:00:45,120 --> 00:00:47,640
+开始我会得到我猜是带有常规
+start I guess the GUI with the regular
+
+18
+00:00:47,640 --> 00:00:51,660
+uh gui.ps1 的 GUI 或你知道
+uh gui.ps1 or GUI that that you know how
+
+19
+00:00:51,660 --> 00:00:53,219
+它如何工作的 GUI 你现在就去使用启动
+it works right you go and use startup
+
+20
+00:00:53,219 --> 00:00:55,800
+学位你可以做什么让我们假装
+degree now what you can do let's pretend
+
+21
+00:00:55,800 --> 00:00:58,980
+我有 从这里的 GUI 开始，如果您
+I had started at the GUI here and you
+
+22
+00:00:58,980 --> 00:01:02,100
+想查看日志，有很多方法，
+wanted to look at logs there's many ways
+
+23
+00:01:02,100 --> 00:01:04,619
+例如四种方法，如果您使用 visual
+like four one if you're using visual
+
+24
+00:01:04,619 --> 00:01:08,100
+studio 代码作为进入
+studio code as your kind of window into
+
+25
+00:01:08,100 --> 00:01:10,140
+终端和
+the terminal and into the code within
+
+26
+00:01:10,140 --> 00:01:12,900
+存储库中代码的窗口，您可以单击此处加号来
+the repo you can click on this plus here
+
+27
+00:01:12,900 --> 00:01:15,360
+实际 打开一个新终端，
+to actually bring up a new terminal and
+
+28
+00:01:15,360 --> 00:01:17,520
+然后你可以
+then you could launch the tensorflow
+
+29
+00:01:17,520 --> 00:01:21,540
+从那里启动 tensorflow，但假设你有一个
+from there but let's say you have a
+
+30
+00:01:21,540 --> 00:01:23,640
+你正在使用的 um，就像
+um you're using like the regular
+
+31
+00:01:23,640 --> 00:01:27,600
+Windows 的常规终端一样，你需要
+terminal uh for Windows and you need to
+
+32
+00:01:27,600 --> 00:01:30,680
+导航并正确启动 tensorboard，
+navigate and start the tensorboard right
+
+33
+00:01:30,680 --> 00:01:33,180
+所以你要做什么，所以我 我要去
+so what do you do so I'm gonna go and
+
+34
+00:01:33,180 --> 00:01:36,600
+导航到我的 koias 文件夹所在的位置
+navigate into where my koiass folder is
+
+35
+00:01:36,600 --> 00:01:38,840
+located
+
+36
+00:01:39,200 --> 00:01:42,060
+，我需要先激活，这是
+and I need to activate first and that's
+
+37
+00:01:42,060 --> 00:01:43,979
+一个重要的部分，如果你坐在
+an important part if you are sitting at
+
+38
+00:01:43,979 --> 00:01:45,900
+Powershell 提示符下并且你没有
+the Powershell prompt and you don't have
+
+39
+00:01:45,900 --> 00:01:49,500
+任何东西 V 和 V Active
+any anything there any V and V Active
+
+40
+00:01:49,500 --> 00:01:50,880
+那么它不会 工作得很好
+then it's not going to work very well
+
+41
+00:01:50,880 --> 00:01:53,640
+你会尝试输入张量和
+you're going to try to type tensor and
+
+42
+00:01:53,640 --> 00:01:57,060
+制表符抱歉插入制表符它不会
+tab sorry insert tab it's not it's going
+
+43
+00:01:57,060 --> 00:01:58,320
+找到一大堆东西但它
+to find a whole bunch of stuff but it's
+
+44
+00:01:58,320 --> 00:02:01,020
+不会出现在张量板上所以
+not going to surface tensorboard so how
+
+45
+00:02:01,020 --> 00:02:03,420
+你如何解决这个问题你先激活你的
+do you fix that is you activate your
+
+46
+00:02:03,420 --> 00:02:05,340
+venv 所以我' 我将继续
+venv first so I'm going to go ahead
+
+47
+00:02:05,340 --> 00:02:07,700
+激活 denv，
+activate the denv
+
+48
+00:02:07,700 --> 00:02:11,819
+以便激活 NVA 脚本，
+so the NVA script activate
+
+49
+00:02:11,819 --> 00:02:14,040
+现在我已经激活了
+and now that I've got my virtual
+
+50
+00:02:14,040 --> 00:02:17,099
+python 的虚拟环境，如果我开始
+environment for python active if I start
+
+51
+00:02:17,099 --> 00:02:20,640
+键入 cancer T 和 S，我现在点击选项卡，
+to type cancer T and S and I hit tab now
+
+52
+00:02:20,640 --> 00:02:23,459
+它将显示 tensorboard，所以现在
+it's going to show tensorboard so now
+
+53
+00:02:23,459 --> 00:02:25,800
+你 知道 tensorboard
+that you you know tensorboard is
+
+54
+00:02:25,800 --> 00:02:28,920
+实际上已经准备好使用了，现在有
+actually ready to be used now there's a
+
+55
+00:02:28,920 --> 00:02:30,900
+一个参数你需要给它
+one parameter you need to give it for
+
+56
+00:02:30,900 --> 00:02:33,300
+使用，你要去
+use and you're gonna go and find that
+
+57
+00:02:33,300 --> 00:02:36,360
+在你的日志文件夹中找到那个参数，
+parameter right there in your log folder
+
+58
+00:02:36,360 --> 00:02:39,300
+你只需去复制这个文件夹
+and you just go and copy this folder
+
+59
+00:02:39,300 --> 00:02:43,280
+名称就可以了 为了将其引入
+name and you're going to bring this into
+
+60
+00:02:43,280 --> 00:02:45,860
+CLI，我们将执行
+the CLI we're going to do
+
+61
+00:02:45,860 --> 00:02:51,080
+tensorboard.exe space dash dash log dear
+tensorboard.exe space dash dash log dear
+
+62
+00:02:51,440 --> 00:02:53,760
+m-o-g-e-i-f-r 所以日志目录
+m-o-g-e-i-f-r so log directory
+
+63
+00:02:53,760 --> 00:02:55,860
+基本上记录在那里并且你要在
+essentially log there and you're gonna
+
+64
+00:02:55,860 --> 00:02:59,040
+双引号之间粘贴以防万一
+paste between double quotes just in case
+
+65
+00:02:59,040 --> 00:03:01,319
+你的文件夹路径中有空格，
+you have spaces in your folder path
+
+66
+00:03:01,319 --> 00:03:03,480
+呃你放 在双
+right uh you put that between double
+
+67
+00:03:03,480 --> 00:03:07,379
+引号之间粘贴实际复制的
+quotes you paste the actually copied
+
+68
+00:03:07,379 --> 00:03:09,840
+um 路径，然后按回车键，就是
+um path and then you hit enter
+
+69
+00:03:09,840 --> 00:03:11,879
+这样，现在它将启动
+and that's it now it's going to fire up
+
+70
+00:03:11,879 --> 00:03:15,000
+tensorboard，它将监听给
+tensorboard and it's gonna listen on a
+
+71
+00:03:15,000 --> 00:03:18,420
+定的端口，我猜
+given Port which should be uh I guess
+
+72
+00:03:18,420 --> 00:03:20,720
+这里显示的应该是 localhost
+displayed here which would be localhost
+
+73
+00:03:20,720 --> 00:03:23,700
+6006。希望如此 我没有
+6006. uh hopefully I didn't add
+
+74
+00:03:23,700 --> 00:03:25,920
+在我的另一个窗口检查中添加已经运行的传感器板
+sensorboard already running in one of my
+
+75
+00:03:25,920 --> 00:03:29,159
+，是的，我有
+other window check and yes I had
+
+76
+00:03:29,159 --> 00:03:31,440
+张量板，所以因为我已经
+tensorboard so because I had it already
+
+77
+00:03:31,440 --> 00:03:33,540
+运行了它让我取消这个让
+running let me cancel out this one let
+
+78
+00:03:33,540 --> 00:03:35,519
+我回到这里让我取消
+me go back here let me cancel out of
+
+79
+00:03:35,519 --> 00:03:37,500
+这个所以我们没有 '不要让重复的
+this so that we have we don't let like
+
+80
+00:03:37,500 --> 00:03:39,060
+duplicate
+
+81
+00:03:39,060 --> 00:03:41,280
+呃进程为同一个张
+uh process fighting for the same
+
+82
+00:03:41,280 --> 00:03:43,799
+量板而战，现在我要重新启动它，
+tensorboard now I'm going to restart it
+
+83
+00:03:43,799 --> 00:03:45,900
+现在我们要去看看
+and now we are going to go and look at
+
+84
+00:03:45,900 --> 00:03:49,080
+它是什么样子，所以控制点击
+what this looks like so control click on
+
+85
+00:03:49,080 --> 00:03:51,299
+这个东西会引发张量板
+this thing is bringing up tensorboard
+
+86
+00:03:51,299 --> 00:03:53,700
+错误，现在你' 我
+error behind and now you're gonna see
+
+87
+00:03:53,700 --> 00:03:56,760
+现在会在我的文件夹中看到它，我有一大堆
+that in my folder right now I have a
+
+88
+00:03:56,760 --> 00:04:00,000
+whole bunch of logs for a whole bunch of
+
+89
+00:04:00,000 --> 00:04:01,879
+训练课程的日志，我做对了，所以
+training sessions I did right so
+
+90
+00:04:01,879 --> 00:04:04,560
+tensorboard 会显示所有
+tensorboard is going to show all of
+
+91
+00:04:04,560 --> 00:04:07,319
+这些，但是如果你想关注
+those but if you want to focus on the
+
+92
+00:04:07,319 --> 00:04:09,540
+最后一次运行，你只需点击这里 全部取消选择
+last run you just click here to unselect
+
+93
+00:04:09,540 --> 00:04:11,879
+它们，你会在张量板文件的末尾找到最后一次
+them all and you're gonna find the last
+
+94
+00:04:11,879 --> 00:04:15,599
+尝试构建模型的运行
+run of trying to build a model at the
+
+95
+00:04:15,599 --> 00:04:18,298
+，现在你
+end of the tensorboard files and now you
+
+96
+00:04:18,298 --> 00:04:20,160
+可以查看那个，假设你
+can look at that one and let's say you
+
+97
+00:04:20,160 --> 00:04:22,260
+想看看这次训练与
+wanted to look at how did this training
+
+98
+00:04:22,260 --> 00:04:24,419
+之前的训练相比如何运行 我做的一个
+run compared to the previous one I did
+
+99
+00:04:24,419 --> 00:04:26,699
+你可以去点击之前的
+you could go and click on that previous
+
+100
+00:04:26,699 --> 00:04:29,340
+运行，现在它会过于像
+run and now it's going to overly like
+
+101
+00:04:29,340 --> 00:04:32,340
+你在
+the previous run that you did when you
+
+102
+00:04:32,340 --> 00:04:35,699
+运行你的训练时所做的上一次运行与新的运行所以
+ran your training versus the new one so
+
+103
+00:04:35,699 --> 00:04:37,320
+现在你可以看到这一次显然
+now you can see that this one obviously
+
+104
+00:04:37,320 --> 00:04:40,139
+少了很多或很多 更少或我
+had a lot less or a lot fewer or steps I
+
+105
+00:04:40,139 --> 00:04:42,840
+可能在中间中止的步骤
+might have aborted that run in the
+
+106
+00:04:42,840 --> 00:04:45,540
+也许我改变了我的参数所以它
+middle maybe I changed my parameter so
+
+107
+00:04:45,540 --> 00:04:48,120
+做了更少的步骤我只是
+it did a lot fewer steps where I just
+
+108
+00:04:48,120 --> 00:04:51,180
+提高了批量训练所以它只是一次
+bumped up the batch training so it just
+
+109
+00:04:51,180 --> 00:04:53,340
+做八次而不是
+instead of doing one it did like eight
+
+110
+00:04:53,340 --> 00:04:55,080
+一次做八次所以这就是为什么它是
+at a time so that's why it's eight times
+
+111
+00:04:55,080 --> 00:04:57,660
+缩短了八倍，所以它会有所不同，但你
+shorter so it will vary right but you
+
+112
+00:04:57,660 --> 00:04:59,400
+可以看看它
+could you could look at various fronts
+
+113
+00:04:59,400 --> 00:05:01,860
+看起来是什么样的各个方面，这就是
+of what it kind of looks and this is how
+
+114
+00:05:01,860 --> 00:05:05,340
+你如何使用张量板来跟踪
+you can use tensorboard to kind of track
+
+115
+00:05:05,340 --> 00:05:08,940
+你的模型训练随着时间的推移，你
+um your model training over time and you
+
+116
+00:05:08,940 --> 00:05:11,699
+可以比较不同的训练运行，所以
+can compare different training runs so
+
+117
+00:05:11,699 --> 00:05:13,380
+看 例如，在这里我有点
+see for example here I'm kind of
+
+118
+00:05:13,380 --> 00:05:17,520
+覆盖绿色和橙色，
+overlaying the green and the orange and
+
+119
+00:05:17,520 --> 00:05:20,460
+你可以看到橙色
+you can kind of see that the Orange is
+
+120
+00:05:20,460 --> 00:05:22,919
+有点高，所以
+sort of higher so there is a higher or
+
+121
+00:05:22,919 --> 00:05:25,680
+与绿色会话相比有更高或损失，所以
+loss compared to the green session so
+
+122
+00:05:25,680 --> 00:05:29,220
+这可以解释为说
+this could be interpreted as saying that
+
+123
+00:05:29,220 --> 00:05:31,620
+也许训练 我在
+maybe the training parameters I use for
+
+124
+00:05:31,620 --> 00:05:34,199
+绿色训练课程中使用的参数更好，
+my green training session were better
+
+125
+00:05:34,199 --> 00:05:38,940
+因为它可以降低损失，但情况
+because it led to lower loss it's not
+
+126
+00:05:38,940 --> 00:05:41,039
+并非总是如此，但通常情况下，如果您
+not always the case but typically if you
+
+127
+00:05:41,039 --> 00:05:44,039
+在训练课程帐篷中的损失值较低，则
+have a lower value for loss in the
+
+128
+00:05:44,039 --> 00:05:45,120
+training session
+
+129
+00:05:45,120 --> 00:05:48,120
+意味着您的训练参数
+tent means that your training parameters
+
+130
+00:05:48,120 --> 00:05:50,820
+更适合训练数据
+were better adapted to the training data
+
+131
+00:05:50,820 --> 00:05:53,400
+集 你正在做的让我们看看
+set that you're working on let's see if
+
+132
+00:05:53,400 --> 00:05:55,560
+我是否在这里提出另一条现在你可以
+I bring up another one here now you can
+
+133
+00:05:55,560 --> 00:05:56,759
+看到那种
+see that that
+
+134
+00:05:56,759 --> 00:05:59,220
+紫色线实际上较低
+kind of purplish line is actually lower
+
+135
+00:05:59,220 --> 00:06:01,080
+但它最终有点
+but it kind of eventually sort of
+
+136
+00:06:01,080 --> 00:06:02,820
+与另一条对齐所以
+aligned with the other one so not a
+
+137
+00:06:02,820 --> 00:06:05,160
+这里没有显着差异所以如何
+significant difference here so how to
+
+138
+00:06:05,160 --> 00:06:08,100
+解释 这些东西是主题我的意思
+interpret those things is subject I mean
+
+139
+00:06:08,100 --> 00:06:10,139
+是它本身就是一门科学
+it's a it's a science on its own right
+
+140
+00:06:10,139 --> 00:06:11,520
+所以你实际上可以看看张量
+so you can actually look at tensor
+
+141
+00:06:11,520 --> 00:06:13,320
+奖励所以这个你可以看到
+rewards so this one you can see the
+
+142
+00:06:13,320 --> 00:06:16,199
+紫色通常较低所以所有
+purple is typically lower so all of
+
+143
+00:06:16,199 --> 00:06:18,060
+这些东西都可以看并且你可以将
+these things can be looked and you can
+
+144
+00:06:18,060 --> 00:06:20,280
+它们中的许多分层一个 在另一个之上
+layer many of them one on top of the
+
+145
+00:06:20,280 --> 00:06:22,440
+并查看差异，这就是
+other and look at the differences so
+
+146
+00:06:22,440 --> 00:06:24,240
+你现在如何使用 tensorboard
+that's how you can use tensorboard now
+
+147
+00:06:24,240 --> 00:06:26,340
+你如何实际解释
+how you actually interpret the results
+
+148
+00:06:26,340 --> 00:06:29,400
+tensorboard 的结果这真的取决于你
+of tensorboard it's really up to you
+
+149
+00:06:29,400 --> 00:06:32,880
+在这里你可以看到适应
+here you can see like the the adaptation
+
+150
+00:06:32,880 --> 00:06:34,979
+学习率
+learning rate that was kind of scaled
+
+151
+00:06:34,979 --> 00:06:37,020
+随着时间的推移而缩放
+over time like over a number of steps
+
+152
+00:06:37,020 --> 00:06:39,780
+您可以看到许多步骤，因此
+you can see that so there's a whole
+
+153
+00:06:39,780 --> 00:06:41,520
+您可以在此处获得一大堆不同的日志信息，具体
+bunch of different log information you
+
+154
+00:06:41,520 --> 00:06:43,259
+取决于为
+can get here depending on what is being
+
+155
+00:06:43,259 --> 00:06:45,960
+模型明显记录的内容，
+logged obviously for the model
+
+156
+00:06:45,960 --> 00:06:47,819
+嗯，是的，希望
+um so yeah so that's it hope you guys
+
+157
+00:06:47,819 --> 00:06:50,100
+你们喜欢这就是如何获得
+enjoyed that's how you can sort of get
+
+158
+00:06:50,100 --> 00:06:52,380
+张量板和 当你用完
+tensorboard and when you're done using
+
+159
+00:06:52,380 --> 00:06:54,539
+它，你可能想看看
+it and you want to maybe look at some
+
+160
+00:06:54,539 --> 00:06:57,120
+其他模型的其他日志训练，
+other logs training for other models and
+
+161
+00:06:57,120 --> 00:06:59,520
+你就去这里，你控制 C，它
+you just go here you control C and it's
+
+162
+00:06:59,520 --> 00:07:01,440
+会阻止 tensorboard 运行，
+going to stop tensorboard from running
+
+163
+00:07:01,440 --> 00:07:03,600
+现在如果我尝试刷新它，甚至
+and now if I try to refresh it or even
+
+164
+00:07:03,600 --> 00:07:05,220
+明显刷新它
+refresh this obviously nothing's
+
+165
+00:07:05,220 --> 00:07:06,720
+那个端口上没有任何东西在监听，所以它
+listening on that Port so it's just
+
+166
+00:07:06,720 --> 00:07:10,380
+只会失败所以这是一个快速的如何
+gonna fail so that was a quick how to
+
+167
+00:07:10,380 --> 00:07:13,199
+运行张量板以及如何用
+run tensorboard and how to kind of look
+
+168
+00:07:13,199 --> 00:07:15,240
+密集的词来看待不同的值
+at the different values with intensive
+
+169
+00:07:15,240 --> 00:07:18,780
+希望这对你有所帮助，祝
+words hope that was helpful and have a
+
+170
+00:07:18,780 --> 00:07:21,860
+大家度过愉快的一周再见
+great week guys bye
+
